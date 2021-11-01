@@ -5,9 +5,9 @@ name: AccountsBuyingToken
 #     - cron: "48 3 * * *"
 
 on:
-  - workflow_dispatch
-  - schedule:
-      - cron: "58 8 * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "01 9 * * *"
 
 jobs:
   create_file:

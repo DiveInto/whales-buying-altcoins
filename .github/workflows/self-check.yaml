@@ -1,9 +1,9 @@
 name: CheckIfFilesAreGenerated
 
 on:
-  - workflow_dispatch
-  - schedule:
-      - cron: "50 9 * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "50 9 * * *"
 jobs:
   create_file:
     runs-on: ubuntu-latest
