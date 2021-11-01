@@ -18,6 +18,11 @@ async function main() {
         provider = ethers.provider
     }
 
+    const curBlock = await provider.getBlock()
+    const toBlockNumber = curBlock.number
+    const fromBlockNumber = curBlock.number - Math.floor(24 * 60 * 60 / 13)
+    console.log('block range:', fromBlockNumber, toBlockNumber)
+
     const dateStr = new Date().toISOString().split('T')[0]
 
     const erc20Tokens = await getErc20FromCMCListings()
@@ -28,7 +33,7 @@ async function main() {
 
     const afterRank100NotListedToken = []
 
-    const tokensFile = `./outputs/${dateStr}-token.csv`
+    const tokensFile = `./outputs/${dateStr}-${fromBlockNumber}-token.csv`
     await overwriteFile(tokensFile, 'name, symbol, cmcRank, tokenAddress, usdPrice, tags\n')
 
     for (let token of notListedErc20Tokens) {
@@ -49,6 +54,7 @@ async function main() {
     // map(token -> account -> {balance, recentBuy}
     const tokenHolderMap = new Map()
 
+
     for (let i = 0; i < afterRank100NotListedToken.length; i++) {
         console.log(`progressing token ${i}/${afterRank100NotListedToken.length}`)
 
@@ -56,7 +62,7 @@ async function main() {
         console.log('!', token)
 
         try {
-            const largeHolderMap = await getLargeHolderMap(token, provider)
+            const largeHolderMap = await getLargeHolderMap(token, provider, { fromBlockNumber, toBlockNumber })
             if (largeHolderMap.size <= 0) {
                 continue
             }
@@ -76,12 +82,10 @@ async function main() {
 
     const etherscanProvider = new ethers.providers.EtherscanProvider('homestead', process.env.ETHERSCAN_KEY);
 
-    const curBlock = await provider.getBlock()
-
     console.log('summary')
 
-    const summaryFileName = `./outputs/${dateStr}-account.csv`
-    await overwriteFile(summaryFileName, `token, holder, balanceInUSD, tx count\n`)
+    const summaryFileName = `./outputs/${dateStr}-${fromBlockNumber}-account.csv`
+    await overwriteFile(summaryFileName, `token, holder, balanceInUSD, tx count, tx last 30 days\n`)
 
     for (let [tokenAdx, largeHolders] of tokenHolderMap) {
         const token = adxToTokenMap.get(tokenAdx)
@@ -127,11 +131,15 @@ async function main() {
 //     txs: [{hash, valInUSD}, {}]
 //   }
 // }
-async function getLargeHolderMap(token, provider) {
+async function getLargeHolderMap(token, provider, {
+    fromBlockNumber = -50,
+    toBlockNumber = 'latest'
+} = {}) {
     const largeHolderMap = new Map()
 
     const transferEvents = await getTransferEvents(token.token_address, {
-        fromBlockNumber: Math.floor(-1 * (24 * 60 * 60 / 13)),
+        fromBlockNumber,
+        toBlockNumber,
         provider,
     })
 

@@ -1,1 +1,1 @@
-# who-is-buying-shit-token
+# whales-buying-altcoins
