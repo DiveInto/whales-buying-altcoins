@@ -94,6 +94,7 @@ async function main() {
             // console.log(`${token.name}, ${token.token_address}, ${holder}, ${holderInfo.balInUSD}, ${holderInfo.txs}`)
             let isLowActivity = false
 
+            let txCntLast30days = '-';
             const txCnt = await provider.getTransactionCount(holder)
             if (txCnt <= 1000) {
                 isLowActivity = true
@@ -107,6 +108,7 @@ async function main() {
                     const his = await etherscanProvider.getHistory(holder, fromBlockNum, toBlockNum)
                     if (his.length <= 50) {
                         isLowActivity = true
+                        txCntLast30days = his.length
                     }
                 } catch (err) {
                     console.log('etherscan err, ignored', err)
@@ -118,7 +120,7 @@ async function main() {
                 continue
             }
 
-            const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}, ${txCnt}\n`
+            const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}, ${txCnt}, ${txCntLast30days}\n`
             await appendToFile(summaryFileName, content)
         }
     }
