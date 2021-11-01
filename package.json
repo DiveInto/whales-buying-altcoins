@@ -1,0 +1,17 @@
+{
+  "name": "who-is-buying-shit-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DiveInto/who-is-buying-shit-token.git",
+  "author": "Liu Mingmin <diveintotomorrow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "hardhat": "^2.6.7"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "ethers": "^5.0.0"
+  }
+}

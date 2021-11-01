@@ -1,0 +1,39 @@
+name: AccountsBuyingToken
+
+# on:
+#   schedule:
+#     - cron: "48 3 * * *"
+
+on: [workflow_dispatch]
+
+jobs:
+  create_file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - run: yarn install
+
+      - name: run job
+        env:
+          INFURA_URL: ${{ secrets.INFURA_URL }}
+          ETHERSCAN_KEY: ${{ secrets.ETHERSCAN_KEY }}
+        run: |
+          PROVIDER_URL=$INFURA_URL node main.js
+
+      - name: commit outputs files
+        run: |
+          git config --local user.email "$(git log --format='%ae' HEAD^!)"
+          git config --local user.name "$(git log --format='%an' HEAD^!)"
+          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git pull github ${GITHUB_REF} --ff-only
+          git status
+          git add outputs
+          if [ -z "$(git status --porcelain)" ]; then
+            exit 0
+          fi
+          git commit -m "add files in outputs from action"
+          git push github HEAD:${GITHUB_REF}
