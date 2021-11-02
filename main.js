@@ -92,33 +92,33 @@ async function main() {
 
         for (let [holder, holderInfo] of largeHolders) {
             // console.log(`${token.name}, ${token.token_address}, ${holder}, ${holderInfo.balInUSD}, ${holderInfo.txs}`)
-            let isLowActivity = false
+            // let isLowActivity = false
 
-            let txCntLast30days = '-';
-            const txCnt = await provider.getTransactionCount(holder)
-            if (txCnt <= 1000) {
-                isLowActivity = true
-            } else {
-                // less than 50 tx in a month is low activity too
-                try {
-                    const fromBlockNum = curBlock.number - 30 * 24 * 60 * 60 / 13
-                    const toBlockNum = curBlock.number
+            // let txCntLast30days = '-';
+            // const txCnt = await provider.getTransactionCount(holder)
+            // if (txCnt <= 1000) {
+            //     isLowActivity = true
+            // } else {
+            //     // less than 50 tx in a month is low activity too
+            //     try {
+            //         const fromBlockNum = curBlock.number - 30 * 24 * 60 * 60 / 13
+            //         const toBlockNum = curBlock.number
 
-                    console.log('using etherscan provider...')
-                    const his = await etherscanProvider.getHistory(holder, fromBlockNum, toBlockNum)
-                    if (his.length <= 50) {
-                        isLowActivity = true
-                        txCntLast30days = his.length
-                    }
-                } catch (err) {
-                    console.log('etherscan err, ignored', err)
-                    sleep(5 * 1000)
-                }
-            }
+            //         console.log('using etherscan provider...')
+            //         const his = await etherscanProvider.getHistory(holder, fromBlockNum, toBlockNum)
+            //         if (his.length <= 50) {
+            //             isLowActivity = true
+            //             txCntLast30days = his.length
+            //         }
+            //     } catch (err) {
+            //         console.log('etherscan err, ignored', err)
+            //         sleep(5 * 1000)
+            //     }
+            // }
 
-            if (!isLowActivity) {
-                continue
-            }
+            // if (!isLowActivity) {
+            //     continue
+            // }
 
             const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}, ${txCnt}, ${txCntLast30days}\n`
             await appendToFile(summaryFileName, content)
@@ -243,7 +243,8 @@ async function getLargeHolderMap(token, provider, {
 }
 
 async function getErc20FromCMCListings() {
-    const cmcResp = await axios.get('https://api.coinmarketcap.com/data-api/v3/cryptocurrency/listing?limit=500&sortBy=market_cap&sortType=desc&convert=USD&cryptoType=all&tagType=all&audited=false')
+    const topN = 2000
+    const cmcResp = await axios.get(`https://api.coinmarketcap.com/data-api/v3/cryptocurrency/listing?limit=${topN}&sortBy=market_cap&sortType=desc&convert=USD&cryptoType=all&tagType=all&audited=false`)
 
     const tokens = cmcResp.data.data.cryptoCurrencyList
 
