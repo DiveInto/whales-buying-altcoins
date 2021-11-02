@@ -243,7 +243,7 @@ async function getLargeHolderMap(token, provider, {
 }
 
 async function getErc20FromCMCListings() {
-    const topN = 2000
+    const topN = 3000
     const cmcResp = await axios.get(`https://api.coinmarketcap.com/data-api/v3/cryptocurrency/listing?limit=${topN}&sortBy=market_cap&sortType=desc&convert=USD&cryptoType=all&tagType=all&audited=false`)
 
     const tokens = cmcResp.data.data.cryptoCurrencyList
