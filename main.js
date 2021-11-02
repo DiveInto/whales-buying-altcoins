@@ -56,10 +56,15 @@ async function main() {
 
 
     for (let i = 0; i < afterRank100NotListedToken.length; i++) {
-        console.log(`progressing token ${i}/${afterRank100NotListedToken.length}`)
+        console.log(`\nprogressing token ${i}/${afterRank100NotListedToken.length}`)
 
         const token = afterRank100NotListedToken[i]
-        console.log('!', token)
+        console.log('!', JSON.stringify(token))
+
+        //test
+        // if (token.token_address != '0x853d955acef822db058eb8505911ed77f175b99e') {
+        //     continue
+        // }
 
         try {
             const largeHolderMap = await getLargeHolderMap(token, provider, { fromBlockNumber, toBlockNumber })
@@ -82,10 +87,8 @@ async function main() {
 
     const etherscanProvider = new ethers.providers.EtherscanProvider('homestead', process.env.ETHERSCAN_KEY);
 
-    console.log('summary')
-
     const summaryFileName = `./outputs/${dateStr}-${fromBlockNumber}-account.csv`
-    await overwriteFile(summaryFileName, `token, holder, balanceInUSD, tx count, tx last 30 days\n`)
+    await overwriteFile(summaryFileName, `token, holder, balanceInUSD\n`)
 
     for (let [tokenAdx, largeHolders] of tokenHolderMap) {
         const token = adxToTokenMap.get(tokenAdx)
@@ -120,7 +123,7 @@ async function main() {
             //     continue
             // }
 
-            const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}, ${txCnt}, ${txCntLast30days}\n`
+            const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}\n`
             await appendToFile(summaryFileName, content)
         }
     }
@@ -213,16 +216,21 @@ async function getLargeHolderMap(token, provider, {
         }
 
         // check if is contract
-        const codeAtAddress = await provider.getCode(toAdx)
-        if (codeAtAddress.length > 10) { //0x
-            canBeIgnoredUserMap.set(toAdx, true)
-            continue
-        }
+        try {
+            const codeAtAddress = await provider.getCode(toAdx)
+            if (codeAtAddress.length > 10) { //0x
+                canBeIgnoredUserMap.set(toAdx, true)
+                continue
+            }
 
-        // filter if this is direct transfer call
-        const tx = await provider.getTransaction(event.transactionHash)
-        const isTransferFuncCall = tx.data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2))
-        if (isTransferFuncCall) {
+            // filter if this is direct transfer call
+            const tx = await provider.getTransaction(event.transactionHash)
+            const isTransferFuncCall = tx.data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2))
+            if (isTransferFuncCall) {
+                continue
+            }
+        } catch (error) {
+            console.log("error when getCode or getTransaction, skip and ignore", toAdx, event.transactionHash, error)
             continue
         }
 
