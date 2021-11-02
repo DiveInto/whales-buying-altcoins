@@ -35,7 +35,7 @@ async function getTransferEvents(tokenAdx, {
         const curEvents = await erc20Contract.queryFilter(filter, from, to)
         rstEvents.push(...curEvents)
 
-        console.log('', from, to, curEvents.length)
+        // console.log('', from, to, curEvents.length)
     }
 
     return rstEvents
