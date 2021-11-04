@@ -3,7 +3,7 @@ name: CheckIfFilesAreGenerated
 on:
   workflow_dispatch:
   schedule:
-    - cron: "50 9 * * *"
+    - cron: "11 8 * * *"
 jobs:
   create_file:
     runs-on: ubuntu-latest
