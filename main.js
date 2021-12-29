@@ -2,255 +2,235 @@ const { ethers } = require("hardhat")
 const { getTransferEvents } = require("./erc20")
 const { appendToFile, overwriteFile } = require("./file")
 const { default: axios } = require("axios")
+const { getIgnoreAddress, createLargeHolder, setIgnoreAddress } = require("./db")
 
-const manualListed = [
-    '0x956F47F50A910163D8BF957Cf5846D573E7f87CA'.toLowerCase(), //FEI
-    '0xdf574c24545e5ffecb9a659c229253d4111d87e1'.toLowerCase(), //HUSD
-    '0xf34960d9d60be18cC1D5Afc1A6F012A723a28811'.toLowerCase(), //KuCoin
-]
+const {LastUpdatedBlocks} = require("./util")
 
-async function main() {
-    let provider;
-    if (process.env.PROVIDER_URL) {
-        provider = ethers.providers.getDefaultProvider(process.env.PROVIDER_URL)
-        console.log('init provider using env:', process.env.PROVIDER_URL)
-    } else {
-        provider = ethers.provider
+
+// TODO:  
+// 1. getErc20FromCMCListings: there are some tokens without platform, e.g, DESO, fix this with hand?
+// 2. add coinmarketcap as the two platform seems different
+
+const rpcs = {
+    'ethereum': 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+    'binance-coin': 'https://bsc-dataseed1.binance.org',
+    'avalanche': "https://api.avax.network/ext/bc/C/rpc",
+    // 108: 'https://mainnet-rpc.thundercore.com',
+    // 128: "https://http-mainnet.hecochain.com",
+    // 137: "https://rpc-mainnet.matic.network",
+    // 100: "https://rpc.xdaichain.com",
+    // 250: "https://rpcapi.fantom.network",
+    // 42161: "https://arb1.arbitrum.io/rpc",
+    // 1666600000: "https://api.harmony.one",
+    // 1666600001: "https://s1.api.harmony.one",
+    // 1666600002: "https://s2.api.harmony.one",
+    // 1666600003: "https://s3.api.harmony.one",
+    // 122: "https://rpc.fuse.io",
+    // 66: "https://exchainrpc.okex.org",
+    // 4689: "https://babel-api.mainnet.iotex.io",
+    // 321: "https://rpc-mainnet.kcc.network",
+    // 10000: "https://global.uat.cash",
+    // 333999: "https://rpc.polis.tech",
+    // 25: "https://rpc.crodex.app/"
+}
+
+const multicallContractMainnetAdxs = {
+    'ethereum': '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696',
+    'avalanche': '0x98e2060F672FD1656a07bc12D7253b5e41bF3876',
+}
+
+
+class ChainScanner {
+    constructor(chain) {
+        this.chain = chain
+        this.provider =  new ethers.providers.JsonRpcProvider(rpcs[chain])
+        this.lastUpdatedBlock = new LastUpdatedBlocks(chain)
+        this.multicallContractMainnetAdx = multicallContractMainnetAdxs[chain]
+        this.rpc = rpcs[chain]
     }
 
-    const curBlock = await provider.getBlock()
-    const toBlockNumber = curBlock.number
-    const fromBlockNumber = curBlock.number - Math.floor(24 * 60 * 60 / 13)
-    console.log('block range:', fromBlockNumber, toBlockNumber)
-
-    const dateStr = new Date().toISOString().split('T')[0]
-
-    const erc20Tokens = await getErc20FromCMCListings()
-    const binanceTradingPairs = await getBinanceTradingPairs()
-
-    const notListedErc20Tokens = getNotListedErc20Tokens(erc20Tokens, binanceTradingPairs)
-    console.log('not listed at binance:', notListedErc20Tokens.length)
-
-    const afterRank100NotListedToken = []
-
-    const tokensFile = `./outputs/${dateStr}-${fromBlockNumber}-token.csv`
-    await overwriteFile(tokensFile, 'name, symbol, cmcRank, tokenAddress, usdPrice, tags\n')
-
-    for (let token of notListedErc20Tokens) {
-        if (token.cmc_rank <= 100) {
-            continue
-        }
-
-        afterRank100NotListedToken.push(token)
-
-        const { name, symbol, cmc_rank, token_address, usdPrice, tags } = token
-
-        const content = `${name}, ${symbol}, ${cmc_rank}, ${token_address}, ${usdPrice}, ${tags.join(' ')}\n`
-        await appendToFile(tokensFile, content)
-    }
-    console.log('rank > 100, not listed at binance:', afterRank100NotListedToken.length)
-
-    // filter events and find 
-    // map(token -> account -> {balance, recentBuy}
-    const tokenHolderMap = new Map()
-
-
-    for (let i = 0; i < afterRank100NotListedToken.length; i++) {
-        console.log(`\nprogressing token ${i}/${afterRank100NotListedToken.length}`)
-
-        const token = afterRank100NotListedToken[i]
-        console.log('!', JSON.stringify(token))
-
-        //test
-        // if (token.token_address != '0x853d955acef822db058eb8505911ed77f175b99e') {
-        //     continue
-        // }
-
-        try {
-            const largeHolderMap = await getLargeHolderMap(token, provider, { fromBlockNumber, toBlockNumber })
-            if (largeHolderMap.size <= 0) {
+    async initNotListedTokens() {
+        const blackList = ['CRO','OKB','HT','WBNB','vBNB', 'LUSD', 'HUSD', 'WAVAX', 'WETH', 'WBTC',
+            'FLX', // AVAX-X chain token
+        ]
+        const erc20Tokens = await getErc20FromCMCListings(this.chain)
+        const binanceTradingPairs = await getBinanceTradingPairs()
+    
+        const notListedErc20Tokens = [];
+        for (let erc20Token of erc20Tokens) {
+            if (isInBinanceTradingPair(erc20Token, binanceTradingPairs) || 
+                blackList.includes(erc20Token.symbol) ) {
                 continue
             }
+            notListedErc20Tokens.push(erc20Token)
+        }
+        this.notListedToken = notListedErc20Tokens;
+    }
 
-            tokenHolderMap.set(token.token_address, largeHolderMap)
+    async exportToCsv() {
+        const tokensFile = `./outputs/token.csv`
+        await overwriteFile(tokensFile, 'name, symbol, cmcRank, tokenAddress, platform, tags\n')
+        for (let token of NotListedToken) {
+            const { name, symbol, platform, cmc_rank, token_address, usdPrice, tags } = token
+            const content = `${name}, ${symbol}, ${cmc_rank}, ${token_address}, ${platform}, ${tags.join(' ')}\n`
+            await appendToFile(tokensFile, content)
+        }
+    }
+
+    async checkIsContract(addresses) {
+        const calls = []
+        addresses.forEach(x => calls.push( this.provider.getCode(x)))
+        const results = await Promise.all(calls)
+        const isContract = {};
+        // results = dict(zip(addresses, results))
+
+        for (var i = 0; i < addresses.length; i++) {
+            const codeAtAddress = results[i];
+            isContract[addresses[i]] = codeAtAddress.length > 10;
+            if (isContract[addresses[i]]) {
+                setIgnoreAddress(addresses[i], this.chain, 'Contract')
+            }
+        }
+        return isContract
+    }
+
+    async checkIsDirectTranser(txs) {
+        const calls = []
+        txs.forEach(x => calls.push(this.provider.getTransaction(x)))
+        const results = await Promise.all(calls)
+        
+        const finalResult = [];
+        for (var i = 0; i < results.length; i++) {
+            const isDirectTransfer = results[i].data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2))
+            if (!isDirectTransfer) {
+                finalResult.push(txs[i])
+            }
+        }
+        return finalResult
+    }
+}
+
+
+async function main() {
+    await scan("avalanche");
+    // await scan("ethereum");
+}
+
+async function scan(chain) {
+    const scanner = new ChainScanner(chain)
+
+    await scanner.initNotListedTokens();
+    const notListedToken = scanner.notListedToken;
+    // const notListedToken = await getErc20FromCMCListings(chain);
+
+    const ignoreAddress = await getIgnoreAddress()
+    console.log(`${chain} not listed at binance:`, notListedToken.length)
+
+    const curBlock = await scanner.provider.getBlock()
+
+    // const dateStr = new Date().toISOString().split('T')[0]
+
+    for (let i = 0; i < notListedToken.length; i++) {
+        const token = notListedToken[i]
+        console.log(`\nprogressing token ${i}/${ notListedToken.length}`)
+        console.log('!', JSON.stringify(token))
+
+        try {
+            // let lastUpdatedBlock = scanner.lastUpdatedBlock.get(token.token_address) || 0;
+            // let fromBlockNumber = Math.max(curBlock.number - Math.floor(24 * 60 * 60 / 13), lastUpdatedBlock);
+            // let toBlockNumber = curBlock.number - 1
+
+            let fromBlockNumber = 8860580
+            let toBlockNumber = 8860581
+            console.log('block range:', fromBlockNumber, toBlockNumber)
+            await getLargeHolderMap(ignoreAddress, token, scanner, { fromBlockNumber, toBlockNumber })
+            scanner.lastUpdatedBlock.update(token.token_address, toBlockNumber)
         } catch (error) {
             console.log('fail to getLargeHolderMap of:', token, 'error:', error)
         }
     }
-    console.log('tokens done')
-
-    // console.log(tokenHolderMap)
-    const adxToTokenMap = new Map()
-    for (let token of erc20Tokens) {
-        adxToTokenMap.set(token.token_address, token)
-    }
-
-    const etherscanProvider = new ethers.providers.EtherscanProvider('homestead', process.env.ETHERSCAN_KEY);
-
-    const summaryFileName = `./outputs/${dateStr}-${fromBlockNumber}-account.csv`
-    await overwriteFile(summaryFileName, `token, holder, balanceInUSD\n`)
-
-    for (let [tokenAdx, largeHolders] of tokenHolderMap) {
-        const token = adxToTokenMap.get(tokenAdx)
-
-        for (let [holder, holderInfo] of largeHolders) {
-            // console.log(`${token.name}, ${token.token_address}, ${holder}, ${holderInfo.balInUSD}, ${holderInfo.txs}`)
-            // let isLowActivity = false
-
-            // let txCntLast30days = '-';
-            // const txCnt = await provider.getTransactionCount(holder)
-            // if (txCnt <= 1000) {
-            //     isLowActivity = true
-            // } else {
-            //     // less than 50 tx in a month is low activity too
-            //     try {
-            //         const fromBlockNum = curBlock.number - 30 * 24 * 60 * 60 / 13
-            //         const toBlockNum = curBlock.number
-
-            //         console.log('using etherscan provider...')
-            //         const his = await etherscanProvider.getHistory(holder, fromBlockNum, toBlockNum)
-            //         if (his.length <= 50) {
-            //             isLowActivity = true
-            //             txCntLast30days = his.length
-            //         }
-            //     } catch (err) {
-            //         console.log('etherscan err, ignored', err)
-            //         sleep(5 * 1000)
-            //     }
-            // }
-
-            // if (!isLowActivity) {
-            //     continue
-            // }
-
-            const content = `${token.name}(${token.token_address}), ${holder}, ${holderInfo.balInUSD}\n`
-            await appendToFile(summaryFileName, content)
-        }
-    }
+    console.log(chain, 'done')
 }
 
-// {
-//   adx => {
-//     bal,
-//     balInUSD, 
-//     txs: [{hash, valInUSD}, {}]
-//   }
-// }
-async function getLargeHolderMap(token, provider, {
+
+async function getLargeHolderMap(ignoreAddress, token, scanner, {
     fromBlockNumber = -50,
     toBlockNumber = 'latest'
 } = {}) {
     const largeHolderMap = new Map()
 
+    const canBeIgnoredUserMap = new Map()
+
+    const provider = scanner.provider
     const transferEvents = await getTransferEvents(token.token_address, {
         fromBlockNumber,
         toBlockNumber,
         provider,
     })
-
-    const canBeIgnoredUserMap = new Map()
-
-    const possibleAccounts = []
+    const possibleAccounts = {}
+    
     for (let event of transferEvents) {
         const val = ethers.BigNumber.from(event.data)
         const valInUSD = val / 10 ** 18 * token.usdPrice
+        const from = event.args[0].toLowerCase()
+        // const to = event.args[1]
+        const toAdx = '0x' + event.topics[2].substring(24 + 2)
+
         if (valInUSD <= 10000) {
             continue
         }
 
-        const toAdx = '0x' + event.topics[2].substring(24 + 2)
-        if (canBeIgnoredUserMap.get(toAdx)) {
+        //  ignore exchange & contract address
+        if (ignoreAddress['to'].includes(toAdx) || ignoreAddress['from'].includes(from)) {
             continue
         }
-
-        possibleAccounts.push(toAdx)
+        
+        // use dict since some transcation might be duplicate
+        possibleAccounts[toAdx] = possibleAccounts[toAdx] || {}
+        possibleAccounts[toAdx][event.transactionHash] = {
+            hash: event.transactionHash,
+            from: event.args[0],
+            to: event.args[1],
+            valInUSD: valInUSD
+        }
     }
 
-    const distinctPossibleAccounts = [...new Set(possibleAccounts)]
+    console.log('Events count', transferEvents.length)
+    const distinctPossibleAccounts = Object.keys(possibleAccounts)
     console.log('distinctPossibleAccounts:', distinctPossibleAccounts.length)
 
-    const tokenBalanceMap = await getTokenBalanceMap(token.token_address, distinctPossibleAccounts)
-    console.log('tokenBalanceMap:', tokenBalanceMap.size)
+    const tokenBalanceMap = await getTokenBalanceMap(scanner, token.token_address, distinctPossibleAccounts)
+    const isContract = await scanner.checkIsContract(distinctPossibleAccounts)
 
-    for (let event of transferEvents) {
-
-        const val = ethers.BigNumber.from(event.data)
-        const valInUSD = val / 10 ** 18 * token.usdPrice
-        if (valInUSD <= 10000) {
-            continue
-        }
-
-        const toAdx = '0x' + event.topics[2].substring(24 + 2)
-        if (canBeIgnoredUserMap.get(toAdx)) {
-            continue
-        }
-
-        const existInfo = largeHolderMap.get(toAdx)
-        if (existInfo) {
-            // check duplicate
-            const lastTxInfo = existInfo.txs[existInfo.txs.length - 1]
-            if (lastTxInfo.hash === event.transactionHash) {
-                continue
-            }
-
-            // push tx info
-            existInfo.txs.push({
-                hash: event.transactionHash,
-                valInUSD,
-            })
-
-            continue
-        }
-
+    for (let account of distinctPossibleAccounts) {
         // check receiver balance
-        const bal = tokenBalanceMap.get(toAdx)
-        if (!bal) {
-            continue
-        }
-
+        const bal = tokenBalanceMap.get(account)
         const balInUSD = bal / 10 ** 18 * token.usdPrice
         if (balInUSD <= 15_0000) {
-            // ignore low balance user
-            canBeIgnoredUserMap.set(toAdx, true)
+            continue
+        }
+        
+        if (isContract[account]) {
             continue
         }
 
-        // check if is contract
-        try {
-            const codeAtAddress = await provider.getCode(toAdx)
-            if (codeAtAddress.length > 10) { //0x
-                canBeIgnoredUserMap.set(toAdx, true)
-                continue
-            }
-
-            // filter if this is direct transfer call
-            const tx = await provider.getTransaction(event.transactionHash)
-            const isTransferFuncCall = tx.data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2))
-            if (isTransferFuncCall) {
-                continue
-            }
-        } catch (error) {
-            console.log("error when getCode or getTransaction, skip and ignore", toAdx, event.transactionHash, error)
+        // filter if this is direct transfer call
+        trxs = Object.keys(possibleAccounts[account])
+        nonDirectTransferTrxs = await scanner.checkIsDirectTranser(trxs)
+        if (nonDirectTransferTrxs.length == 0) {
             continue
         }
 
-        console.log('large (indirect) transfer of', token.name, event.transactionHash)
-        console.log('large holder of', token.name, balInUSD, toAdx)
-
-        largeHolderMap.set(toAdx, {
-            bal,
-            balInUSD,
-            txs: [{ hash: event.transactionHash, valInUSD }]
-        })
+        await createLargeHolder(token.name, token.token_address, token.platform, account, balInUSD, nonDirectTransferTrxs.join('\n'), nonDirectTransferTrxs.length)
+        // largeHolderMap.set(toAdx, {
+        //     bal,
+        //     balInUSD,
+        //     txs: [{ hash: event.transactionHash, valInUSD }]
+        // })
     }
-
-    console.log('num of large holder of', token.symbol, largeHolderMap.size)
-    console.log('largeHolderMap', largeHolderMap)
-
-    return largeHolderMap
 }
 
-async function getErc20FromCMCListings() {
+async function getErc20FromCMCListings(chain) {
     const topN = 3000
     const cmcResp = await axios.get(`https://api.coinmarketcap.com/data-api/v3/cryptocurrency/listing?limit=${topN}&sortBy=market_cap&sortType=desc&convert=USD&cryptoType=all&tagType=all&audited=false`)
 
@@ -259,13 +239,14 @@ async function getErc20FromCMCListings() {
     const erc20Tokens = []
     for (let token of tokens) {
         const platform = token.platform
-        if (!platform || platform.name !== 'Ethereum') {
+        if (!platform || platform.slug != chain) {
             continue
         }
 
         const tokenInfo = {
             name: token.name,
             symbol: token.symbol,
+            platform: platform.slug,
             cmc_rank: token.cmcRank,
             token_address: platform.token_address,
             tags: token.tags,
@@ -303,23 +284,6 @@ async function getBinanceTradingPairs() {
     return tradingPairs
 }
 
-function getNotListedErc20Tokens(erc20Tokens, binanceTradingPairs) {
-    const notListedErc20Tokens = []
-    for (let erc20Token of erc20Tokens) {
-        const isInBinance = isInBinanceTradingPair(erc20Token, binanceTradingPairs)
-        if (isInBinance) {
-            continue
-        }
-
-        if (manualListed.includes(erc20Token.token_address.toLowerCase())) {
-            continue
-        }
-
-        notListedErc20Tokens.push(erc20Token)
-    }
-
-    return notListedErc20Tokens
-}
 
 function isInBinanceTradingPair(erc20Token, binanceTradingPairs) {
     for (let { baseAsset, quoteAsset } of binanceTradingPairs) {
@@ -333,8 +297,8 @@ function isInBinanceTradingPair(erc20Token, binanceTradingPairs) {
     return false
 }
 
-async function getTokenBalanceMap(tokenAdx, accountList) {
-    const multicallContractMainnetAdx = "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"
+async function getTokenBalanceMap(scanner, tokenAdx, accountList) {
+    const multicallContractMainnetAdx = scanner.multicallContractMainnetAdx
 
     const humanReadableAbi = [
         "function balanceOf(address) public view returns (uint256)",
@@ -361,7 +325,7 @@ async function getTokenBalanceMap(tokenAdx, accountList) {
         const calldata = iface.encodeFunctionData('aggregate', [calls])
 
         try {
-            const resp = await axios.post(process.env.PROVIDER_URL, {
+            const resp = await axios.post(scanner.rpc, {
                 "jsonrpc": "2.0",
                 "method": "eth_call",
                 "params": [{
@@ -397,3 +361,4 @@ function sleep(ms) {
 }
 
 main().then(() => process.exit(0))
+// testEvents().then(() => process.exit(0))
