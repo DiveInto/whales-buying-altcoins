@@ -17,16 +17,22 @@ function getText(property) {
 }
 
 async function setIgnoreAddress(token_address, chain, tags){
-  const response = await notion.pages.create({
-    parent: {
-      database_id: '9cf7a38696824a7b85dd7aaed0b5bf8b',
-    },
-    properties: {
-      'Address': addText('title', token_address),
-      'Chain': addText('select', chain),
-      'Tags': addText('select', tags),
-   }
-  })
+  try{
+    const response = await notion.pages.create({
+      parent: {
+        database_id: '9cf7a38696824a7b85dd7aaed0b5bf8b',
+      },
+      properties: {
+        'Address': addText('title', token_address),
+        'Chain': addText('select', chain),
+        'Tags': addText('select', tags),
+     }
+    })
+  } catch (e) {
+    console.log(e)
+    console.log('Write to notion error, ignore for now')
+  }
+
 }
 
 async function getIgnoreAddress() {

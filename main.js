@@ -15,11 +15,11 @@ const rpcs = {
     'ethereum': 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
     'binance-coin': 'https://bsc-dataseed1.binance.org',
     'avalanche': "https://api.avax.network/ext/bc/C/rpc",
+    'polygon': "https://polygon-rpc.com",
+    'fantom': "https://rpcapi.fantom.network",
     // 108: 'https://mainnet-rpc.thundercore.com',
     // 128: "https://http-mainnet.hecochain.com",
-    // 137: "https://rpc-mainnet.matic.network",
     // 100: "https://rpc.xdaichain.com",
-    // 250: "https://rpcapi.fantom.network",
     // 42161: "https://arb1.arbitrum.io/rpc",
     // 1666600000: "https://api.harmony.one",
     // 1666600001: "https://s1.api.harmony.one",
@@ -37,6 +37,9 @@ const rpcs = {
 const multicallContractMainnetAdxs = {
     'ethereum': '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696',
     'avalanche': '0x98e2060F672FD1656a07bc12D7253b5e41bF3876',
+    'binance-coin': '0x41263cba59eb80dc200f3e2544eda4ed6a90e76c',
+    'polygon': '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
+    'fantom': '0xD98e3dBE5950Ca8Ce5a4b59630a5652110403E5c',
 }
 
 
@@ -50,16 +53,22 @@ class ChainScanner {
     }
 
     async initNotListedTokens() {
-        const blackList = ['CRO','OKB','HT','WBNB','vBNB', 'LUSD', 'HUSD', 'WAVAX', 'WETH', 'WBTC',
+        const blackList = ['CRO','OKB','HT','WBNB','vBNB', 'LUSD', 'HUSD', 'WAVAX', 'WETH', 'WBTC', 'WMATIC', 'WFTM',
             'FLX', // AVAX-X chain token
         ]
         const erc20Tokens = await getErc20FromCMCListings(this.chain)
         const binanceTradingPairs = await getBinanceTradingPairs()
-    
         const notListedErc20Tokens = [];
         for (let erc20Token of erc20Tokens) {
             if (isInBinanceTradingPair(erc20Token, binanceTradingPairs) || 
                 blackList.includes(erc20Token.symbol) ) {
+                continue
+            }
+
+            try {
+                ethers.utils.getAddress(erc20Token.token_address)
+            } catch(e) {
+                console.log('>>>>>>>>>> Invalid token address', erc20Token.symbol, erc20Token.token_address)
                 continue
             }
             notListedErc20Tokens.push(erc20Token)
@@ -101,7 +110,10 @@ class ChainScanner {
         
         const finalResult = [];
         for (var i = 0; i < results.length; i++) {
-            const isDirectTransfer = results[i].data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2))
+                        
+            const isDirectTransfer = 
+                results[i].data.startsWith(ethers.utils.id('transfer(address,uint256)').substring(0, 8 + 2)) ||
+                results[i].data.startsWith(ethers.utils.id('distribute()').substring(0, 8 + 2))   // babyswap distribute
             if (!isDirectTransfer) {
                 finalResult.push(txs[i])
             }
@@ -112,8 +124,13 @@ class ChainScanner {
 
 
 async function main() {
-    await scan("avalanche");
-    // await scan("ethereum");
+    while (true){
+        await scan('polygon');
+        await scan("avalanche");
+        await scan("fantom");
+        await scan("binance-coin");
+        await scan("ethereum");
+    }
 }
 
 async function scan(chain) {
@@ -136,13 +153,13 @@ async function scan(chain) {
         console.log('!', JSON.stringify(token))
 
         try {
-            // let lastUpdatedBlock = scanner.lastUpdatedBlock.get(token.token_address) || 0;
-            // let fromBlockNumber = Math.max(curBlock.number - Math.floor(24 * 60 * 60 / 13), lastUpdatedBlock);
-            // let toBlockNumber = curBlock.number - 1
+            let fromBlockNumber = scanner.lastUpdatedBlock.get(token.token_address) || curBlock.number - Math.floor(24 * 60 * 60 / 13);
+            let toBlockNumber = curBlock.number - 1
 
-            let fromBlockNumber = 8860580
-            let toBlockNumber = 8860581
-            console.log('block range:', fromBlockNumber, toBlockNumber)
+            // let fromBlockNumber = 13897760
+            // let toBlockNumber = 13897761
+
+            console.log('block range:', fromBlockNumber + 1, toBlockNumber)
             await getLargeHolderMap(ignoreAddress, token, scanner, { fromBlockNumber, toBlockNumber })
             scanner.lastUpdatedBlock.update(token.token_address, toBlockNumber)
         } catch (error) {
@@ -181,10 +198,10 @@ async function getLargeHolderMap(ignoreAddress, token, scanner, {
         }
 
         //  ignore exchange & contract address
-        if (ignoreAddress['to'].includes(toAdx) || ignoreAddress['from'].includes(from)) {
+        if (ignoreAddress['to'].includes(toAdx) || ignoreAddress['from'].includes(from) || from == '0x0000000000000000000000000000000000000000') {
             continue
         }
-        
+
         // use dict since some transcation might be duplicate
         possibleAccounts[toAdx] = possibleAccounts[toAdx] || {}
         possibleAccounts[toAdx][event.transactionHash] = {
@@ -221,7 +238,7 @@ async function getLargeHolderMap(ignoreAddress, token, scanner, {
             continue
         }
 
-        await createLargeHolder(token.name, token.token_address, token.platform, account, balInUSD, nonDirectTransferTrxs.join('\n'), nonDirectTransferTrxs.length)
+        await createLargeHolder(token.symbol, token.token_address, token.platform, account, balInUSD, nonDirectTransferTrxs.join('\n'), nonDirectTransferTrxs.length)
         // largeHolderMap.set(toAdx, {
         //     bal,
         //     balInUSD,
@@ -239,9 +256,15 @@ async function getErc20FromCMCListings(chain) {
     const erc20Tokens = []
     for (let token of tokens) {
         const platform = token.platform
+
         if (!platform || platform.slug != chain) {
             continue
         }
+
+        if (platform.token_address.indexOf('https') == 0) {
+            var slices = platform.token_address.split('/')
+            platform.token_address = slices[slices.length - 1]
+        } 
 
         const tokenInfo = {
             name: token.name,
