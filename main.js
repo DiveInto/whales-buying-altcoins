@@ -43,7 +43,7 @@ async function main() {
 
         afterRank100NotListedToken.push(token)
 
-        const { name, symbol, cmc_rank, token_address, usdPrice, tags } = token
+        const { name, symbol, cmc_rank, token_address, usdPrice, tags = [] } = token
 
         const content = `${name}, ${symbol}, ${cmc_rank}, ${token_address}, ${usdPrice}, ${tags.join(' ')}\n`
         await appendToFile(tokensFile, content)
@@ -59,7 +59,11 @@ async function main() {
         console.log(`\nprogressing token ${i}/${afterRank100NotListedToken.length}`)
 
         const token = afterRank100NotListedToken[i]
+        // const token = { "name": "KingDeFi", "symbol": "KRW", "cmc_rank": 2801, "token_address": "0x499568c250Ab2a42292261d6121525d70691894b ", "tags": ["binance-smart-chain"], "usdPrice": 0.0008199324107718525 }
+
         console.log('!', JSON.stringify(token))
+
+        token.token_address = token.token_address.trim()
 
         //test
         // if (token.token_address != '0x853d955acef822db058eb8505911ed77f175b99e') {

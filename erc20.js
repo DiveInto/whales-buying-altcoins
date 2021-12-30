@@ -6,7 +6,6 @@ async function getTransferEvents(tokenAdx, {
     toBlockNumber = 'latest',
     provider,
 } = {}) {
-
     if (!provider) {
         provider = ethers.provider
     }
