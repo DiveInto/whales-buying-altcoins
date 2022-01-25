@@ -1,0 +1,1359 @@
+name, symbol, cmcRank, tokenAddress, usdPrice, tags
+Celsius, CEL, 101, 0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d, 2.247032408194041, lending-borowing exnetwork-capital-portfolio
+Neutrino USD, USDN, 108, 0x674C6Ad92Fd080e4004b2312b45f796a192D27a0, 0.971785402645151, defi stablecoin binance-smart-chain
+SwissBorg, CHSB, 109, 0xba9d4199fab4f26efe3551d490e3821486f135ba, 0.5088730772531119, asset-management staking
+GateToken, GT, 113, 0xe66747a101bff2dba3697199dcce5b743b454759, 6.20143136334928, marketplace centralized-exchange discount-token algorand-ecosystem
+Revain, REV, 121, 0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9, 0.005245667812376322, platform reputation smart-contracts
+Dogelon Mars, ELON, 126, 0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3, 7.480284310290258e-7, memes payments polygon-ecosystem doggone-doggerel
+Telcoin, TEL, 132, 0x467bccd9d29f223bce8043b84e8c8b282827790f, 0.006377311245545499, medium-of-exchange polygon-ecosystem
+DigitalBits, XDB, 146, 0xb9eefc4b0d472a44be93970254df4f4016569d27, 0.32368310253072513, 
+XYO, XYO, 153, 0x55296f69f40ea6d20e478533c15a6b08b654e758, 0.020287850458614937, web3
+Gemini Dollar, GUSD, 154, 0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd, 0.9979697340446612, store-of-value stablecoin asset-backed-stablecoin
+Ultra, UOS, 156, 0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c, 0.8731797915444888, platform collectibles-nfts gaming payments metaverse
+CEEK VR, CEEK, 164, 0xb056c38f6b7dc4064367403e26424cd2c60655e1, 0.30835065320352256, vr-ar collectibles-nfts binance-smart-chain metaverse
+Function X, FX, 167, 0x8c15ef5b4b21951d50e53e4fbda8298ffad25057, 0.5227445277938517, hardware
+MXC, MXC, 170, 0x5ca381bbfb58f0092df149bd3d243b08b9a8386e, 0.07932567307845578, iot substrate polkadot-ecosystem
+OriginTrail, TRAC, 174, 0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f, 0.5361422843132735, logistics enterprise-solutions smart-contracts polkadot-ecosystem
+Propy, PRO, 179, 0x226bb599a12c826476e3a771454697ea52e9e220, 2.592572722697099, real-estate escrow smart-contracts arrington-xrp-capital-portfolio
+Chrono.tech, TIME, 180, 0x485d17A6f1B8780392d53D64751824253011A260, 268.52710994298036, defi binance-smart-chain
+Dvision Network, DVI, 183, 0x10633216e7e8281e33c86f02bf8e565a635d9770, 0.5833874791221407, collectibles-nfts gaming ethereum-ecosystem binance-smart-chain metaverse mvb
+ASD, ASD, 188, 0xff742d05420b6aca4481f635ad8341f81a6300c2, 0.25159166979417436, centralized-exchange
+Orbs, ORBS, 191, 0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa, 0.056285978831953576, services enterprise-solutions
+MX TOKEN, MX, 192, 0x11eef04c884e24d9b7b4760e7476d06ddf797f36, 1.6050496691486493, marketplace centralized-exchange discount-token
+HEX, HEX, 201, 0x2b591e99afe9f32eaa6214f7b7629768c40eeb39, 0.1791427396752158, 
+Lido stETH, STETH, 202, 0xae7ab96520de3a18e5e111b5eaab095312d7fe84, 2378.4009751427434, eth-2-staking
+Frax, FRAX, 204, 0x853d955acef822db058eb8505911ed77f175b99e, 1.002185130565052, defi stablecoin seigniorage avalanche-ecosystem polygon-ecosystem fantom-ecosystem moonriver-ecosystem
+Huobi BTC, HBTC, 207, 0x0316EB71485b0Ab14103307bf65a021042c6d380, 36039.250157536866, heco-ecosystem
+yOUcash, YOUC, 213, 0x3d371413dd5489f3a04c07c0c2ce369c20986ceb, 0.13569512117593607, 
+BitDAO, BIT, 215, 0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5, 1.485980508733695, dao governance dragonfly-capital-portfolio fenbushi-capital-portfolio pantera-capital-portfolio spartan-group
+Liquity USD, LUSD, 218, 0x5f98805A4E8be255a32880FDeC7F6728C6568bA0, 1.01516930023967, defi stablecoin
+The Transfer Token, TTT, 219, 0x2494a68C1484376fEf880b4c24D91f049d29B02A, 6.57780623067662, 
+KOK, KOK, 222, 0x9b9647431632af44be02ddd22477ed94d14aacaa, 5.398020820717461, 
+NXM, NXM, 225, 0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b, 80.26297720938292, defi insurance arrington-xrp-capital-portfolio kenetic-capital-portfolio placeholder-ventures-portfolio
+Rally, RLY, 226, 0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b, 0.22509360191185607, yield-farming social-token social-money coinbase-ventures-portfolio kenetic-capital-portfolio ledgerprime-portfolio a16z-portfolio
+Radio Caca, RACA, 237, 0x12BB890508c125661E03b09EC06E404bc9289040, 0.001647981568396769, collectibles-nfts gaming binance-smart-chain metaverse play-to-earn mvb
+Bitpanda Ecosystem Token, BEST, 239, 0x1b073382e63411e3bcffe90ac1b9a43fefa1ec6f, 0.8197613342950094, marketplace centralized-exchange
+Braintrust, BTRST, 240, 0x799ebfabe77a6e34311eeee9825190b9ece32824, 3.2883322094227236, coinbase-ventures-portfolio web3
+Victoria VR, VR, 241, 0x7d5121505149065b562c789a0145ed750e6e8cdd, 0.4012779930570138, collectibles-nfts gaming ethereum-ecosystem metaverse play-to-earn
+MetisDAO, METIS, 243, 0x9E32b13ce7f2E80A01932B42553652E053D6ed8e, 136.40949273740742, scaling rollups okex-blockdream-ventures-portfolio
+Rocket Pool, RPL, 248, 0xd33526068d116ce69f19a9ee46f0bd304f21a51f, 25.696659187932518, defi
+Origin Dollar, OUSD, 250, 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86, 0.9941711373806901, defi stablecoin
+Aurora, AURORA, 256, 0xaaaaaa20d9e0e2461697782ef11675f668207961, 11.13782694660817, okex-blockdream-ventures-portfolio
+HedgeTrade, HEDG, 260, 0xF1290473E210b2108A85237fbCd7b6eb42Cc654F, 0.6043859953883939, asset-management marketplace discount-token
+UFO Gaming, UFO, 261, 0x249e38ea4102d0cf8264d3701f1a0e39c4f2dc3b, 0.000008171847480857523, platform collectibles-nfts gaming launchpad metaverse play-to-earn
+XSGD, XSGD, 262, 0x70e8de73ce538da2beed35d14187f6959a8eca96, 0.7418602608972065, stablecoin asset-backed-stablecoin zilliqa-ecosystem
+DEAPcoin, DEP, 266, 0x1a3496c18d558bd9c6c8f609e1b129f67ab08163, 0.04948405170144276, collectibles-nfts gaming binance-smart-chain metaverse play-to-earn
+Tether Gold, XAUT, 270, 0x68749665FF8D2d112Fa859AA293F07A622782F38, 1841.2551601299606, 
+LUKSO, LYXe, 272, 0xA8b919680258d369114910511cc87595aec0be6D, 12.276933406739158, collectibles-nfts metaverse
+Veritaseum, VERI, 273, 0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374, 85.94751134948716, services
+Orbit Chain, ORC, 275, 0x662b67d00a13faf93254714dd601f5ed49ef2f51, 0.30451022828202223, 
+DAO Maker, DAO, 276, 0x0f51bb10119727a7e5ea3538074fb341f56b09ad, 2.8206517778021247, defi governance launchpad dao-maker vbc-ventures-portfolio
+Bifrost (BFC), BFC, 278, 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c, 0.16369441827320602, platform interoperability avalanche-ecosystem exnetwork-capital-portfolio vbc-ventures-portfolio
+Bloomzed Loyalty Club Ticket, BLCT, 279, 0x6d2c508fc4a588a41713ff59212f85489291d244, 4.505791000011619, 
+OpenDAO, SOS, 280, 0x3b484b82567a09e2588a13d54d032153f0c0aee0, 0.000001662308459863207, 
+Phantasma, SOUL, 285, 0x79c75e2e8720b39e258f41c37cc4f309e0b0ff80, 1.445341341832644, platform enterprise-solutions distributed-computing collectibles-nfts content-creation filesharing gaming storage metaverse
+Starlink, STARL, 292, 0x8e6cd950ad6ba651f6dd608dc70e5886b1aa6b24, 0.000014516307130006079, metaverse
+DeversiFi, DVF, 295, 0xdddddd4301a082e62e84e43f474f044423921918, 5.958700669800781, defi spartan-group okex-blockdream-ventures-portfolio
+Wilder World, WILD, 297, 0x2a3bff78b79a009976eea096a51a948a3dc00e34, 1.663777256559967, vr-ar collectibles-nfts gaming metaverse polkastarter animoca-brands-portfolio skyvision-capital-portfolio
+Hxro, HXRO, 302, 0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3, 0.33507958640846053, three-arrows-capital-portfolio solana-ecosystem cms-holdings-portfolio coinfund-portfolio ledgerprime-portfolio alameda-research-portfolio
+inSure DeFi, SURE, 304, 0xcb86c6a22cb56b6cf40cafedb06ba0df188a416e, 0.005043455909825621, collectibles-nfts defi dao insurance binance-smart-chain metaverse
+Humanscape, HUM, 306, 0x174afe7a032b5a33a3270a9f6c30746e25708532, 0.18922973783314717, 
+Unibright, UBT, 312, 0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e, 0.8661300931944766, 
+Wrapped NCG (Nine Chronicles Gold), WNCG, 318, 0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817, 1.0462330494695176, skyvision-capital-portfolio
+CRYPTO20, C20, 324, 0x26e75307fc0c021472feb8f727839531f112f317, 3.0084978034633174, services
+Circuits of Value, COVAL, 325, 0x3d658390460295fb963f54dc0899cfb1c30776df, 0.06679323702514244, collectibles-nfts defi
+Sovryn, SOV, 326, 0xbdab72602e9ad40fc6a6852caf43258113b8f7a5, 5.714725224243629, 
+STASIS EURO, EURS, 328, 0xdb25f211ab05b1c97d595516f45794528a807ad8, 1.1338681092490164, marketplace stablecoin asset-backed-stablecoin wallet
+e-Radix, EXRD, 330, 0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414, 0.15799080143870328, ethereum-ecosystem
+Dawn Protocol, DAWN, 333, 0x580c8520deda0a441522aeae0f9f7a5f29629afa, 1.5657826015218628, cosmos-ecosystem gaming
+Cratos, CRTS, 340, 0x678e840c640f619e17848045d23072844224dd37, 0.005957765550404896, 
+Decentral Games, DG, 344, 0x4b520c812e8430659fc9f12f6d0c39026c83588d, 0.27259404459490283, gaming metaverse dcg-portfolio
+Deeper Network, DPR, 346, 0xf3ae5d769e153ef72b4e3591ac004e89f48107a1, 0.09840986495836086, hardware distributed-computing polkadot polkadot-ecosystem
+Ampleforth, AMPL, 349, 0xd46ba6d942050d489dbd938a2c909a5d5039a161, 0.8362756799656534, defi rebase avalanche-ecosystem arrington-xrp-capital-portfolio alameda-research-portfolio pantera-capital-portfolio spartan-group
+MVL, MVL, 351, 0xa849eaae994fb86afa73382e9bd88c2b6b18dc71, 0.0075982207068404466, 
+Covalent, CQT, 353, 0xD417144312DbF50465b1C641d016962017Ef6240, 0.3913267645931798, ai-big-data enterprise-solutions defi polkadot-ecosystem avalanche-ecosystem fantom-ecosystem near-protocol-ecosystem
+PEAKDEFI, PEAK, 355, 0x630d98424efe0ea27fb1b3ab7741907dffeaad78, 0.07931948237016051, defi binance-smart-chain
+Rakon, RKN, 357, 0x6e5a43db10b04701385a34afb670e404bc7ea597, 0.40458524784064653, 
+Decentral Games [Old], DG, 359, 0xee06a81a695750e71a662b51066f2c74cf4478a0, 282.5423499208325, collectibles-nfts gaming dao binance-smart-chain metaverse polygon-ecosystem play-to-earn
+TrustSwap, SWAP, 360, 0xcc4304a31d09258b0029ea7fe63d032f52e44efe, 1.0014997790984739, defi launchpad avalanche-ecosystem
+Sport and Leisure, SNL, 361, 0xa806b3fed6891136940cf81c4085661500aa2709, 0.14355964782375155, marketplace
+Presearch, PRE, 363, 0xEC213F83defB583af3A000B1c0ada660b1902A0F, 0.24268672298136942, platform crowdsourcing search-engine
+DeFi Pulse Index, DPI, 364, 0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b, 172.14217979906587, defi defi-index
+Swarm, BZZ, 368, 0x19062190b1925b5b6689d7073fdfc8c2976ef8cb, 1.8976673426492674, 
+Throne, THN, 369, 0x2e95cea14dd384429eb3c4331b776c4cfbb6fcd9, 0.24593811722763606, 
+Aleph.im, ALEPH, 370, 0x27702a26126e0b3702af63ee09ac4d1a084ef628, 0.5147033132869272, mineable cosmos-ecosystem distributed-computing filesharing storage binance-smart-chain polkadot-ecosystem avalanche-ecosystem solana-ecosystem
+Chainbing, CBG, 378, 0x1900E8B5619a3596745F715d0427Fe617c729BA9, 2.8062501635102155, 
+Proton, XPR, 379, 0xd7efb00d12c2c13131fd319336fdf952525da2af, 0.01029646847847903, collectibles-nfts decentralized-exchange defi wallet amm binance-smart-chain dex governance
+cVault.finance, CORE, 383, 0x62359ed7505efc61ff1d56fef82158ccaffa23d7, 9135.799200080372, defi dao governance
+TitanSwap, TITAN, 387, 0x3A8cCCB969a61532d1E6005e2CE12C200caeCe87, 1.695218785451318, 
+Uquid Coin, UQC, 388, 0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2, 9.051987409001743, asset-management defi payments
+Zelwin, ZLW, 392, 0x5319e86F0e41a06E49eb37046b8c11D78bcAd68C, 1.2320276939402184, binance-smart-chain
+Hoo Token, HOO, 394, 0xd241d7b5cb0ef9fc79d9e4eb9e21f5e209f52f7d, 1.0753295697438654, 
+Verasity, VRA, 395, 0xf411903cbc70a74d22900a5de66a2dda66507255, 0.019794069227097703, collectibles-nfts gaming entertainment payments staking video metaverse
+ZB Token, ZB, 396, 0xbd0793332e9fb844a52a205a233ef27a5b34b927, 0.1863039922419504, marketplace centralized-exchange discount-token payments
+AVINOC, AVINOC, 398, 0xf1ca9cb74685755965c7458528a36934df52a3ef, 0.2200381195582243, 
+RFOX, RFOX, 400, 0xa1d6df714f91debf4e0802a542e13067f31b8262, 0.06469237399791705, collectibles-nfts ethereum-ecosystem binance-smart-chain metaverse
+PolySwarm, NCT, 403, 0x9e46a38f5daabe8683e10793b06749eef7d733d1, 0.05424915065423594, cybersecurity smart-contracts dapp
+Vectorspace AI, VXV, 405, 0x7D29A64504629172a429e64183D6673b9dAcbFCe, 2.0817135551958583, ai-big-data ethereum-ecosystem
+AllianceBlock, ALBT, 406, 0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0, 0.3487952776529599, avalanche-ecosystem exnetwork-capital-portfolio
+DeFine, DFA, 409, 0x62959c699a52ec647622c91e79ce73344e4099f5, 1.4385084144847444, collectibles-nfts entertainment
+Ribbon Finance, RBN, 410, 0x6123b0049f904d730db3c36a31167d9d4121fa6b, 1.5769318984981915, derivatives coinbase-ventures-portfolio
+dKargo, DKA, 415, 0x5dc60C4D5e75D22588FA17fFEB90A63E535efCE0, 0.07772714237072462, 
+Efinity Token, EFI, 417, 0x656C00e1BcD96f256F224AD9112FF426Ef053733, 0.4610734007243764, collectibles-nfts gaming polkadot-ecosystem metaverse okex-blockdream-ventures-portfolio
+Strike, STRK, 420, 0x74232704659ef37c08995e386a2e26cc27a8d7b1, 25.115159340364553, defi
+Syntropy, NOIA, 424, 0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca, 0.14328340239443987, iot scaling staking substrate governance web3
+Vega Protocol, VEGA, 427, 0xcb84d72e61e383767c4dfeb2d8ff7f4fb89abc6e, 7.210127956355596, pos defi derivatives coinbase-ventures-portfolio
+Elitium, EUM, 430, 0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa, 2.5451687372714997, 
+LCX, LCX, 431, 0x037a54aab062628c9bbae1fdb1583c195585fe41, 0.09507343180366779, 
+CUDOS, CUDOS, 435, 0x817bbDbC3e8A1204f3691d14bB44992841e3dB35, 0.024694174969836502, algorand-ecosystem exnetwork-capital-portfolio
+HyperDAO, HDAO, 439, 0x74faab6986560fd1140508e4266d8a7b87274ffd, 0.020187592462373085, 
+ONUS, ONUS, 440, 0x4184aa04215e5d716dd4c213fed519acadc68f92, 0.6892197767906617, 
+BioPassport Token, BIOT, 442, 0xc07A150ECAdF2cc352f5586396e344A6b17625EB, 0.038873173115753314, 
+STAKE, STAKE, 443, 0x0Ae055097C6d159879521C384F1D2123D1f195e6, 8.44919858050709, defi exnetwork-capital-portfolio
+Qredo, QRDO, 444, 0x4123a133ae3c521fd134d7b13a2dec35b56c2463, 2.053770951724121, spartan-group
+DerivaDAO, DDX, 446, 0x3a880652f47bfaa771908c07dd8673a787daed3a, 2.5989365044428494, decentralized-exchange defi derivatives
+Shapeshift FOX Token, FOX, 447, 0xc770eefad204b5180df6a14ee197d99d808ee52d, 0.3158976641624829, 
+Rai Reflex Index, RAI, 449, 0x03ab458634910aad20ef5f1c8ee96f1d6ac54919, 3.0532411970705433, defi
+ankrETH, aEth, 456, 0xe95a203b1a91a908f9b9ce46459d101078c2c3cb, 2244.1512167029878, eth-2-staking
+Chimpion, BNANA, 459, 0x07ef9e82721ac16809d24dafbe1792ce01654db4, 2.0134652675459734, 
+GuildFi, GF, 461, 0xaaef88cea01475125522e117bfe45cf32044e238, 1.4956709555821317, gaming coinbase-ventures-portfolio alameda-research-portfolio pantera-capital-portfolio play-to-earn animoca-brands-portfolio gaming-guild skyvision-capital-portfolio
+Somnium Space Cubes, CUBE, 463, 0xdf801468a808a32656d2ed2d2d80b72a129739f4, 5.02382014279235, vr-ar collectibles-nfts ethereum-ecosystem solana-ecosystem metaverse polygon-ecosystem web3 near-protocol-ecosystem
+Strong, STRONG, 464, 0x990f341946a3fdb507ae7e52d17851b87168017c, 454.0605394025777, defi yield-farming
+EverRise, RISE, 465, 0x0cd022dde27169b20895e0e2b2b8a33b25e63579, 0.000980488773930609, amm binance-smart-chain dex
+TokenPocket, TPT, 467, 0x4161725d019690a3e0de50f6be67b07a86a9fae1, 0.017885888581051043, binance-smart-chain
+Freeway Token, FWT, 469, 0x4a7397b0b86bb0f9482a3f4f16de942f04e88702, 0.011338635622427578, binance-smart-chain trustswap-launchpad
+BitMart Token, BMX, 470, 0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8, 0.35060578110280627, marketplace
+KeeperDAO, ROOK, 471, 0xfa5047c9c78b8877af97bdcb85db743fd7313d4a, 98.58319653359771, defi yield-farming three-arrows-capital-portfolio alameda-research-portfolio
+Gods Unchained, GODS, 472, 0xccc8cb5229b0ac8069c51fd58367fd1e622afd97, 2.5682220342659074, collectibles-nfts gaming entertainment play-to-earn okex-blockdream-ventures-portfolio
+DAD, DAD, 475, 0x5b322514ff727253292637d9054301600c2c81e8, 0.13853435558765534, 
+DeRace, DERC, 476, 0x9fa69536d1cda4a04cfb50688294de75b505a9ae, 1.5475569668955322, collectibles-nfts gaming binance-smart-chain metaverse play-to-earn animoca-brands-portfolio
+XMON, XMON, 479, 0x3aaDA3e213aBf8529606924d8D1c55CbDc70Bf74, 39441.71843679747, collectibles-nfts
+Cyclub, CYCLUB, 480, 0x3b58c52C03ca5Eb619EBa171091c86C34d603e5f, 0.04458850571076623, content-creation crowdfunding
+WHALE, WHALE, 481, 0x9355372396e3F6daF13359B7b607a3374cc638e0, 7.980999751133006, collectibles-nfts social-money
+ICHI, ICHI, 491, 0x903bef1736cddf2a537176cf3c64579c3867a881, 13.67716940568083, yield-farming polkadot-ecosystem
+Boson Protocol, BOSON, 492, 0xC477D038d5420C6A9e0b031712f61c5120090de9, 0.8589513302754065, marketplace collectibles-nfts e-commerce payments metaverse exnetwork-capital-portfolio play-to-earn
+HUNT, HUNT, 493, 0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5, 0.5141131280415017, 
+Alpha Quark Token, AQT, 495, 0x2a9bDCFF37aB68B95A53435ADFd8892e86084F93, 2.165752039476511, binance-smart-chain
+GMT Token, GMT, 497, 0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989, 0.23505311104046775, binance-smart-chain
+Grid+, GRID, 500, 0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd, 1.4118281482803936, energy
+Assemble Protocol, ASM, 510, 0x2565ae0385659badcada1031db704442e1b69982, 0.050131662613110625, 
+FLETA, FLETA, 512, 0x40897C872214303b6F479a37E549eE1516B264A2, 0.0338814802982799, binance-smart-chain
+Router Protocol, ROUTE, 516, 0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4, 8.462416983146259, avalanche-ecosystem polygon-ecosystem
+Carry, CRE, 521, 0x115eC79F1de567eC68B7AE7eDA501b406626478e, 0.005790565892761016, retail loyalty
+Moss Coin, MOC, 523, 0x865ec58b06bf6305b886793aa20a2da31d034e68, 0.1362885699806, 
+SHPING, SHPING, 520, 0x7c84e62859d0715eb77d1b1c4154ecd6abb21bec, 0.02941495460665531, 
+BoringDAO, BOR, 524, 0x3c9d6c1c73b31c837832c72e04d3152f051fc1a9, 347.4988488776144, defi polygon-ecosystem
+Liquity, LQTY, 530, 0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D, 3.100897015956399, defi
+Rarible, RARI, 531, 0xfca59cd816ab1ead66534d82bc21e7515ce441cf, 8.642237015980617, collectibles-nfts dao coinbase-ventures-portfolio governance coinfund-portfolio
+Fuse Network, FUSE, 534, 0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d, 0.8638398250503898, binance-smart-chain
+Tokenlon Network Token, LON, 535, 0x0000000000095413afc295d19edeb1ad7b71c952, 1.0762822756757542, decentralized-exchange defi
+Saito, SAITO, 536, 0xFa14Fa6958401314851A17d6C5360cA29f74B57B, 0.04432660767451673, gaming polkadot-ecosystem okex-blockdream-ventures-portfolio
+Morpheus.Network, MNW, 537, 0xd3E4Ba569045546D09CF021ECC5dFe42b1d7f6E4, 1.0002155259265109, logistics payments
+Offshift, XFT, 541, 0xabe580e7ee158da464b51ee1a83ac0289622e6be, 10.456518814783283, privacy ethereum-ecosystem binance-smart-chain polkadot-ecosystem
+Kleros, PNK, 542, 0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d, 0.07561468600202514, prediction-markets polygon-ecosystem
+PARSIQ, PRQ, 543, 0x362bc847A3a9637d3af6624EeC853618a43ed7D2, 0.32692385051883527, services ai-big-data defi smart-contracts binance-smart-chain polkadot-ecosystem algorand-ecosystem solana-ecosystem analytics web3
+MixMarvel, MIX, 544, 0x5d285f735998f36631f678ff41fb56a10a4d0429, 0.009867103480259211, mvb
+Atari Token, ATRI, 545, 0xdacD69347dE42baBfAEcD09dC88958378780FB62, 0.031226048180614984, gambling collectibles-nfts gaming ethereum-ecosystem binance-smart-chain metaverse polygon-ecosystem fantom-ecosystem
+Cobak Token, CBK, 547, 0xD85a6Ae55a7f33B0ee113C234d2EE308EdeAF7fD, 1.9040253038081036, 
+SUKU, SUKU, 549, 0x0763fdCCF1aE541A5961815C0872A8c5Bc6DE4d7, 0.3822672256581948, defi
+VideoCoin, VID, 548, 0x2c9023bbc572ff8dc1228c7858a280046ea8c9e5, 0.28657446013912896, media collectibles-nfts content-creation video
+Mirrored ProShares VIX, mVIXY, 553, 0xf72FCd9DCF0190923Fadd44811E240Ef4533fc86, 20.35457965035824, 
+Sentinel Protocol, UPP, 552, 0xc86d054809623432210c107af2e3f619dcfbf652, 0.09782620796659744, 
+Bitrue Coin, BTR, 559, 0xd433138d12beB9929FF6fd583DC83663eea6Aaa5, 0.33185006488096586, marketplace centralized-exchange
+CoinLoan, CLT, 569, 0x2001f2a0cf801ecfda622f6c28fb6e10d803d969, 21.46705419138246, 
+Valobit, VBIT, 571, 0xb8366948b4a3f07bcbf14eb1739daa42a26b07c4, 0.034747800607421234, 
+Maple, MPL, 572, 0x33349b282065b0284d756f0577fb39c158f935e6, 12.288551130765788, defi spartan-group
+mStable USD, MUSD, 573, 0xe2f2a5c287993345a840db3b0845fbc70f5935a5, 1.002236985760339, defi stablecoin polygon-ecosystem
+Metronome, MET, 577, 0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e, 2.945955374089564, platform defi payments wallet
+Civilization, CIV, 581, 0x37fe0f067fa808ffbdd12891c0858532cfe7361d, 0.1324487326227622, 
+Hoge Finance, HOGE, 582, 0xfad45e47083e4607302aa43c65fb3106f1cd7607, 0.00009866021228166831, gaming memes binance-smart-chain
+Mirrored iShares Gold Trust, mIAU, 583, 0x1d350417d9787E000cc1b95d70E9536DcD91F373, 35.21262353852278, tokenized-stock
+Lido DAO Token, LDO, 584, 0x5a98fcbea516cf06857215779fd812ca3bef1b32, 1.6124132033573662, defi paradigm-portfolio
+Refereum, RFR, 585, 0xd0929d411954c47438dc1d871dd6081f5c5e149c, 0.007887735739792668, media content-creation gaming kenetic-capital-portfolio
+YIELD App, YLD, 595, 0xF94b5C5651c888d928439aB6514B93944eEE6F48, 0.26763068634698917, exnetwork-capital-portfolio trustswap-launchpad
+RAI Finance, SOFI, 598, 0xB49fa25978abf9a248b8212Ab4b87277682301c0, 0.23719359570799434, 
+LGCY Network, LGCY, 599, 0xae697f994fc5ebc000f8e22ebffee04612f98a0d, 0.002951596163633378, 
+AMO Coin, AMO, 597, 0x38c87aa89b2b8cd9b95b736e1fa7b612ea972169, 0.001962619045795565, 
+CONUN, CON, 602, 0x4Dd672e77c795844fe3A464eF8eF0FAAe617C8fB, 0.012684034396354, 
+BOSAGORA, BOA, 605, 0x746dda2ea243400d5a63e0700f190ab79f06489e, 0.11950964357842736, dao metaverse
+BTU Protocol, BTU, 606, 0xb683d83a532e2cb7dfa5275eed3698436371cc9f, 0.4005247486372098, marketplace enterprise-solutions polygon-ecosystem
+LATOKEN, LA, 607, 0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf, 0.09528187196339705, marketplace centralized-exchange payments
+Revolution Populi, RVP, 610, 0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a, 0.029886095442820847, 
+AnimalGo, GOM2, 611, 0x48783486ddD7fa85ECa6B0C4AE8920Bc25DfbcD7, 0.03682838315140698, 
+Polkadex, PDEX, 613, 0xF59ae934f6fe444afC309586cC60a84a0F89Aaea, 7.870714494466148, decentralized-exchange dex polkadot-ecosystem polkastarter okex-blockdream-ventures-portfolio
+Shiryo-Inu, SHIRYO-INU, 614, 0x1E2F15302B90EddE696593607b6bD444B64e8F02, 3.5964750179661e-11, 
+Hermez Network, HEZ, 615, 0xeef9f339514298c6a857efcfc1a762af84438dee, 7.473311711979958, scaling rollups
+Newscrypto, NWC, 617, 0x968f6f898a6df937fc1859b323ac2f14643e3fed, 0.2328351434579451, education ethereum-ecosystem stellar binance-smart-chain metaverse
+SORA, XOR, 618, 0x40FD72257597aA14C7231A7B1aaa29Fce868F677, 85.36963032036738, substrate polkadot polkadot-ecosystem
+SOLVE, SOLVE, 621, 0x446c9033e7516d820cc9a2ce2d0b7328b579406f, 0.07985207955242594, health enterprise-solutions wallet
+Ultiledger, ULT, 624, 0xe884cc2795b9c45beeac0607da9539fd571ccf85, 0.01199804264078434, services
+ERC20, ERC20, 625, 0xc3761eb917cd790b30dad99f6cc5b4ff93c4f9ea, 0.030047422278734727, medium-of-exchange collectibles-nfts defi memes payments ethereum-ecosystem yield-farming binance-smart-chain
+BTSE, BTSE, 626, 0x666d875c600aa06ac1cf15641361dec3b00432ef, 7.776314968163797, centralized-exchange
+SIDUS HEROES, SIDUS, 629, 0x549020a9Cb845220D66d3E9c6D9F9eF61C981102, 0.06060480283147811, gaming alameda-research-portfolio play-to-earn animoca-brands-portfolio okex-blockdream-ventures-portfolio
+EPIK Prime, EPIK, 630, 0x4da0c48376c277cdbd7fc6fdc6936dee3e4adf75, 0.1403851864465076, collectibles-nfts gaming metaverse animoca-brands-portfolio
+MileVerse, MVC, 634, 0x581911b360B6eB3a14eF295a83a91DC2bCE2D6f7, 0.01840895759372103, 
+Unifty, NIF, 636, 0x7e291890b01e5181f7ecc98d79ffbe12ad23df9e, 18.007441580835014, collectibles-nfts polygon-ecosystem
+Kryll, KRL, 637, 0x464eBE77c293E473B48cFe96dDCf88fcF7bFDAC0, 0.8477604797167934, 
+Clearpool, CPOOL, 639, 0x66761fa41377003622aee3c7675fc7b5c1c2fac5, 0.6323911640921507, defi
+ReapChain, REAP, 641, 0x1fc5ef0337aea85c5f9198853a6e3a579a7a6987, 0.1494705440625467, 
+PAID Network, PAID, 644, 0x1614F18Fc94f47967A3Fbe5FfcD46d4e7Da3D787, 0.3796627380830714, polkadot polkadot-ecosystem launchpad polkastarter exnetwork-capital-portfolio
+MATH, MATH, 648, 0x08d967bb0134f2d07f7cfb6e246680c53927dd30, 0.2727652304544198, cosmos-ecosystem binance-smart-chain polkadot-ecosystem polygon-ecosystem
+Aurox, URUS, 649, 0x6c5fbc90e4d78f70cc5025db005b39b03914fc0c, 59.51498136052822, binance-smart-chain
+GNY, GNY, 650, 0xb1f871Ae9462F1b2C6826E88A7827e76f86751d4, 0.16090176151018568, platform enterprise-solutions binance-smart-chain
+Aragon Court, ANJ, 653, 0xcD62b1C403fa761BAadFC74C525ce2B51780b184, 0.23957941931791518, dao web3
+FirmaChain, FCT,FCT2, 652, 0xe1bad922f84b198a08292fb600319300ae32471b, 0.09197377706548582, cosmos-ecosystem
+Everest, ID, 654, 0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83, 0.26194081330689073, 
+InsurAce, INSUR, 655, 0x544c42fbb96b39b21df61cf322b5edc285ee7429, 0.6799907752945001, insurance ethereum-ecosystem solana-ecosystem defiance-capital-portfolio alameda-research-portfolio polygon-ecosystem
+Opulous, OPUL, 656, 0x80d55c03180349fff4a229102f62328220a96444, 1.1106968101239667, algorand-ecosystem trustswap-launchpad spartan-group
+Invictus Hyperion Fund, IHF, 657, 0xaf1250fa68d7decd34fd75de8742bc03b29bd58e, 0.2590441016974945, 
+PolkaFoundry, PKF, 658, 0x8b39b70e39aa811b69365398e0aace9bee238aeb, 0.7979665145500656, polkadot-ecosystem launchpad duckstarter polkafoundry-red-kite icetea-labs vbc-ventures-portfolio
+Smart MFG, MFG, 660, 0x6710c63432a2de02954fc0f851db07146a6c0312, 0.09380201052124927, manufacturing logistics enterprise-solutions collectibles-nfts data-provenance defi iot payments smart-contracts
+Vesper, VSP, 662, 0x1b40183efb4dd766f11bda7a7c3ad8982e998421, 3.523596754472616, defi yield-farming yield-aggregator
+SingularityDAO, SDAO, 664, 0x993864e43caa7f7f12953ad6feb1d1ca635b875f, 1.012932640022057, defi poolz-finance-portfolio exnetwork-capital-portfolio cross-chain-dex-aggregator
+Hot Cross, HOTCROSS, 667, 0x4297394c20800e8a38a619a243e9bbe7681ff24e, 0.258804541584825, yield-farming binance-smart-chain mvb
+Ternoa, CAPS, 669, 0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2, 0.06625133364811614, ethereum-ecosystem polkadot-ecosystem
+Goldfinch, GFI, 670, 0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b, 5.757160130368696, 
+Dragonchain, DRGN, 671, 0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e, 0.07861857549321968, platform enterprise-solutions
+1eco, 1ECO, 673, 0x1af2eaeaf2b1d9dda800861268e6bbb3995a6c3b, 2.5243555659253225, 
+ZKSwap, ZKS, 674, 0xe4815ae53b124e7263f08dcdbbb757d41ed658c6, 0.14586508121881922, decentralized-exchange scaling amm layer-2 rollups
+Reserve, RSV, 675, 0x196f4727526eA7FB1e17b2071B3d8eAA38486988, 0.9978540148527981, defi stablecoin coinbase-ventures-portfolio
+Neutrino Token, NSBT, 676, 0x9d79d5b61de59d882ce90125b18f74af650acb93, 11.51142755767445, 
+Soda Coin, SOC, 677, 0xcaD49C39B72c37B32cEe8b14F33F316D3a8bC335, 0.01622967476967396, 
+USDK, USDK, 678, 0x1c48f86ae57291f7686349f12601910bd8d470bb, 0.9991238717115261, medium-of-exchange stablecoin asset-backed-stablecoin
+Impossible Decentralized Incubator Access, IDIA, 679, 0x0b15ddf19d47e6a86a56148fb4afffc6929bcb89, 0.6296573103165795, defi binance-smart-chain launchpad mvb moonriver-ecosystem
+EFFORCE, WOZX, 680, 0x34950ff2b487d9e5282c5ab342d08a2f712eb79f, 0.18038208006296969, energy
+Zigcoin, ZIG, 682, 0xb2617246d0c6c0087f18703d576831899ca94f01, 0.0668062478646766, asset-management marketplace platform okex-blockdream-ventures-portfolio
+Era Swap, ES, 683, 0xef1344bdf80bef3ff4428d8becec3eea4a2cf574, 0.028219884454841557, 
+QASH, QASH, 684, 0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6, 0.08030814211473827, marketplace discount-token payments
+Rainicorn, RAINI, 687, 0xeb953eda0dc65e3246f43dc8fa13f35623bdd5ed, 0.05691939080082217, binance-smart-chain
+Dora Factory, DORA, 688, 0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d, 6.99505979725439, dao substrate duckstarter bounce-launchpad okex-blockdream-ventures-portfolio
+StackOs, STACK, 689, 0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4, 0.07755955722160061, binance-smart-chain polygon-ecosystem web3
+Glitch, GLCH, 693, 0x038a68ff68c393373ec894015816e33ad41bd564, 0.34248160980094944, trustswap-launchpad polygon-ecosystem
+Moneytoken, IMT, 694, 0x13119e34e140097a507b07a5564bde1bc375d9e6, 0.002385269355996212, 
+BitForex Token, BF, 696, 0x5b71bee9d961b1b848f8485eec8d8787f80217f5, 0.006283093317946985, marketplace centralized-exchange payments
+Locus Chain, LOCUS, 697, 0xc64500dd7b0f1794807e67802f8abbf5f8ffb054, 0.030570497323655365, platform payments scaling
+DEXTools, DEXT, 698, 0xfb7b4564402e5500db5bb6d63ae671302777c75a, 0.26843834408156403, analytics
+Ariva, ARV, 699, 0x79c7ef95ad32dcd5ecadb231568bb03df7824815, 0.0004260725267030249, 
+BASIC, BASIC, 700, 0xf25c91c87e0b1fd9b4064af0f427157aab0193a7, 0.004102109242479543, 
+The Midas Touch Gold, TMTG, 702, 0x10086399dd8c1e3de736724af52587a2044c9fa2, 0.0029705601116527237, 
+CargoX, CXO, 704, 0xb6ee9668771a79be7967ee29a63d4184f8097143, 0.12701081022231786, logistics polygon-ecosystem
+NFTX, NFTX, 705, 0x87d73E916D7057945c9BcD8cdd94e42A6F47f776, 64.55894538908794, collectibles-nfts defi coinfund-portfolio
+Reflexer Ungovernance Token, FLX, 707, 0x6243d8cea23066d098a15582d81a598b4e8391f4, 153.60478525155344, defi derivatives smart-contracts asset-backed-stablecoin dao dapp pantera-capital-portfolio
+REVV, REVV, 708, 0x557b933a7c2c45672b610f8954a3deb39a51a8ca, 0.09180677122498715, collectibles-nfts gaming entertainment binance-smart-chain play-to-earn animoca-brands-portfolio
+Switcheo, SWTH, 711, 0xb4371da53140417cbb3362055374b10d97e420bb, 0.0153363215982327, cosmos-ecosystem decentralized-exchange defi derivatives binance-smart-chain three-arrows-capital-portfolio defiance-capital-portfolio
+Stratos, STOS, 715, 0x08c32b0726C5684024ea6e141C50aDe9690bBdcc, 1.2373757869036746, filesharing ethereum-ecosystem storage polkastarter web3
+Electric Vehicle Zone, EVZ, 716, 0x7a939bb714fd2a48ebeb1e495aa9aaa74ba9fa68, 0.05610406776502, 
+Sentivate, SNTVT, 717, 0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8, 0.0068766816686467195, iot
+Pendle, PENDLE, 721, 0x808507121b80c02388fad14726482e061b8da827, 0.2835357039261597, olympus-pro-ecosystem spartan-group
+ZEON, ZEON, 728, 0xe5b826ca2ca02f09c1725e9bd98d9a8874c30532, 0.0007702732654362054, 
+Student Coin, STC, 731, 0x15b543e986b8c34074dfc9901136d9355a537e7e, 0.004414059506735323, 
+Lossless, LSS, 730, 0x3b9be07d622accaed78f479bc0edabfd6397e320, 0.621235414468356, cybersecurity binance-smart-chain
+ELYSIA, EL, 734, 0x2781246fe707bb15cee3e5ea354e2154a2877b16, 0.007164494029827552, 
+Pawtocol, UPI, 736, 0x70d2b7c19352bb76e4409858ff5746e500f2b67c, 0.08947791923304482, 
+Xeno Token, XNO, 735, 0xc03a652efbbacfabde37cd66c7a4ff4332f7186c, 0.062130058440493276, collectibles-nfts
+Talken, TALK, 737, 0xcaabcaa4ca42e1d86de1a201c818639def0ba7a7, 0.37163860628780504, 
+Unisocks, SOCKS, 738, 0x23b608675a2b2fb1890d3abbd85c5775c51691d5, 75920.63356753513, collectibles-nfts defi
+NEST Protocol, NEST, 740, 0x04abeda201850ac0124161f037efd70c74ddc74c, 0.011290775732313957, defi oracles
+King DAG, KDAG, 742, 0x95e40e065afb3059dcabe4aaf404c1f92756603a, 0.4146767104733431, 
+Cellframe, CELL, 745, 0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099, 0.7813028113959354, zero-knowledge-proofs quantum-resistant scaling sharding exnetwork-capital-portfolio trustswap-launchpad
+MAP Protocol, MAP, 748, 0x9e976f211daea0d652912ab99b0dc21a7fd728e4, 0.01983883002238255, cross-chain
+Lotto, LOTTO, 752, 0xb0dFd28d3CF7A5897C694904Ace292539242f858, 0.01089185431461666, gambling gaming ethereum-ecosystem
+e-Money, NGM, 753, 0xed0d5747a9ab03a75fbfec3228cd55848245b75d, 1.10190389605362, cosmos-ecosystem avalanche-ecosystem polkastarter exnetwork-capital-portfolio vbc-ventures-portfolio
+ChainGuardians, CGG, 754, 0x1fe24f25b1cf609b9c4e7e12d802e3640dfa5e43, 0.4992763140845614, collectibles-nfts gaming polkastarter polygon-ecosystem play-to-earn skyvision-capital-portfolio
+OpenOcean, OOE, 756, 0x7778360f035c589fce2f4ea5786cbd8b36e5396b, 0.1448137536474309, centralized-exchange decentralized-exchange defi derivatives ethereum-ecosystem ontology-ecosystem tron-ecosystem binance-smart-chain heco-ecosystem binance-labs-portfolio avalanche-ecosystem solana-ecosystem cross-chain-dex-aggregator polygon-ecosystem fantom-ecosystem mvb okexchain-ecosystem okex-blockdream-ventures-portfolio
+Gemma Extending Tech, GXT, 761, 0x4674672bcddda2ea5300f5207e1158185c944bc0, 0.3081650982776666, collectibles-nfts
+Internxt, INXT, 764, 0x4a8f5f96d5436e43112c2fbc6a9f70da9e4e16d4, 18.849256609252226, distributed-computing filesharing iot storage
+Quiztok, QTCON, 770, 0xa00a4d5786a6e955e9539d01d78bf68f3271c050, 0.006539477086682255, 
+ASTA, ASTA, 772, 0xf2ddae89449b7d26309a5d54614b1fc99c608af5, 0.01127531310488492, ethereum-ecosystem
+Opacity, OPCT, 773, 0xDb05EA0877A2622883941b939f0bb11d1ac7c400, 0.25092618824733864, filesharing storage
+Ethereum Push Notification Service, PUSH, 776, 0xf418588522d5dd018b425E472991E52EBBeEEEEE, 1.3160663669462795, platform services defi interoperability dao ethereum-ecosystem governance binance-labs-portfolio polkastarter polygon-ecosystem web3
+GameCredits, GAME, 777, 0x63f88a2298a5c4aee3c216aa6d926b184a4b2437, 0.11014553077213433, collectibles-nfts gaming metaverse
+DXdao, DXD, 778, 0xa1d65e8fb6e87b60feccbc582f7f97804b725521, 406.29889828082787, defi dao governance polygon-ecosystem arbitrum-ecosytem
+Exeedme, XED, 779, 0xee573a945b01b788b9287ce062a0cfc15be9fd86, 0.3086376350550909, gambling gaming binance-smart-chain polkadot-ecosystem polkastarter polygon-ecosystem
+Crust Network, CRU, 780, 0x32a7C02e79c4ea1008dD6564b35F131428673c41, 6.472957811125114, distributed-computing filesharing substrate polkadot storage polkadot-ecosystem web3
+BLOCKv, VEE, 781, 0x340d2bde5eb28c1eed91b2f790723e3b160613b7, 0.00566019382808323, media enterprise-solutions collectibles-nfts content-creation
+GET Protocol, GET, 785, 0x8a854288a5976036a725879164ca3e91d30c6a1b, 1.6571554154089747, events collectibles-nfts
+Bitball Treasure, BTRS, 787, 0x73c9275c3a2dd84b5741fd59aebf102c91eb033f, 41.47508095645462, 
+Lattice Token, LTX, 788, 0xa393473d64d2F9F026B60b6Df7859A689715d092, 0.6417989910621948, defi interoperability yield-farming amm governance exnetwork-capital-portfolio
+Bankera, BNK, 789, 0xc80c5e40220172b36adee2c951f26f2a577810c5, 0.0007384793926164277, marketplace centralized-exchange payments smart-contracts
+DxChain Token, DX, 791, 0x973e52691176d36453868D9d86572788d27041A9, 0.0003571342742944998, ai-big-data payments
+Aventus, AVT, 792, 0x0d88ed6e74bbfd96b831231638b66c05571e824f, 2.9297996949227354, events enterprise-solutions loyalty ethereum-ecosystem layer-2
+BEPRO Network, BEPRO, 794, 0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a, 0.0025754618006777748, distributed-computing defi gaming dapp web3
+DeGate, DG, 795, 0x53c8395465a84955c95159814461466053dedede, 0.21295899988821623, 
+Gameswap, GSWAP, 798, 0xaac41ec512808d64625576eddd580e7ea40ef8b2, 1.5187049986925425, collectibles-nfts decentralized-exchange gaming yield-farming avalanche-ecosystem
+Dovu, DOV, 802, 0xac3211a5025414af2866ff09c23fc18bc97e79b1, 0.01797192194617909, binance-smart-chain
+MILC Platform, MLT, 804, 0x9506d37f70eB4C3d79C398d326C871aBBf10521d, 0.21133473052663665, media binance-smart-chain metaverse
+vEmpire DDAO, VEMP, 803, 0xcfeb09c3c5f0f78ad72166d55f9e6e9a60e96eec, 0.09617994278315284, metaverse
+PolkaBridge, PBR, 806, 0x298d492e8c1d909d3f63bc4a36c66c64acb3d695, 0.37918526421476567, decentralized-exchange defi yield-farming dex polkadot-ecosystem launchpad web3
+BABB, BAX, 807, 0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb, 0.00033243796333659435, platform payments
+Rubic, RBC, 808, 0xa4eed63db85311e22df4473f87ccfc3dadcfa3e3, 0.15189230361642814, defi binance-smart-chain
+BitKan, KAN, 809, 0x1410434b0346f5be678d0fb554e5c7ab620f8f4a, 0.001731397144523282, services content-creation
+Stakeborg DAO, STANDARD, 811, 0xda0c94c73d127ee191955fb46bacd7ff999b2bcd, 14.881956682660956, 
+Misbloc, MSB, 814, 0x84c722e6f1363e8d5c6db3ea600bef9a006da824, 0.12161087192949999, 
+GameZone, GZONE, 813, 0xb6adb74efb5801160ff749b1985fd3bd5000e938, 0.2532808563952242, gaming launchpad bluezilla
+GPEX, GPX, 817, 0x3e7804c51a70ba26e904c2e0ab440c5623a8a83f, 2.064261436040447, 
+K21, K21, 820, 0xb9d99c33ea2d86ec5ec6b8a4dd816ebba64404af, 1.1043356492489764, collectibles-nfts
+Dfyn Network, DFYN, 822, 0x9695e0114e12c0d3a3636fab5a18e6b737529023, 0.20127557521503434, amm algorand-ecosystem arbitrum-ecosytem
+HAPI Protocol, HAPI, 824, 0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54, 27.538703379651167, cybersecurity oracles binance-smart-chain dao-maker poolz-finance-portfolio hacken-foundation
+Arcblock, ABT, 826, 0xb98d4c97425d9908e66e53a6fdf673acca0be986, 0.15846868770211633, marketplace interoperability
+DSLA Protocol, DSLA, 827, 0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe, 0.002901143281839112, harmony-ecosystem
+GAMEE, GMEE, 828, 0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373, 0.11177469356696694, collectibles-nfts gaming polygon-ecosystem play-to-earn animoca-brands-portfolio
+Aurora, AOA, 829, 0x9ab165d795019b6d8b3e971dda91071421305e5a, 0.0015399034920007524, platform smart-contracts
+ADAPad, ADAPAD, 830, 0xdb0170e2d0c1cc1b2e7a90313d9b9afa4f250289, 0.13025409677796115, launchpad bluezilla
+DIGG, DIGG, 832, 0x798D1bE841a82a273720CE31c822C61a67a601C3, 30263.503935310404, defi rebase
+Curate, XCUR, 835, 0xE1c7E30C42C24582888C758984f6e382096786bd, 1.814412586673174, fashion retail marketplace collectibles-nfts defi e-commerce payments binance-smart-chain algorand-ecosystem
+EpiK Protocol, EPK, 837, 0xdaf88906ac1de12ba2b1d2f7bfc94e9638ac40c4, 0.11540912606118048, storage
+Pluton, PLU, 839, 0xd8912c10681d8b21fd3742244f44658dba12264e, 17.452675148528204, services payments
+GamerCoin, GHX, 840, 0x728f30fa2f100742c7949d1961804fa8e0b1387d, 0.042708980637846394, marketplace gaming
+Dacxi, DACXI, 848, 0xefab7248d36585e2340e5d25f8a8d243e6e3193f, 0.006224208055193067, 
+Oxygen, OXY, 849, 0x965697b4ef02f0de01384d0d4f9f782b1670c163, 0.3290779828431371, yield-farming solana-ecosystem
+saffron.finance, SFI, 851, 0xb753428af26e81097e7fd17f40c88aaa3e04902c, 157.00653473331087, defi yield-farming binance-smart-chain yield-aggregator coinbase-ventures-portfolio ledgerprime-portfolio multicoin-capital-portfolio fantom-ecosystem
+Etherisc DIP Token, DIP, 853, 0xc719d010b63e5bbf2c0551872cd5316ed26acd83, 0.07444186495275622, insurance
+Poseidon Network, QQQ, 854, 0x2822f6D1B2f41F93f33d937bc7d84A8Dfa4f4C21, 0.00648387024057084, 
+Deri Protocol, DERI, 855, 0xa487bf43cf3b10dffc97a9a744cbb7036965d3b9, 0.12960729743103389, decentralized-exchange defi derivatives binance-smart-chain options mvb
+Polychain Monsters, PMON, 857, 0x1796ae0b0fa4862485106a0de9b654eFE301D0b2, 4.120359310784118, collectibles-nfts gaming ethereum-ecosystem binance-smart-chain metaverse polygon-ecosystem play-to-earn
+Emirex Token, EMRX, 858, 0xbdbC2a5B32F3a5141ACd18C39883066E4daB9774, 0.5154857131533253, 
+smARTOFGIVING, AOG, 859, 0x8578530205cecbe5db83f7f29ecfeec860c297c2, 0.1879883146697356, 
+OneArt, 1ART, 860, 0xD3c325848D7c6E29b574Cb0789998b2ff901f17E, 0.1548031029029724, collectibles-nfts wallet binance-smart-chain hacken-foundation fantom-ecosystem nftb-launchpad
+IQeon, IQN, 861, 0x0db8d8b76bc361bacbb72e2c491e06085a97ab31, 2.5114347191394253, gaming entertainment
+dHedge DAO, DHT, 869, 0xca1207647ff814039530d7d35df0e1dd2e91fa84, 0.6005217210839625, decentralized-exchange defi dao three-arrows-capital-portfolio governance framework-ventures-portfolio alameda-research-portfolio
+Poolz Finance, POOLZ, 866, 0x69a95185ee2a045cdc4bcd1b1df10710395e4e23, 4.443158174046832, binance-smart-chain polkadot-ecosystem launchpad avalanche-ecosystem ferrum-network
+Signata, SATA, 870, 0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1, 0.36800916262110944, 
+AntiMatter Governance Token, MATTER, 873, 0x9B99CcA871Be05119B2012fd4474731dd653FEBe, 0.42227592497598226, decentralized-exchange defi derivatives dapp binance-smart-chain heco-ecosystem options polkastarter bounce-launchpad
+Life Crypto, LIFE, 877, 0x6c936D4AE98E6d2172dB18c16C4b601C99918EE6, 0.0024650215999012124, 
+0Chain, ZCN, 871, 0xb9ef770b6a5e12e45983c5d80545258aa38f3b78, 0.2739361278633342, platform ai-big-data distributed-computing filesharing iot storage
+Lithium, LITH, 880, 0x188e817b02e635d482ae4d81e25dda98a97c4a42, 0.00806319411302508, petrock-capital-portfolio okex-blockdream-ventures-portfolio
+Blockchain Monster Hunt, BCMC, 882, 0x2BA8349123de45E931a8C8264c332E6e9CF593F9, 0.5308277539597313, collectibles-nfts gaming metaverse play-to-earn bullperks-launchpad animoca-brands-portfolio skyvision-capital-portfolio
+Pickle Finance, PICKLE, 883, 0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5, 6.735291691226524, defi dao yield-farming yield-aggregator yearn-partnerships alameda-research-portfolio arbitrum-ecosytem
+Mirrored Apple, mAAPL, 888, 0xd36932143F6eBDEDD872D5Fb0651f4B72Fd15a84, 159.2280761966988, tokenized-stock
+Mirrored iShares Silver Trust, mSLV, 889, 0x9d1555d8cB3C846Bb4f7D5B1B1080872c3166676, 22.799889015755525, tokenized-stock
+Valor Token, VALOR, 886, 0x297e4e5e59ad72b1b0a2fd446929e76117be0e0a, 0.63679371102592, asset-management
+Polkamarkets, POLK, 890, 0xd478161c952357f05f0292b56012cd8457f1cfbf, 0.2630068044931095, defi prediction-markets polkadot polkastarter polygon-ecosystem
+Kylin, KYL, 891, 0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C, 0.08140863590115101, oracles polkadot polkadot-ecosystem polkastarter cms-holdings-portfolio exnetwork-capital-portfolio vbc-ventures-portfolio
+Niftyx Protocol, SHROOM, 893, 0xed0439eacf4c4965ae4613d77a5c2efe10e5f183, 0.24378133508094513, collectibles-nfts defi gaming dao yield-farming governance avalanche-ecosystem
+mStable Governance Token: Meta (MTA), MTA, 895, 0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2, 0.7158416424235632, defi dao yield-aggregator three-arrows-capital-portfolio governance defiance-capital-portfolio alameda-research-portfolio parafi-capital
+WELL, WELL, 896, 0x1b06B43f3b0bBAd73784d858c782e029F3F5Af14, 0.0904582833345665, centralized-exchange binance-smart-chain
+Nestree, EGG, 894, 0x65ccd72c0813ce6f2703593b633202a0f3ca6a0c, 0.0053995964096853945, 
+Santiment Network Token, SAN, 898, 0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098, 0.19529218545715366, asset-management ai-big-data crowdsourcing
+Torum, XTM, 903, 0xcd1faff6e578fa5cac469d2418c95671ba1a62fe, 0.233743436253285, platform communications-social-media collectibles-nfts defi ethereum-ecosystem yield-farming binance-smart-chain social-token launchpad wrapped-tokens metaverse huobi-capital-portfolio web3
+suterusu, SUTER, 904, 0xAA2ce7Ae64066175E0B90497CE7d9c190c315DB4, 0.0031693703351295646, mineable pos defi privacy binance-smart-chain fantom-ecosystem web3 mvb
+Cardstack, CARD, 906, 0x954b890704693af242613edef1b603825afcd708, 0.005145107689127266, 
+Umbrella Network, UMB, 907, 0x6fc13eace26590b80cccab1ba5d51890577d83b2, 0.16357577241109328, defi oracles binance-smart-chain polkastarter polygon-ecosystem bounce-launchpad
+Muse, MUSE, 908, 0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81, 23.737635453475086, collectibles-nfts
+Mirrored Tesla, mTSLA, 909, 0x21cA39943E91d704678F5D00b6616650F066fD63, 956.8136909020653, tokenized-stock
+Don-key, DON, 911, 0x217ddead61a42369a266f1fb754eb5d3ebadc88a, 0.27435208747613216, ethereum-ecosystem binance-smart-chain superstarter vbc-ventures-portfolio
+O3 Swap, O3, 914, 0xee9801669c6138e84bd50deb500827b776777d28, 0.3027128573221973, binance-smart-chain bounce-launchpad arbitrum-ecosytem mvb okex-blockdream-ventures-portfolio
+SENSO, SENSO, 915, 0xc19b6a4ac7c7cc24459f08984bbd09664af17bd1, 0.9666227128387507, metaverse
+Sarcophagus, SARCO, 917, 0x7697b462a7c4ff5f8b55bdbc2f4076c2af9cf51a, 0.753138699836001, 
+UniCrypt, UNCX, 918, 0xaDB2437e6F65682B85F814fBc12FeC0508A7B1D0, 427.4487476986168, ethereum-ecosystem yield-farming binance-smart-chain launchpad polygon-ecosystem
+Darwinia Network, RING, 920, 0x9469d013805bffb7d3debe5e7839237e535ec483, 0.022639521162622273, gaming interoperability substrate polkadot-ecosystem metaverse
+CONTRACOIN, CTCN, 927, 0xfd6c31bb6f05fc8db64f4b740ab758605c271fd8, 0.262644714694062, 
+WagyuSwap, WAG, 932, 0x7FA7dF4996AC59F398476892cfB195eD38543520, 0.20600889747938808, decentralized-exchange dex bluezilla
+Abyss, ABYSS, 933, 0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6, 0.048501951056581026, marketplace collectibles-nfts
+ParaSwap, PSP, 935, 0xcafe001067cdef266afb7eb5a286dcfd277f3de5, 0.1514972025919009, defi spartan-group
+ProBit Token, PROB, 936, 0xfb559ce67ff522ec0b9ba7f5dc9dc7ef6c139803, 0.26179454897180315, centralized-exchange
+SparkPoint, SRK, 938, 0x0488401c3f535193fa8df029d9ffe615a06e74e6, 0.0013091705424247107, binance-smart-chain
+Mirrored United States Oil Fund, mUSO, 939, 0x31c63146a635EB7465e5853020b39713AC356991, 60.041539072121594, tokenized-stock
+Mirrored Alibaba, mBABA, 940, 0x56aA298a19C93c6801FDde870fA63EF75Cc0aF72, 125.64691852841757, tokenized-stock
+AXIA Coin, AXC, 941, 0x37c430c2b5f9ff85e534873c715871818ab1623e, 8.161393587481673, 
+FOAM, FOAM, 947, 0x4946fcea7c692606e8908002e55a582af44ac121, 0.03398136191273272, platform cosmos-ecosystem ai-big-data placeholder-ventures-portfolio web3
+Mirrored Invesco QQQ Trust, mQQQ, 949, 0x13B02c8dE71680e71F0820c996E4bE43c2F57d15, 356.0033161506632, 
+MCDEX Token, MCB, 952, 0x4e352cf164e64adcbad318c3a1e222e9eba4ce42, 5.68995148711482, decentralized-exchange defi derivatives arbitrum-ecosytem mvb okex-blockdream-ventures-portfolio
+Project WITH, WIKEN, 951, 0xb7e77aebbe0687d2eff24cc90c41a3b6ea74bdab, 0.012397579264291433, 
+PulsePad, PLSPAD, 953, 0x8a74bc8c372bc7f0e9ca3f6ac0df51be15aec47a, 0.06361512036581314, launchpad bluezilla
+Arianee, ARIA20, 955, 0xedf6568618a00c6f0908bf7758a16f76b6e04af9, 0.38901112611360267, 
+Anchor, ANCT, 956, 0x5456bc77dd275c45c3c15f0cf936b763cf57c3b5, 0.8128, 
+Huobi Pool Token, HPT, 960, 0xa66daa57432024023db65477ba87d4e7f5f95213, 0.002216433537185216, 
+WOM Protocol, WOM, 964, 0xBd356a39BFf2cAda8E9248532DD879147221Cf76, 0.09928415457354556, 
+0xBitcoin, 0xBTC, 967, 0xb6ed7644c69416d67b522e20bc294a9a9b405b31, 1.7666151693345764, mineable
+Visor.Finance, VISR, 968, 0xf938424f7210f31df2aee3011291b658f872e91e, 0.33778393543043045, collectibles-nfts spartan-group
+Convergence, CONV, 970, 0xc834fa996fa3bec7aad3693af486ae53d8aa8b50, 0.006078176305820827, decentralized-exchange yield-farming dex polkadot-ecosystem polkastarter cms-holdings-portfolio alameda-research-portfolio pantera-capital-portfolio okex-blockdream-ventures-portfolio
+Bithao, BHAO, 969, 0x6d7c7d764d6f1DFa256C74AbB4C4d7861d8EE64C, 0.18703184176614468, 
+Tokenomy, TEN, 973, 0xdd16ec0f66e54d453e6756713e533355989040e4, 0.05041281830865087, marketplace
+Mirrored Microsoft, mMSFT, 977, 0x41BbEDd7286dAab5910a1f15d12CBda839852BD7, 300.6492292018022, 
+DAFI Protocol, DAFI, 980, 0xfc979087305a826c2b2a0056cfaba50aad3e6439, 0.0182432226452108, defi dao-maker polygon-ecosystem
+Mogul Productions, STARS, 981, 0xc55c2175e90a46602fd42e931f62b3acc1a013ca, 0.03209556551977415, collectibles-nfts crowdfunding entertainment binance-smart-chain metaverse
+Mirrored Amazon, mAMZN, 988, 0x0cae9e4d663793c2a2A0b211c1Cf4bBca2B9cAa7, 2927.440435204716, 
+TE-FOOD, TONE, 985, 0x2ab6bb8408ca3199b8fa6c92d5b455f820af03c4, 0.017088291587732604, logistics data-provenance
+Skey Network, SKEY, 990, 0x06a01a4d579479dd5d884ebf61a31727a3d8d442, 0.05250576828673697, 
+Tranche Finance, SLICE, 991, 0x0aee8703d34dd9ae107386d3eff22ae75dd616d1, 0.4746149457534304, defi spartan-group
+MahaDAO, MAHA, 992, 0xb4d930279552397bba2ee473229f89ec245bc365, 3.0723645296329933, polkastarter polygon-ecosystem
+Rangers Protocol, RPG, 995, 0x0E5C8C387C5EBa2eCbc137aD012aeD5Fe729e251, 12.25699742358028, ethereum-ecosystem binance-smart-chain polkastarter pantera-capital-portfolio vbc-ventures-portfolio
+CWV Chain, CWV, 996, 0xed494c9e2f8e34e53bdd0ea9b4d80305cb15c5c2, 0.002642592479022013, platform payments smart-contracts
+Shopping, SPI, 999, 0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7, 10.526438469602388, e-commerce binance-smart-chain
+HoDooi.com, HOD, 1000, 0xce16a802725438af9b4dcac00e7791e3d890e3b4, 0.045535645926898564, binance-smart-chain
+Agoras: Currency of Tau, AGRS, 1002, 0x738865301a9b7dd80dc3666dd48cf034ec42bdda, 0.5104033648423995, 
+Dentacoin, DCN, 1004, 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6, 0.00001557265876238782, health
+Vidya, VIDYA, 1005, 0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30, 0.2230632167737128, collectibles-nfts gaming
+Public Mint, MINT, 1008, 0x0CDF9acd87E940837ff21BB40c9fd55F68bba059, 0.11147995704585863, polkastarter
+Tokamak Network, TON, 1006, 0x2be5e8c109e2197D077D13A82dAead6a9b3433C5, 3.330969032731603, 
+Atomic Wallet Coin, AWC, 1010, 0xad22f63404f7305e4713ccbd4f296f34770513f4, 0.850677924804649, cosmos-ecosystem
+BlockWallet, BLANK, 1013, 0x41a3dba3d677e573636ba691a70ff2d606c29666, 0.4604683957023226, polkastarter
+Finxflo, FXF, 1018, 0x8a40c222996f9f3431f63bf80244c36822060f12, 0.11228978540742621, binance-smart-chain polkastarter exnetwork-capital-portfolio
+Crypterium, CRPT, 1017, 0x08389495D7456E1951ddF7c3a1314A4bfb646d8B, 0.10863400510809039, services smart-contracts
+Global Coin Research, GCR, 1015, 0x6307b25a665efc992ec1c1bc403c38f3ddd7c661, 2.2181225202705144, 
+FREEdom Coin, FREE, 1016, 0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd, 8.925196824637813e-7, payments staking binance-smart-chain
+APY.Finance, APY, 1019, 0x95a4492F028aa1fd432Ea71146b433E7B4446611, 0.15214775165315045, defi yield-farming yield-aggregator alameda-research-portfolio exnetwork-capital-portfolio polygon-ecosystem
+FortKnoxster, FKX, 1037, 0x16484d73ac08d2355f466d448d2b79d2039f6ebb, 0.056435759097910466, 
+Sylo, SYLO, 1021, 0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4, 0.0035759126260023143, communications-social-media payments wallet polygon-ecosystem
+Bridge Mutual, BMI, 1022, 0x725c263e32c72ddc3a19bea12c5a0479a81ee688, 0.1341394734862184, insurance polkadot-ecosystem polkastarter exnetwork-capital-portfolio
+Oraichain Token, ORAI, 1023, 0x4c11249814f11b9346808179cf06e71ac328c1b5, 4.242408141427831, cosmos-ecosystem ai-big-data defi oracles binance-smart-chain
+Blocery, BLY, 1025, 0xf8aD7dFe656188A23e89da09506Adf7ad9290D5d, 0.02129902069276155, services logistics enterprise-solutions
+TrustVerse, TRV, 1028, 0x72955ecff76e48f2c8abcce11d54e5734d6f3657, 0.01329441679100248, 
+Mirrored Netflix, mNFLX, 1030, 0xC8d674114bac90148d11D3C1d33C61835a0F9DCD, 396.37143547882806, tokenized-stock
+apM Coin, APM, 1031, 0xc8c424b91d8ce0137bab4b832b7f7d154156ba6c, 0.023581255300488994, ethereum-ecosystem
+DuckDaoDime, DDIM, 1034, 0xfbeea1c75e4c4465cb2fccc9c6d6afe984558e20, 8.178855112569723, launchpad
+BaaSid, BAAS, 1036, 0x5d929AA919E489505CcAAd8A199619c6DCA0c2de, 0.0016425929862664097, 
+ZeroSwap, ZEE, 1038, 0x2eDf094dB69d6Dcd487f1B3dB9febE2eeC0dd4c5, 0.13243252622709473, defi binance-smart-chain launchpad exnetwork-capital-portfolio polygon-ecosystem
+Seascape Crowns, CWS, 1041, 0xac0104cca91d167873b8601d2e71eb3d4d8c33e0, 3.9134983136602006, collectibles-nfts gaming binance-smart-chain dao-maker play-to-earn
+Thorstarter, XRUNE, 1042, 0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c, 0.10378087267742801, launchpad
+Govi, GOVI, 1044, 0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107, 0.7774096213486715, defi derivatives
+Unicly CryptoPunks Collection, UPUNK, 1045, 0x8d2bffcbb19ff14a698c424fbcdcfd17aab9b905, 0.03292560551305605, 
+Taraxa, TARA, 1048, 0xf001937650bb4f62b57521824b2c20f5b91bea05, 0.006100779312360537, services
+unFederalReserve, eRSDL, 1051, 0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6, 0.01876053404535056, defi dao yield-farming governance lending-borowing
+Idavoll Network, IDV, 1047, 0x92ec47df1aa167806dfa4916d9cfb99da6953b8f, 0.009692201925243579, polkadot-ecosystem
+Gate, GATE, 1055, 0x9d7630adf7ab0b0cb00af747db76864df0ec82e4, 0.015002554152364546, 
+Xend Finance, XEND, 1058, 0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903, 0.10136635992392533, defi smart-contracts binance-smart-chain dao-maker exnetwork-capital-portfolio polygon-ecosystem
+Innovation Blockchain Payment, IBP, 1059, 0x7D14b842630cbc2530cB288109E5719e0C4d67d7, 0.04271924362315114, 
+Databroker, DTX, 1060, 0x765f0c16d1ddc279295c1a7c24b0883f62d33f75, 0.09432215707568717, 
+Paribus, PBX, 1061, 0xd528cf2e081f72908e086f8800977df826b5a483, 0.01571867460095321, 
+Mirrored Twitter, mTWTR, 1064, 0xEdb0414627E6f1e3F082DE65cD4F9C693D78CCA9, 36.46250384307447, tokenized-stock
+Strips Finance, STRP, 1065, 0x97872EAfd79940C7b24f7BCc1EADb1457347ADc9, 2.4090937387812486, mvb okex-blockdream-ventures-portfolio
+Anchor Neural World, ANW, 1073, 0x7dbdd9dafdc4c1c03d67925a4f85daa398af32b0, 0.027964525267393334, 
+Juggernaut, JGN, 1066, 0x73374ea518de7addd4c2b624c0e8b113955ee041, 0.1975168751457087, collectibles-nfts binance-smart-chain metaverse
+Receive Access Ecosystem, RAE, 1067, 0xE5a3229CCb22b6484594973A03a3851dCd948756, 1.26153135529226, 
+Ispolink, ISP, 1068, 0xc8807f0f5ba3fa45ffbdc66928d71c5289249014, 0.003046211763148812, 
+Dogs Of Elon, DOE, 1069, 0xf8e9f10c22840b613cda05a0c5fdb59a4d6cd7ef, 0.04046137554404019, marketplace collectibles-nfts memes doggone-doggerel
+UpBots, UBXT, 1072, 0x8564653879a18C560E7C0Ea0E084c516C62F5653, 0.018775517366741077, 
+Ferrum Network, FRM, 1074, 0xe5caef4af8780e59df925470b050fb23c43ca68c, 0.10015106577534377, defi ferrum-network
+ETHPad, ETHPAD, 1075, 0x8dB1D28Ee0d822367aF8d220C0dc7cB6fe9DC442, 0.038498987838738515, binance-smart-chain launchpad bluezilla
+ExNetwork Token, EXNT, 1077, 0xD6c67B93a7b248dF608a653d82a100556144c5DA, 0.12055760980954526, exnetwork-capital-portfolio
+GAMB, GMB, 1078, 0xa0008f510fe9ee696e7e320c9e5cbf61e27791ee, 0.0015167830031859232, 
+AXIS Token, AXIS, 1079, 0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28, 0.0235708000164903, ethereum-ecosystem
+AnRKey X, $ANRX, 1080, 0xcae72a7a0fd9046cf6b165ca54c9e3a3872109e0, 0.06272980427894634, collectibles-nfts gaming binance-smart-chain dao-maker exnetwork-capital-portfolio polygon-ecosystem
+Lith Token, LITH, 1082, 0xf8a4a419c2d7140e49ef952a7e7ae1bd4a8b6b9c, 0.0013629138940511195, 
+Cirus Foundation, CIRUS, 1084, 0xa01199c61841fce3b3dafb83fefc1899715c8756, 0.22036612274392767, 
+Robonomics.network, XRT, 1090, 0x7de91b204c1c737bcee6f000aaa6569cf7061cb7, 6.792771318636338, iot polkadot-ecosystem
+ROOBEE, ROOBEE, 1091, 0xa31b1767e09f842ecfd4bc471fe44f830e3891aa, 0.0028115953646947276, binance-smart-chain
+Graviton, GTON, 1092, 0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d, 1.9733521145235926, binance-smart-chain fantom-ecosystem
+BnkToTheFuture, BFT, 1093, 0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f, 0.009723014278437624, services crowdfunding
+DeFiner, FIN, 1094, 0x054f76beed60ab6dbeb23502178c52d6c5debe40, 0.09850608598673699, defi lending-borowing dao-maker
+TenX, PAY, 1095, 0xb97048628db6b661d4c2aa833e95dbe1a905b280, 0.0344871177973966, medium-of-exchange fenbushi-capital-portfolio kenetic-capital-portfolio
+Covesting, COV, 1097, 0xada86b1b313d1d5267e3fc0bb303f0a2b66d0ea7, 0.4164549874918638, asset-management binance-smart-chain
+TOP, TOP, 1099, 0xdcD85914b8aE28c1E62f1C488E1D968D5aaFfE2b, 0.001275056674380415, 
+MAPS, MAPS, 1096, 0x2b915b505c017abb1547aa5ab355fbe69865cc6d, 0.16534598391328398, solana-ecosystem cms-holdings-portfolio alameda-research-portfolio web3
+Empty Set Dollar, ESD, 1102, 0x36f3fd68e7325a35eb768f1aedaae9ea0689d723, 0.0156352409588745, defi rebase seigniorage
+Kromatika, KROM, 1103, 0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789, 0.08684812186831992, 
+CoinMerge (ERC-20), CMERGE, 1107, 0xc48b4814faed1ccc885dd6fde62a6474aecbb19a, 0.001531238445206857, 
+ArdCoin, ARDX, 1108, 0xb8e2e2101ed11e9138803cd3e06e16dd19910647, 0.024861773309151042, 
+Degenerator Meme, MEME, 1109, 0xd5525d397898e5502075ea5e830d8914f6f0affe, 246.43960722672824, collectibles-nfts yield-farming
+Morpheus Labs, MITX, 1111, 0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6, 0.014626347701270163, platform enterprise-solutions
+Oddz, ODDZ, 1113, 0xCd2828fc4D8E8a0eDe91bB38CF64B1a81De65Bf6, 0.14523781747157444, binance-smart-chain polkastarter exnetwork-capital-portfolio polygon-ecosystem
+LABS Group, LABS, 1115, 0x8b0e42f366ba502d787bb134478adfae966c8798, 0.0032564213639222333, real-estate collectibles-nfts duckstarter poolz-finance-portfolio exnetwork-capital-portfolio
+TriumphX, TRIX, 1116, 0x056354F3Ff20743aa4c0DA365603871c7000b081, 0.0025059194912050342, marketplace platform collectibles-nfts
+Kattana, KTN, 1118, 0x491e136ff7ff03e6ab097e54734697bb5802fc1c, 3.301376844793099, binance-smart-chain
+88mph, MPH, 1119, 0x8888801af4d980682e47f1a9036e589479e835c5, 15.535194462903323, defi yield-farming yield-aggregator
+TOWER, TOWER, 1123, 0x1c9922314ed1415c95b9fd453c3818fd41867d0b, 0.027887948712271276, collectibles-nfts gaming entertainment governance metaverse animoca-brands-portfolio
+NFT, NFT, 1126, 0xcB8d1260F9c92A3A545d409466280fFdD7AF7042, 0.17915906913591734, collectibles-nfts dao governance
+iMe Lab, LIME, 1128, 0x9d0b65a76274645b29e4cc41b8f23081fa09f4a3, 0.04159202573100812, communications-social-media defi payments wallet ethereum-ecosystem binance-smart-chain
+Nord Finance, NORD, 1129, 0x6e9730ecffbed43fd876a264c982e254ef05a0de, 1.6814127431565393, polkastarter exnetwork-capital-portfolio polygon-ecosystem
+Furucombo, COMBO, 1132, 0xfFffFffF2ba8F66D4e51811C5190992176930278, 0.22211370905366984, defi
+CBC.network, CBC, 1133, 0x26DB5439F651CAF491A87d48799dA81F191bDB6b, 0.041142890893913486, gambling ethereum-ecosystem binance-smart-chain
+PECULIUM (old), PCL, 1136, 0x0f02e27745e3b6e9e1310d19469e2b5d7b5ec99a, 0.002981321245777718, 
+Attila, ATT, 1137, 0x89Fb927240750c1B15d4743cd58440fc5f14A11C, 0.014066552234595001, 
+Linker Coin, LNC, 1138, 0x6BEB418Fc6E1958204aC8baddCf109B8E9694966, 0.05589724885668273, 
+Project TXA, TXA, 1139, 0x4463e6A3dEd0dBE3F6e15bC8420dFc55e5FeA830, 2.4479315263660175, 
+SafeMoon Inu, SMI, 1141, 0xCd7492db29E2ab436e819b249452EE1bbDf52214, 0.000006240710821870258, collectibles-nfts gaming memes ethereum-ecosystem doggone-doggerel play-to-earn
+Genaro Network, GNX, 1142, 0x6ec8a24cabdc339a06a172f8223ea557055adaa5, 0.009566385191994268, mineable platform distributed-computing
+Geeq, GEEQ, 1145, 0x6b9f031d718dded0d681c20cb754f97b3bb81b78, 0.5080879541703235, logistics collectibles-nfts iot
+Decentr, DEC, 1147, 0x30f271c9e86d2b7d00a6376cd96a1cfbd5f0b9b3, 0.06150973942886238, cosmos-ecosystem defi
+Bao Finance, BAO, 1148, 0x374cb8c27130e2c9e04f44303f3c8351b9de61c1, 0.0001794504504320858, yield-farming alameda-research-portfolio
+Phantasma Energy, KCAL, 1149, 0x14eb60f5f270b059b0c788de0ddc51da86f8a06d, 0.08499024726307194, collectibles-nfts
+SwftCoin, SWFTC, 1150, 0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e, 0.0015153282904801445, marketplace collectibles-nfts defi interoperability payments binance-smart-chain
+Swash, SWASH, 1151, 0xa130e3a33a4d84b04c3918c4e5762223ae252f80, 0.04966324354520844, 
+Basid Coin, BASID, 1152, 0xe33f363351186e185470f35F6DeB94ABa44347D8, 0.007031780282878016, 
+Mysterium, MYST, 1153, 0x4Cf89ca06ad997bC732Dc876ed2A7F26a9E7f361, 0.29918365809036773, platform distributed-computing
+XY Finance, XY, 1156, 0x77777777772cf0455fB38eE0e75f38034dFa50DE, 1.3006776079548683, 
+APIX, APIX, 1159, 0xf51EBf9a26DbC02B13F8B3a9110dac47a4d62D78, 0.0479128582302937, 
+CyberFi Token, CFi, 1161, 0x63b4f3e3fa4e438698ce330e365e831f7ccd1ef4, 2.956390340011797, defi launchpad polygon-ecosystem
+Bird.Money, BIRD, 1164, 0x70401dfd142a16dc7031c56e862fc88cb9537ce0, 60.39481416950304, oracles
+ARMOR, ARMOR, 1166, 0x1337def16f9b486faed0293eb623dc8395dfe46a, 0.03254710636944821, defi insurance
+Bondly, BONDLY, 1167, 0x91dfbee3965baaee32784c2d546b7a0c62f268c9, 0.05480883650238577, collectibles-nfts defi binance-smart-chain polkadot-ecosystem polygon-ecosystem cardano-ecosystem animoca-brands-portfolio ferrum-network okex-blockdream-ventures-portfolio
+Konomi Network, KONO, 1170, 0x850aAB69f0e0171A9a49dB8BE3E71351c8247Df4, 0.13730194329680298, asset-management polkastarter exnetwork-capital-portfolio okex-blockdream-ventures-portfolio
+OIN Finance, OIN, 1171, 0x9aeB50f542050172359A0e1a25a9933Bc8c01259, 0.170347608884919, avalanche-ecosystem exnetwork-capital-portfolio polygon-ecosystem
+RocketX, RVF, 1172, 0xdc8af07a7861bedd104b8093ae3e9376fc8596d2, 0.08579703536982036, duckstarter ferrum-network
+CACHE Gold, CGT, 1174, 0xf5238462e7235c7b62811567e63dd17d12c2eaa0, 59.01768953098986, 
+DeFi Yield Protocol, DYP, 1175, 0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17, 0.28424475018940765, defi binance-smart-chain avalanche-ecosystem
+1irstcoin, FST, 1176, 0x310c93dfc1c5e34cdf51678103f63c41762089cd, 0.13776718815788705, services
+Swingby, SWINGBY, 1179, 0x8287c7b963b405b7b8d467db9d79eec40625b13a, 0.017953923386792716, defi polygon-ecosystem
+Jigstack, STAK, 1181, 0x1f8a626883d7724dbd59ef51cbd4bf1cf2016d13, 0.0030842126823065184, dao
+Mobilian Coin, MBN, 1182, 0xaf80951201a0eff85a0fd3adf4c7043db856d3e6, 0.03748238625420987, 
+DEXA COIN, DEXA, 1183, 0x725440512cb7b78bf56b334e50e31707418231cb, 0.0002096357976477097, 
+Eden, EDEN, 1186, 0x1559fa1b8f28238fd5d76d9f434ad86fd20d1559, 0.39416750208075607, exnetwork-capital-portfolio
+Hakka.Finance, HAKKA, 1187, 0x0e29e5abbb5fd88e28b2d355774e73bd47de3bcd, 0.015093822764625156, defi dao binance-smart-chain governance
+TFL.io, TFL, 1188, 0xa7f976c360ebbed4465c2855684d1aae5271efa9, 0.8234385241623552, gambling
+Idle, IDLE, 1189, 0x875773784Af8135eA0ef43b5a374AaD105c5D39e, 1.3807580432498003, asset-management defi dao yield-farming yield-aggregator governance
+Gather, GTH, 1191, 0xeb986DA994E4a118d5956b02d8b7c3C7CE373674, 0.05048329447262485, platform collectibles-nfts masternodes smart-contracts staking governance
+EvidenZ, BCDT, 1190, 0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5, 0.13177820523516015, binance-smart-chain
+Fenerbahçe Token, FB, 1192, 0xfb19075d77a0f111796fb259819830f4780f1429, 2.331310193360599, sports fan-token
+LuaSwap, LUA, 1193, 0xB1f66997A5760428D3a87D68b90BfE0aE64121cC, 0.036959339355287266, decentralized-exchange defi yield-farming amm
+Monolith, TKN, 1195, 0xaaaf91d9b90df800df4f55c205fd6989c977e73a, 0.14956903193211396, services defi
+Olyseum, OLY, 1198, 0x6595b8fd9c920c81500dca94e53cdc712513fb1f, 0.003966108717353427, events collectibles-nfts loyalty entertainment reputation social-token
+Onooks, OOKS, 1199, 0x69d9905b2e5f6f5433212b7f3c954433f23c1572, 0.4522749176055019, real-estate e-commerce social-money metaverse
+AMLT, AMLT, 1201, 0xca0e7269600d353f70b14ad118a49575455c0f2f, 0.01236816904100419, 
+Dotmoovs, MOOV, 1203, 0x24ec2ca132abf8f6f8a6e24a1b97943e31f256a7, 0.009703586795085612, gambling gaming binance-smart-chain metaverse polkastarter play-to-earn
+Spiking, SPIKE, 1206, 0xa7fc5d2453e3f68af0cc1b78bcfee94a1b293650, 0.010722179244910207, 
+Jobchain, JOB, 1207, 0xdfbc9050f5b01df53512dcc39b4f2b2bbacd517a, 0.0005186382970472424, 
+Levolution, LEVL, 1210, 0x09970aec766b6f3223aca9111555e99dc50ff13a, 0.03609803984970663, 
+Pawthereum, PAWTH, 1211, 0xaecc217a749c2405b5ebc9857a16d58bdc1c367f, 0.005770579328605654, 
+Tiger King, TKING, 1214, 0x24e89bdf2f65326b94e36978a7edeac63623dafa, 0.0000072104481697539425, defi
+DOSE, DOSE, 1217, 0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515, 0.0884797556156778, health collectibles-nfts animoca-brands-portfolio skyvision-capital-portfolio
+NaPoleonX, NPX, 1219, 0x28b5e12cce51f15594b0b91d5b5adaa70f684a02, 0.1800765397024175, asset-management smart-contracts
+CoverCompared, CVR, 1222, 0x3c03b4ec9477809072ff9cc9292c9b25d4a8e6c6, 0.06739783707718454, substrate polkadot polkadot-ecosystem polkastarter exnetwork-capital-portfolio
+Opium, OPIUM, 1227, 0x888888888889c00c67689029d7856aac1065ec11, 1.069844893294823, defi derivatives dao insurance governance cms-holdings-portfolio kenetic-capital-portfolio alameda-research-portfolio polygon-ecosystem
+Razor Network, RAZOR, 1230, 0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd, 0.024294606802879294, oracles insurance algorand-ecosystem exnetwork-capital-portfolio polygon-ecosystem
+ALLY, ALY, 1229, 0x9d5686eadea7327f5a0c4820dca90457a0e88763, 0.0019313288045477292, 
+Duck DAO (DLP Duck Token), DUCK, 1233, 0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f, 0.1413667897714922, 
+Nabox, NABOX, 1236, 0x03d1e72765545729a035e909edd9371a405f77fb, 0.00003514839131456157, binance-smart-chain okex-blockdream-ventures-portfolio
+Hedget, HGET, 1237, 0x7968bc6a03017ea2de509aaa816f163db0f35148, 2.4987216206753553, decentralized-exchange defi derivatives options alameda-research-portfolio exnetwork-capital-portfolio chromia-ecosystem
+Hord, HORD, 1240, 0x43a96962254855f16b925556f9e97be436a43448, 0.05337465398869991, collectibles-nfts defi governance dao-maker
+ACENT, ACE, 1239, 0xec5483804e637d45cde22fa0869656b64b5ab1ab, 0.03608691289077228, web3
+Polytrade, TRADE, 1241, 0x6e5970DBd6fc7eb1f29C6D2eDF2bC4c36124C0C1, 0.45192422492205964, 
+BOLT, BOLT, 1243, 0xd5930c307d7395ff807f2921f12c5eb82131a789, 0.00434421041444652, 
+Graphlinq Protocol, GLQ, 1244, 0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24, 0.012592760122011798, platform ai-big-data enterprise-solutions analytics polygon-ecosystem
+CyberVein, CVT, 1245, 0xbe428c3867f05dea2a89fc76a102b544eac7f772, 0.004002715056610076, 
+FairGame, FAIR, 1248, 0x9b20dabcec77f6289113e61893f7beefaeb1990a, 0.00436011649970988, 
+Equalizer, EQZ, 1247, 0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0, 0.11681312520565842, defi ethereum-ecosystem binance-smart-chain lending-borowing exnetwork-capital-portfolio
+Tixl, TXL, 1252, 0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41, 0.0621238683528671, binance-smart-chain
+AAX Token, AAB, 1254, 0x686c650dbcfeaa75d09b883621ad810f5952bd5d, 0.5528941290284747, 
+HEROcoin, PLAY, 1256, 0xe477292f1b3268687a29376116b0ed27a9c76170, 0.016656980367668297, gambling gaming
+Unido EP, UDO, 1255, 0xea3983fc6d0fbbc41fb6f6091f68f3e08894dc06, 0.07910380895203217, polkadot-ecosystem polkastarter
+ClinTex CTi, CTI, 1257, 0x8c18d6a985ef69744b9d57248a45c0861874f244, 0.03261958792357493, binance-smart-chain
+ZBG Token, ZT, 1258, 0xfe39e6a32acd2af7955cb3d406ba2b55c901f247, 0.015387095981434413, 
+BOX Token, BOX, 1261, 0xe1A178B681BD05964d3e3Ed33AE731577d9d96dD, 0.040493348500174754, 
+Fear, FEAR, 1262, 0x88a9a52f944315d5b4e917b9689e65445c401e83, 0.6173507104341546, collectibles-nfts gaming metaverse play-to-earn
+Breezecoin, BRZE, 1263, 0x77c07555af5ffdc946fb47ce15ea68620e4e7170, 0.02238562536128708, 
+Stream Protocol, STPL, 1264, 0x9b5C2BE869a19e84BDBcb1386dAD83a2ec8DAe82, 0.014903178638652642, 
+Cook Protocol, COOK, 1266, 0xff75ced57419bcaebe5f05254983b013b0646ef5, 0.004814920800737181, asset-management defi duckstarter poolz-finance-portfolio
+Vabble, VAB, 1268, 0xe7ae6d0c56cacaf007b7e4d312f9af686a9e9a04, 0.008184196773575722, 
+Brokoli Network, BRKL, 1272, 0x4674a4F24C5f63D53F22490Fb3A08eAAAD739ff8, 0.1685119692467778, 
+Polker, PKR, 1273, 0x001a8ffcb0f03e99141652ebcdecdb0384e3bd6c, 0.05679550017012758, collectibles-nfts gaming binance-smart-chain metaverse play-to-earn bullperks-launchpad
+UniLayer, LAYER, 1274, 0x0fF6ffcFDa92c53F615a4A75D982f399C989366b, 0.15579917693438028, collectibles-nfts decentralized-exchange defi
+QuadrantProtocol, EQUAD, 1277, 0xc28e931814725bbeb9e670676fabbcb694fe7df2, 0.009321141848723406, binance-smart-chain
+Hyve, HYVE, 1278, 0xd794DD1CAda4cf79C9EebaAb8327a1B0507ef7d4, 0.15053424344735142, ethereum-ecosystem binance-smart-chain exnetwork-capital-portfolio
+Tokoin, TOKO, 1279, 0xa0f0546eb5e3ee7e8cfc5da12e5949f3ae622675, 0.021467613603783377, 
+1-UP Platform, 1-UP, 1286, 0xC86817249634ac209bc73fCa1712bBd75E37407d, 0.06592551649062833, 
+Bone ShibaSwap, BONE, 1287, 0x9813037ee2218799597d83D4a5B6F3b6778218d9, 0.5401064734786452, 
+Kambria, KAT, 1288, 0x14da230d6726C50F759Bc1838717F8CE6373509C, 0.0017213429303837753, polygon-ecosystem
+NFT Index, NFTI, 1290, 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c, 1686.3441665388152, collectibles-nfts
+YAM V3, YAM, 1291, 0x0aacfbec6a24756c20d41914f2caba817c0d8521, 0.2860317118979815, dao insurance yield-farming governance synthetics
+NANJCOIN, NANJ, 1292, 0xffe02ee4c69edf1b340fcad64fbd6b37a7b9e265, 0.00019185234385733443, 
+SaTT, SATT, 1295, 0xDF49C9F599A0A9049D97CFF34D0C30E468987389, 0.001138024053088271, binance-smart-chain
+YF Link, YFL, 1296, 0x28cb7e841ee97947a86B06fA4090C8451f64c0be, 71.65786471006982, defi dao yield-farming governance
+Impossible Finance, IF, 1297, 0xb0e1fc65c1a741b4662b813eb787d369b8614af1, 0.6108853211287402, decentralized-exchange defi binance-smart-chain dex
+Chronicle, XNL, 1299, 0x06a00715e6f92210af9d7680b584931faf71a833, 0.18748676584816096, platform collectibles-nfts metaverse dao-maker
+MASQ, MASQ, 1300, 0x06f3c323f0238c72bf35011071f2b5b7f43a054c, 0.14521759725952585, 
+Plasma Finance, PPAY, 1301, 0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2, 0.02892356857972612, defi ethereum-ecosystem binance-smart-chain governance exnetwork-capital-portfolio polygon-ecosystem
+Portion, PRT, 1303, 0x6D0F5149c502faf215C89ab306ec3E50b15e2892, 0.008773888673586052, collectibles-nfts binance-smart-chain
+Hiveterminal Token, HVN, 1304, 0xC0Eb85285d83217CD7c891702bcbC0FC401E2D9D, 0.007072551951005599, 
+Ryoshi Token, RYOSHI, 1305, 0x9ac59862934ebc36072d4d8ada37c62373a13856, 1.2477874212176303e-8, binance-smart-chain
+BlockBank, BBANK, 1307, 0xf4b5470523ccd314c6b9da041076e7d79e0df267, 0.04339510102736283, 
+All Sports, SOC, 1309, 0x2d0e95bd4795d7ace0da3c0ff7b706a5970eb9d3, 0.0023357903869017623, sports
+Effect Network, EFX, 1310, 0x9b917d94fb0138edf520332f3d45494f1a74bec8, 0.013651907103218536, 
+Edgeless, EDG, 1311, 0x08711d3b02c8758f2fb3ab4e80228418a7f8e39c, 0.02809556384137072, gambling coinbase-ventures-portfolio framework-ventures-portfolio hashkey-capital-portfolio ledgerprime-portfolio
+S4FE, S4F, 1312, 0xaec7d1069e3a914a3eb50f0bfb1796751f2ce48a, 0.003820592150515922, platform enterprise-solutions
+Coreto, COR, 1317, 0x9C2dc0c3CC2BADdE84B0025Cf4df1c5aF288D835, 0.014826397827621416, 
+PieDAO DOUGH v2, DOUGH, 1318, 0xad32A8e6220741182940c5aBF610bDE99E737b2D, 0.22813572484684497, defi dao yield-farming governance
+SpaceChain, SPC, 1319, 0x86ed939b500e121c0c5f493f399084db596dad20, 0.010883921895866672, 
+Bibox Token, BIX, 1321, 0xb3104b4b9da82025e8b9f8fb28b3553ce2f67069, 0.03894528670079893, marketplace centralized-exchange discount-token algorand-ecosystem
+Float Protocol (Bank), BANK, 1324, 0x24a6a37576377f63f194caa5f518a60f45b42921, 22.538480383397964, olympus-pro-ecosystem
+Iconic Token, ICNQ, 1323, 0xb3e2cb7cccfe139f8ff84013823bf22da6b6390a, 0.3331582098232518, 
+Rotharium, RTH, 1327, 0x3fd8f39a962efda04956981c31ab89fab5fb8bc8, 0.8958085442618559, 
+Unicly Hashmasks Collection, UMASK, 1332, 0x5872e64c3f93363822d2b1e4717be3398fdcea51, 0.03202874094600443, collectibles-nfts
+OctoFi, OCTO, 1333, 0x7240aC91f01233BaAf8b064248E80feaA5912BA3, 4.008129396805649, decentralized-exchange defi dao yield-farming yield-aggregator governance
+Monavale, MONA, 1336, 0x275f5Ad03be0Fa221B4C6649B8AeE09a42D9412A, 338.7010825809695, collectibles-nfts metaverse
+VeriDocGlobal, VDG, 1337, 0x57C75ECCc8557136D32619a191fBCDc88560d711, 0.0003100850162795077, 
+Cappasity, CAPP, 1338, 0x11613b1f840bb5A40F8866d857e24DA126B79D73, 0.004778312639612279, vr-ar entertainment
+UnMarshal, MARSH, 1339, 0x5a666c7d92E5fA7Edcb6390E4efD6d0CDd69cF37, 0.44634449287320754, ai-big-data defi ethereum-ecosystem binance-smart-chain polkastarter polygon-ecosystem
+UREEQA, URQA, 1341, 0x1735Db6AB5BAa19eA55d0AdcEeD7bcDc008B3136, 0.11379960178834421, art media medium-of-exchange collectibles-nfts music payments timestamping video ferrum-network
+TrueFeedBack, TFBX, 1342, 0x4057db5bd9f67a566aa10e5587b1a964affc6a16, 0.0013336795025919383, 
+Tycoon, TYC, 1343, 0x3A82D3111aB5faF39d847D46023d9090261A658F, 0.03981519740309744, 
+Ruff, RUFF, 1346, 0xf278c1ca969095ffddded020290cf8b5c424ace2, 0.0031783399705126755, platform iot
+EXMO Coin, EXM, 1348, 0x83869de76b9ad8125e22b857f519f001588c0f62, 0.028877672806071637, 
+Spheroid Universe, SPH, 1350, 0xa0cf46eb152656c7090e769916eb44a138aaa406, 0.044534967343694165, vr-ar collectibles-nfts metaverse
+Egretia, EGT, 1351, 0x8e1b448ec7adfc7fa35fc2e885678bd323176e34, 0.0007289442976518664, 
+PlotX, PLOT, 1352, 0x72f020f8f3e8fd9382705723cd26380f8d0c66bb, 0.046307190788288544, prediction-markets dao-maker polygon-ecosystem
+Blockzero Labs, XIO, 1355, 0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704, 0.0832159992345654, 
+QuickX Protocol, QCX, 1356, 0xf9e5af7b42d31d51677c75bbbd37c1986ec79aee, 0.006094875989527938, 
+DiFy.Finance, YFIII, 1358, 0x4be40bc9681d0a7c24a99b4c92f85b9053fc2a45, 387.57598397218567, defi yield-farming
+Zap, ZAP, 1359, 0x6781a0f84c7e9e846dcb84a9a5bd49333067b104, 0.012653184602429254, defi oracles
+CumStar, CUMSTAR, 1360, 0xD7bCa643468C1B2141F3cB64D53Dd5Dc1138c9a0, 5.030214329152666e-9, binance-smart-chain
+Patron, PAT, 1361, 0xF3b3Cad094B89392fcE5faFD40bC03b80F2Bc624, 0.007517875258922486, 
+LiquidApps, DAPP, 1363, 0x939B462ee3311f8926c047D2B576C389092b1649, 0.004154335707088656, platform distributed-computing interoperability smart-contracts
+SunContract, SNC, 1365, 0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404, 0.02401340374566842, energy
+Standard Protocol, STND, 1364, 0x9040e237C3bF18347bb00957Dc22167D0f2b999d, 0.21954487996504193, defi oracles asset-backed-stablecoin dao ethereum-ecosystem substrate rebase polkadot-ecosystem governance cms-holdings-portfolio polygon-ecosystem
+PumaPay, PMA, 1366, 0x846c66cf71c43f80403b51fe3906b3599d63336f, 0.00009454650957443126, 
+Upfiring, UFR, 1367, 0xea097a2b1db00627b2fa17460ad260c016016977, 0.12234967801260029, media distributed-computing filesharing
+GENRE, GENRE, 1368, 0xA392c35EC6900346aDEc720Abe50413F48Ee5143, 0.5588218868685296, 
+Pillar, PLR, 1369, 0xe3818504c1b32bf1557b16c238b2e01fd3149c17, 0.011265476479152584, defi dao wallet governance
+VelasPad, VLXPAD, 1371, 0xb8e3bB633F7276cc17735D86154E0ad5ec9928C0, 0.2182198404224231, launchpad bluezilla
+Burency, BUY, 1378, 0x31fdd1c6607f47c14a2821f599211c67ac20fa96, 0.014719266055545738, 
+Formation Fi, FORM, 1379, 0x21381e026ad6d8266244f2a583b35f9e4413fa2a, 0.035732653535929235, binance-smart-chain
+8PAY, 8PAY, 1381, 0xFeea0bDd3D07eb6FE305938878C0caDBFa169042, 0.04724555439575449, ethereum-ecosystem binance-smart-chain
+SynchroBitcoin, SNB, 1383, 0x179e31fb25e433441a2839389a7b8ec9c4654b7b, 0.03530537586561911, 
+BOOM, BOOM, 1384, 0xdb7eab9ba6be88b869f738f6deeba96d49fe13fd, 0.0035986126560138424, 
+Cred, LBA, 1385, 0xfe5f141bf94fe84bc28ded0ab966c16b17490657, 0.002812624766042019, payments binance-labs-portfolio
+Autonio, NIOX, 1387, 0xc813EA5e3b48BEbeedb796ab42A30C5599b01740, 0.02944973757054375, asset-management decentralized-exchange defi payments dao polygon-ecosystem
+Ares Protocol, ARES, 1391, 0x358AA737e033F34df7c54306960a38d09AaBd523, 0.011986661560518969, oracles smart-contracts substrate polkadot-ecosystem duckstarter
+Big Data Protocol, BDP, 1390, 0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e, 0.07166862582506481, solana-ecosystem polygon-ecosystem web3
+Swarm Markets, SMT, 1394, 0xb17548c7b510427baac4e267bea62e800b247173, 0.08439236109530021, 
+Dogey-Inu, DINU, 1395, 0xbb1ee07d6c7baeb702949904080eb61f5d5e7732, 6.494331022076034e-9, memes doggone-doggerel
+LOCGame, LOCG, 1397, 0x60eb57d085c59932d5faa6c6026268a4386927d0, 0.05409632946882431, collectibles-nfts metaverse
+Whiteheart, WHITE, 1399, 0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44, 302.23972773911095, defi derivatives
+PayPie, PPP, 1401, 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0, 0.0323866794739236, marketplace smart-contracts
+Vanilla Network, VNLA, 1402, 0xB97FaF860045483E0C7F08c56acb31333084a988, 4.088607169378073, gambling defi gaming polygon-ecosystem
+NearPad, PAD, 1405, 0xea7cc765ebc94c4805e3bff28d7e4ae48d06468a, 0.6000095692607083, launchpad
+IG Gold, IGG, 1406, 0x8ffe40a3d0f80c0ce6b203d5cdc1a6a86d9acaea, 0.00029509901041237745, 
+Bezant, BZNT, 1408, 0xe1aee98495365fc179699c1bb3e761fa716bee62, 0.0029634100292413846, 
+Shard, SHARD, 1410, 0xbebdab6da046bc49ffbb61fbd7b33157eb270d05, 0.15078884886298302, asset-management defi wallet yield-farming amm binance-smart-chain governance
+SmartCredit Token, SMARTCREDIT, 1411, 0x72e9d9038ce484ee986fea183f8d8df93f9ada13, 1.9096148444731669, asset-management defi lending-borowing
+1World, 1WO, 1412, 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23, 0.06909158287770369, algorand-ecosystem
+Raze Network, RAZE, 1414, 0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC, 0.03263995275911319, ai-big-data defi privacy substrate polkadot binance-smart-chain polkadot-ecosystem duckstarter poolz-finance-portfolio polygon-ecosystem bounce-launchpad web3 vbc-ventures-portfolio okex-blockdream-ventures-portfolio
+Caspian, CSP, 1428, 0xa6446d655a0c34bc4f05042ee88170d056cbaf45, 0.005450631200349725, asset-management kenetic-capital-portfolio
+SmartMesh, SMT, 1415, 0x55f93985431fc9304077687a35a1ba103dc1e081, 0.0018996689482055952, iot
+Zenfuse, ZEFU, 1416, 0xb1e9157c2fdcc5a856c8da8b2d89b6c32b3c1229, 0.03864413712509167, binance-smart-chain
+Open Platform, OPEN, 1424, 0x9d86b1b2554ec410eccffbf111a6994910111340, 0.0023146915554874926, 
+ASKO, ASKO, 1425, 0xeEEE2a622330E6d2036691e983DEe87330588603, 0.01864999626494765, 
+Beyondfi, BYN, 1426, 0x4bb3205bf648b7f59ef90dee0f1b62f6116bc7ca, 0.2765284447264407, duckstarter exnetwork-capital-portfolio okex-blockdream-ventures-portfolio
+DAEX, DAX, 1429, 0x0b4bdc478791897274652dc15ef5c135cae61e60, 0.00689861818602, decentralized-exchange
+Cryptonovae, YAE, 1430, 0x4ee438be38f8682abb089f2bfea48851c5e71eaf, 0.05178373728946515, asset-management binance-smart-chain duckstarter
+TopBidder, BID, 1431, 0x00000000000045166c45af0fc6e4cf31d9e14b9a, 0.37514796239861303, collectibles-nfts
+Crowny, CRWNY, 1433, 0xdbddf072d7aae7b9288e31a4eebe6c54e3a143b1, 0.00806344970603441, marketplace solana-ecosystem exnetwork-capital-portfolio
+PowerTrade Fuel, PTF, 1439, 0xC57d533c50bC22247d49a368880fb49a1caA39F7, 0.10165811427876485, centralized-exchange defi derivatives insurance yield-farming options cms-holdings-portfolio framework-ventures-portfolio ledgerprime-portfolio pantera-capital-portfolio
+IoT Chain, ITC, 1440, 0x5e6b6d9abad9093fdc861ea1600eba1b355cd940, 0.02703516471715786, platform iot smart-contracts
+Fatcoin, FAT, 1443, 0x2ec95b8eda549b79a1248335a39d299d00ed314c, 0.02174610836500996, marketplace payments
+disBalancer, DDOS, 1444, 0x7fbec0bb6a7152e77c30d005b5d49cbc08a602c3, 0.4062100327501701, cybersecurity distributed-computing binance-smart-chain duckstarter poolz-finance-portfolio hacken-foundation
+Isiklar Coin, ISIKC, 1448, 0x42726d074BBa68Ccc15200442B72Afa2D495A783, 0.5555945887759003, 
+Adora Token, ARA, 1450, 0x9ac5c63ddcb93612e316ab31dfc8192bc8961988, 0.014156269017792409, 
+Leverj Gluon, L2, 1452, 0xBbff34E47E559ef680067a6B1c980639EEb64D24, 0.007294304972481013, defi scaling
+PlayFuel, PLF, 1453, 0xaDA62f7CCd6af6cAcff04ACCBC4f56f3D4FFd4Ef, 0.004500979212690238, 
+Medicalchain, MTN, 1455, 0x41dbecc1cdc5517c6f76f6a6e836adbee2754de3, 0.006947657327514254, health
+Lympo, LYM, 1458, 0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5, 0.002685469999978454, collectibles-nfts animoca-brands-portfolio
+Kineko, KKO, 1457, 0x368c5290b13caa10284db58b4ad4f3e9ee8bf4c9, 0.23787653576545073, 
+Skrumble Network, SKM, 1459, 0x048fe49be32adfc9ed68c37d32b5ec9df17b3603, 0.0021501150496881856, 
+carVertical, CV, 1462, 0x50bc2ecc0bfdf5666640048038c1aba7b7525683, 0.0002871889432018909, transport data-provenance
+Crust Shadow, CSM, 1464, 0x2620638EDA99F9e7E902Ea24a285456EE9438861, 0.02183284982569828, 
+Q DAO Governance token v1.0, QDAO, 1466, 0x3166c570935a7d8554c8f4ea792ff965d2efe1f2, 8.189361120663616, binance-smart-chain
+Unistake, UNISTAKE, 1468, 0x9ed8e7c9604790f7ec589f99b94361d8aab64e5e, 0.010105868186410854, defi ethereum-ecosystem
+Carbon, CRBN, 1472, 0xCdeee767beD58c5325f68500115d4B722b3724EE, 0.06575485638509775, collectibles-nfts gaming social-token play-to-earn
+Unicly Mystic Axies Collection, UAXIE, 1473, 0x68b1cadb8d5ab0c97fe9d9fbe0eb60acb329fe3f, 0.21259425540423985, collectibles-nfts
+SIRIN LABS Token, SRN, 1475, 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25, 0.004302541729756326, platform distributed-computing
+Acute Angle Cloud, AAC, 1471, 0xe75ad3aab14e4b0df8c5da4286608dabb21bd864, 0.008520207596165414, 
+Inex Project, INEX, 1479, 0xa2d77f8353cb2afd709aba4a967257511ecff716, 0.00019185234385733443, 
+Bistroo, BIST, 1480, 0x6e8908cfa881c9f6f2c64d3436e7b80b1bf0093f, 0.04793250961029374, food-beverage marketplace loyalty e-commerce dapp
+CRD Network, CRD, 1481, 0xcaaa93712bdac37f736c323c93d4d5fdefcc31cc, 0.0020878473864410427, 
+CryptoFranc, XCHF, 1487, 0xb4272071ecadd69d933adcd19ca99fe80664fc08, 1.0194294060720686, store-of-value stablecoin
+TOKPIE, TKP, 1488, 0xd31695a1d35e489252ce57b129fd4b1b05e6acac, 0.0708879497116353, binance-smart-chain
+RealTract, RET, 1489, 0xd7394087e1dbbe477fe4f1cf373b9ac9459565ff, 0.00019185234385733443, platform smart-contracts
+EXRNchain, EXRN, 1491, 0xe469c4473af82217b30cf17b10bcdb6c8c796e75, 0.000021944669669832125, platform interoperability smart-contracts
+PhoenixDAO, PHNX, 1495, 0x38A2fDc11f526Ddd5a607C1F251C065f40fBF2f7, 0.030050605510945454, binance-smart-chain
+APYSwap, APYS, 1498, 0xf7413489c474ca4399eee604716c72879eea3615, 0.10906313426871064, defi binance-smart-chain polkastarter exnetwork-capital-portfolio chromia-ecosystem okex-blockdream-ventures-portfolio
+DragonVein, DVC, 1500, 0x00d46727c2E4A6E358A8c0D638137a3d91B19BE6, 0.003253992921214339, 
+BitBall, BTB, 1501, 0x06e0feb0d74106c7ada8497754074d222ec6bcdf, 0.0032394778397638337, 
+Drops Ownership Power, DOP, 1503, 0x6bb61215298f296c55b19ad842d3df69021da2ef, 1.6658981978518679, collectibles-nfts defi polkastarter
+Elamachain, ELAMA, 1505, 0xfb444c1f2b718ddfc385cb8fd9f2d1d776b24668, 0.002249872565718141, 
+TradeStars, TSX, 1508, 0x734c90044a0ba31b3f2e640c10dc5d3540499bfd, 0.1434270350060957, staking binance-smart-chain
+YOU COIN, YOU, 1509, 0x34364BEe11607b1963d66BCA665FDE93fCA666a8, 0.0034915383565946845, marketplace content-creation
+DOS Network, DOS, 1511, 0x0A913beaD80F321E7Ac35285Ee10d9d922659cB7, 0.014188164128519825, oracles binance-smart-chain
+Education Ecosystem, LEDU, 1512, 0xc741f06082aa47f93729070ad0dd95e223bda091, 0.00813197570617493, education
+MoonSwap, MOON, 1513, 0x68a3637bA6E75c0f66B61A42639c4e9fCD3D4824, 0.05510957727639742, yield-farming
+HitChain, HIT, 1516, 0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566, 0.00003101697505267668, 
+Unitrade, TRADE, 1517, 0x6f87d756daf0503d08eb8993686c7fc01dc44fb1, 0.06695064639548896, defi
+Odyssey, OCN, 1520, 0x4092678e4E78230F46A1534C0fbc8fA39780892B, 0.0002357952210286807, platform sharing-economy
+Essentia, ESS, 1522, 0xfc05987bd2be489ACCF0f509E44B0145d68240f7, 0.0013250788825072393, masternodes
+Yield Optimization Platform & Protocol, YOP, 1523, 0xae1eaae3f627aaca434127644371b67b18444051, 0.18724588408812665, polkastarter
+2crazyNFT, 2CRZ, 1525, 0x2c9c19ce3b15ae77c6d80aec3c1194cfd6f7f3fa, 0.012187834067344158, binance-smart-chain
+Global Social Chain, GSC, 1526, 0x228ba514309ffdf03a81a205a6d040e429d6e80c, 0.003212194854457725, 
+Darwinia Commitment Token, KTON, 1527, 0x9f284e1337a815fe77d2ff4ae46544645b20c5ff, 49.94840941830528, metaverse
+LinkEye, LET, 1529, 0xfa3118b34522580c35ae27f6cf52da1dbb756288, 0.0020465626748079357, 
+Redpanda Earth, REDPANDA, 1534, 0x514cdb9cd8a2fb2bdcf7a3b8ddd098caf466e548, 4.60414749849e-12, 
+Neural Protocol, NRP, 1535, 0x3918c42f14f2eb1168365f911f63e540e5a306b5, 0.00019188722455257804, 
+Bitspawn, SPWN, 1537, 0xe516D78d784C77D479977BE58905B3f2b1111126, 0.0035400385069635962, platform gaming ethereum-ecosystem solana-ecosystem play-to-earn
+VIDY, VIDY, 1538, 0xc77b230f31b517f1ef362e59c173c2be6540b5e8, 0.0001833135968600448, 
+AXPR, AXPR, 1539, 0xdD0020B1D5Ba47A54E2EB16800D73Beb6546f91A, 0.006402735880096668, platform enterprise-solutions
+Link Machine Learning, LML, 1540, 0x25b6325f5bb1c1e03cfbc3e53f470e1f1ca022e3, 0.014863485189993591, 
+Splyt, SHOPX, 1542, 0x7bef710a5759d197ec0bf621c3df802c2d60d848, 0.06201565545980714, collectibles-nfts polkadot-ecosystem exnetwork-capital-portfolio
+Xaurum, XAUR, 1543, 0x4DF812F6064def1e5e029f1ca858777CC98D2D81, 0.02483428217822, asset-management stablecoin asset-backed-stablecoin
+LINKA, LINKA, 1544, 0x578b49c45961f98d8df92854b53f1641af0a5036, 0.0025454201344301073, 
+Beyond Protocol, BP, 1545, 0xdF290B162a7D3E0A328cF198308D421954f08b94, 0.23694815759057197, 
+UnlimitedIP, UIP, 1546, 0x4290563c2d7c255b5eec87f2d3bd10389f991d68, 0.0011406222310405706, marketplace
+Shadows, DOWS, 1547, 0x661ab0ed68000491d98c796146bcf28c20d7c559, 0.0659707533028437, defi derivatives substrate polkadot binance-smart-chain polkadot-ecosystem duckstarter
+Perth Mint Gold Token, PMGT, 1548, 0xaffcdd96531bcd66faed95fc61e443d08f79efef, 1834.2708239476901, 
+Props Token, PROPS, 1550, 0x6fe56c0bcdd471359019fcbc48863d6c3e9d4f41, 0.004792577542385688, social-money algorand-ecosystem polygon-ecosystem
+Governor DAO, GDAO, 1551, 0x515d7e9d75e2b76db60f8a051cd890eba23286bc, 0.5926772795134359, dao governance
+Cajutel, CAJ, 1552, 0x3c6a7ab47b5f058be0e7c7fe1a4b7925b8aca40e, 1.2703833030638843, platform
+Ideaology, IDEA, 1557, 0x5d3a4F62124498092Ce665f865E0b38fF6F5FbEa, 0.10487689491940805, crowdfunding launchpad polygon-ecosystem
+Neurotoken, NTK, 1558, 0x69beab403438253f13b6e92db91f7fb849258263, 0.021566006116467033, platform ai-big-data distributed-computing
+DAOstack, GEN, 1559, 0x543ff227f64aa17ea132bf9886cab5db55dcaddf, 0.03451480114934688, platform dao web3
+Howdoo, UDOO, 1561, 0x12f649a9e821f90bb143089a6e56846945892ffb, 0.003626278387257017, 
+Eden, EDN, 1563, 0x89020f0d5c5af4f3407eb5fe185416c457b0e93e, 0.0027818655094237706, 
+WinStars.live, WNL, 1568, 0xcfbf70e33d5163e25b0dad73955c1bd9e8cd8ba2, 0.08638011192424348, gambling
+Omlira, OML, 1570, 0x224db5e6180761df4c3d8936585f6b8b83879770, 0.017342873110994677, 
+Integral, ITGR, 1573, 0xd502f487e1841fdc805130e13eae80c61186bc98, 0.06550266008874256, decentralized-exchange defi amm dex
+Davinci Coin, DAC, 1577, 0xaad54c9f27b876d2538455dda69207279ff673a5, 0.00018628939346118683, ai-big-data iot
+Cryptaur, CPT, 1583, 0x88d50B466BE55222019D71F9E8fAe17f5f45FCA1, 0.00011472983306466694, 
+AICHAIN, AIT, 1584, 0x79650799e7899a802cb96c0bc33a6a8d4ce4936c, 0.0028884407071065946, 
+Polkalokr, LKR, 1586, 0x80ce3027a70e0a928d9268994e9b85d03bd4cdcf, 0.059978413667401975, 
+Eminer, EM, 1587, 0x35b08722aa26be119c1608029ccbc976ac5c1082, 0.0010412146858971246, 
+Fractal, FCL, 1588, 0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3, 0.09052156250757126, polkadot-ecosystem polkastarter framework-ventures-portfolio
+Seele-N, SEELE, 1589, 0xb1e93236ab6073fdac58ada5564897177d4bcc43, 0.0021459733869781433, platform ai-big-data
+Creaticles, CRE8, 1590, 0xc36b4311b21fc0c2ead46f1ea6ce97c9c4d98d3d, 0.019226611326899887, marketplace collectibles-nfts
+MediShares, MDS, 1592, 0x66186008C1050627F979d464eABb258860563dbE, 0.0011355159792612477, health
+Digix Gold Token, DGX, 1595, 0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf, 27.105124996063733, store-of-value stablecoin asset-backed-stablecoin dao substrate polkadot
+Xensor, XSR, 1596, 0x6bC1F3A1ae56231DbB64d3E82E070857EAe86045, 0.00031886213198487176, iot
+ZUSD, ZUSD, 1598, 0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA, 0.9953247530098862, 
+AMEPAY, AME, 1599, 0x12513335ffD5DAfc2334e98625d27c1CA84bff86, 0.005857056407823573, 
+Jarvis Network, JRT, 1600, 0x8a9c67fee641579deba04928c4bc45f66e26343a, 0.05016165920660583, defi derivatives synthetics
+CHADS VC, CHADS, 1602, 0x69692D3345010a207b759a7D1af6fc7F38b35c5E, 0.03139211765813425, collectibles-nfts polkadot-ecosystem
+UniMex Network, UMX, 1604, 0x10be9a8dae441d276a5027936c3aaded2d82bc15, 0.18916397248298975, 
+STATERA, STA, 1612, 0xa7DE087329BFcda5639247F96140f9DAbe3DeED1, 0.017800036304240964, 
+VestChain, VEST, 1613, 0x37f04d2c3ae075fad5483bb918491f656b12bdb6, 0.0003599171330176812, platform smart-contracts
+Digitex, DGTX, 1615, 0xc666081073e8dff8d3d1c2292a29ae1a2153ec09, 0.001510339709390616, asset-management centralized-exchange derivatives
+ParkinGo, GOT, 1616, 0x613fa2a6e6daa70c659060e86ba1443d2679c9d7, 0.06965494182809243, 
+Peanut, NUX, 1619, 0x89bd2e7e388fab44ae88bef4e1ad12b4f1e0911c, 0.1473879417633597, binance-smart-chain
+Flixxo, FLIXX, 1620, 0xf04a8ac553fcedb5ba99a64799155826c136b0be, 0.016531291675302134, media entertainment video
+Curio Governance, CGT, 1622, 0xF56b164efd3CFc02BA739b719B6526A6FA1cA32a, 0.10982621738394112, binance-smart-chain
+Dev Protocol, DEV, 1623, 0x5caf454ba92e6f2c929df14667ee360ed9fd5b26, 1.2367576615618665, staking social-token
+MeDIA eYe, EYE, 1624, 0x9a257c90fa239fba07771ef7da2d554d148c2e89, 0.01484633340972069, 
+Coldstack, CLS, 1626, 0x675bbc7514013e2073db7a919f6e4cbef576de37, 0.9123118093259317, distributed-computing filesharing storage polkadot-ecosystem superstarter
+Add.xyz, ADD, 1627, 0x635d081fD8F6670135D8a3640E2cF78220787d56, 0.1654937884174056, decentralized-exchange defi
+Handy, HANDY, 1628, 0x8bbe1a2961B41340468D0548c2cd5B7DFA9b684c, 0.006661388225833464, 
+Amon, AMN, 1630, 0x737f98ac8ca59f2c68ad658e3c3d8c8963e40a4c, 0.001914257747778374, 
+Falconswap, FSW, 1631, 0xfffffffff15abf397da76f1dcc1a1604f45126db, 0.03650716652260394, decentralized-exchange dex exnetwork-capital-portfolio
+Snetwork, SNET, 1633, 0xff19138b039d938db46bdda0067dc4ba132ec71c, 0.005786937785359314, 
+B-cube.ai, BCUBE, 1635, 0x93C9175E26F57d2888c7Df8B470C9eeA5C0b0A93, 0.15251303519706838, 
+UTU Protocol, UTU, 1636, 0xa58a4f5c4bb043d2cc1e170613b74e767c94189b, 0.010876890251920542, marketplace ai-big-data privacy identity oracles sharing-economy dapp ethereum-ecosystem binance-smart-chain
+Auctus, AUC, 1637, 0xc12d099be31567add4e4e4d0d45691c3f58f5663, 0.023698356022774373, defi derivatives options
+TouchCon, TOC, 1638, 0x549905519f9e06d55d7dfcd4d54817780f6b93e8, 0.008541552295964953, 
+iEthereum, IETH, 1640, 0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b, 0.07488074392396385, 
+Tidal Finance, TIDAL, 1643, 0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7, 0.0015356063660999716, polkastarter exnetwork-capital-portfolio polygon-ecosystem vbc-ventures-portfolio spartan-group
+Forefront, FF, 1645, 0x7e9d8f07a64e363e97a648904a89fb4cd5fb94cd, 1.4322647182806414, 
+Basis Cash, BAC, 1647, 0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a, 0.024231916355828498, defi yield-farming rebase seigniorage
+BonusCloud, BXC, 1648, 0xdeCF7Be29F8832E9C2Ddf0388c9778B8Ba76af43, 0.00041881692019669285, 
+Cat Token, CAT, 1651, 0x56015bbe3c01fe05bc30a8a9a9fd9a88917e7db3, 0.1999051641618334, collectibles-nfts
+Lendingblock, LND, 1653, 0x0947b0e6d821378805c9598291385ce7c791a6b2, 0.0016103698598358388, 
+KamPay, KAMPAY, 1654, 0x3907e6ff436e2b2B05D6B929fb05F14c0ee18d90, 0.00838455959466435, 
+DMM: Governance, DMG, 1656, 0xEd91879919B71bB6905f23af0A68d231EcF87b14, 0.025355557552167528, asset-management defi dao governance
+Falcon Project, FNT, 1660, 0xdc5864ede28bd4405aa04d93e05a0531797d9d59, 0.0003169962659292006, 
+PANTHEON X, XPN, 1662, 0x3b9e094d56103611f0acefdab43182347ba60df4, 0.0018298484650924503, 
+Origin Sport, ORS, 1663, 0xeb9a4b185816c354db92db09cc3b50be60b901b6, 0.0041507213375145055, 
+Golff, GOF, 1665, 0x488E0369f9BC5C40C002eA7c1fe4fd01A198801c, 0.1233753660872973, yield-aggregator heco-ecosystem
+SYNC Network, SYNC, 1671, 0xB6ff96B8A8d214544Ca0dBc9B33f7AD6503eFD32, 0.009688951682219183, collectibles-nfts defi
+Evedo, EVED, 1672, 0x5aaefe84e0fb3dd1f0fcff6fa7468124986b91bd, 0.08305420986939069, 
+Merculet, MVP, 1673, 0x8a77e40936bbc27e80e9a3f526368c967869c86d, 0.00028036301562752114, 
+Ethereum Gold Project, ETGP, 1676, 0xa96f31f1c187c28980176c3a27ba7069f48abde4, 0.00020381588259631552, 
+KeyFi, KEYFI, 1677, 0xb8647e90c0645152fccf4d9abb6b59eb4aa99052, 0.44942561842441714, binance-smart-chain
+Spectre.ai Utility Token, SXUT, 1680, 0x2c82c73d5b34aa015989462b2948cd616a37641f, 0.04894873009040464, marketplace
+Tripio, TRIO, 1682, 0x8b40761142b9aa6dc8964e61d0585995425c3d94, 0.0003196953913141358, hospitality
+SEEN, SEEN, 1683, 0xCa3FE04C7Ee111F0bbb02C328c699226aCf9Fd33, 1.6873154557586798, collectibles-nfts
+ROCKI, ROCKI, 1685, 0xff44b937788215eca197baaf9af69dbdc214aa04, 0.1455278471257509, gaming binance-smart-chain
+Zloadr, ZDR, 1688, 0xbdfa65533074b0b23ebc18c7190be79fa74b30c2, 0.21553880146949728, marketplace platform centralized-exchange payments research staking
+Humaniq, HMQ, 1690, 0xcbcc0f036ed4788f63fc0fee32873d6a7487b908, 0.006227025096436901, asset-management
+Vodra, VDR, 1692, 0xed3d4e446a96dc3b181b64b75c3c70da41dc3cbe, 0.009068906958105796, 
+Royale Finance, ROYA, 1694, 0x7eaf9c89037e4814dc0d9952ac7f888c784548db, 0.028875946640330077, gaming polkastarter
+DePay, DEPAY, 1698, 0xa0bed124a09ac2bd941b10349d8d224fe3c955eb, 0.5470950774989, 
+yAxis, YAXIS, 1699, 0x0ada190c81b814548ddc2f6adc4a689ce7c1fe73, 1.219693236939973, defi yield-farming yield-aggregator
+Baanx, BXX, 1700, 0x6b1a8f210ec6b7b6643cea3583fb0c079f367898, 0.05715316860451499, 
+adbank, ADB, 1702, 0x2baac9330cf9ac479d819195794d79ad0c7616e3, 0.0012671175646055514, marketing
+Scry.info, DDD, 1703, 0x9F5F3CFD7a32700C93F971637407ff17b91c7342, 0.0025488331785284385, platform ai-big-data smart-contracts
+PERI Finance, PERI, 1706, 0x5d30aD9C6374Bf925D0A75454fa327AACf778492, 0.2675488751579146, defi binance-smart-chain duckstarter
+Minereum, MNE, 1707, 0x426ca1ea2406c07d75db9585f22781c096e3d0e0, 0.07678835042495118, 
+ATLANT, ATL, 1708, 0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05, 0.02037436631941963, real-estate
+Antiample, XAMP, 1709, 0xf911a7ec46a2c6fa49193212fe4a2a9b95851c27, 0.002342394931406223, yield-farming rebase
+AmonD, AMON, 1711, 0x00059ae69c1622a7542edc15e8d17b060fe307b6, 0.0012992257873328539, payments
+Lead Wallet, LEAD, 1712, 0x1dd80016e3d4ae146ee2ebb484e8edd92dacc4ce, 0.0021444901371400708, binance-smart-chain
+PIXEL, PXL, 1717, 0xf88951d7b676798705fd3a362ba5b1dbca2b233b, 0.0019201287913738502, 
+Vetri, VLD, 1719, 0x922ac473a3cc241fd3a0049ed14536452d58d73c, 0.00288239585411028, 
+KanadeCoin, KNDC, 1722, 0x8E5610ab5E39d26828167640EA29823fe1dD5843, 0.00019188722455257804, 
+FintruX Network, FTX, 1723, 0xd559f20296FF4895da39b5bd9ADd54b442596a61, 0.01093723693152082, 
+Stake DAO, SDT, 1724, 0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f, 1.4571742770249967, defi yield-aggregator olympus-pro-ecosystem
+Tadpole Finance, TAD, 1726, 0x9f7229af0c4b9740e207ea283b9094983f78ba04, 4.471032384229801, platform defi smart-contracts staking binance-smart-chain lending-borowing
+YEE, YEE, 1729, 0x922105fad8153f516bcfb829f56dc097a0e1d705, 0.0007479608709033444, 
+Realio Network, RIO, 1731, 0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097, 0.15479210636359528, 
+Name Change Token, NCT, 1732, 0x8a9c4dfe8b9d8962b31e4e16f8321c44d48e246e, 0.018966749494667007, collectibles-nfts
+Doki Doki Finance, DOKI, 1735, 0x9ceb84f92a0561fa3cc4132ab9c0b76a59787544, 20.0442182343682, collectibles-nfts yield-farming
+Cornichon, CORN, 1736, 0xa456b515303b2ce344e9d2601f91270f8c2fea5e, 0.06413276452575353, 
+Primas, PST, 1737, 0x5d4abc77b8405ad177d8ac6682d584ecbfd46cec, 0.018832954110098773, media content-creation
+DAV Coin, DAV, 1743, 0xd82df0abd3f51425eb15ef7580fda55727875f14, 0.0014075816491610207, 
+MurAll, PAINT, 1746, 0x4c6ec08cf3fc987c6c4beb03184d335a2dfc4042, 0.00010492611539302613, collectibles-nfts polygon-ecosystem
+SnowSwap, SNOW, 1750, 0xfe9a29ab92522d14fc65880d817214261d8479ae, 2.1893431756975055, yield-farming
+Kcash, KCASH, 1752, 0x32d74896f05204d1b6ae7b0a3cebd7fc0cd8f9c7, 0.0021684243697458836, services wallet
+BOMB, BOMB, 1754, 0x1C95b093d6C236d3EF7c796fE33f9CC6b8606714, 1.074366387073067, 
+HollyGold, HGOLD, 1755, 0x0c93b616933b0cd03b201b29cd8a22681dd9e0d9, 0.25903441379863473, marketing media entertainment video social-money
+Blockchain Cuties Universe Governance, BCUG, 1756, 0x14da7b27b2e0fedefe0a664118b0c9bc68e2e9af, 0.6963062270320063, collectibles-nfts polkastarter
+Niftify, NIFT, 1760, 0x4a1d542b52a95ad01ddc70c2e7df0c7bbaadc56f, 0.082401152280989, 
+Virtue Poker, VPP, 1766, 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e, 0.06487192986529286, binance-smart-chain superstarter
+Playcent, PCNT, 1767, 0x657B83A0336561C8f64389a6f5aDE675C04b0C3b, 0.034325706326733596, collectibles-nfts content-creation binance-smart-chain poolz-finance-portfolio
+Azbit, AZ, 1772, 0xaaaaaaaba2ea3daab0a6c05f1b962c78c9836d99, 0.00001114193631323171, 
+SakeToken, SAKE, 1773, 0x066798d9ef0833ccc719076dab77199ecbd178b0, 0.009059055597711406, decentralized-exchange defi derivatives amm binance-smart-chain
+XMax, XMX, 1775, 0x0f8c45b896784a1e408526b9300519ef8660209c, 0.0000486448959436559, media content-creation gaming
+Tapmydata, TAP, 1779, 0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d, 0.05300921226223344, ai-big-data collectibles-nfts ethereum-ecosystem storage
+VegaWallet Token, VGW, 1785, 0x94236591125e935f5ac128bb3d5062944c24958c, 0.055427238484722904, 
+Multiplier, MXX, 1786, 0x8a6f3bf52a26a21531514e23016eeae8ba7e7018, 0.006432671867061691, 
+Polinate, POLI, 1787, 0xa1a36d3537bbe375cc9694795f663ddc8d516db9, 0.007465478149762657, 
+Decentralized Vulnerability Platform, DVP, 1788, 0x8e30ea2329d95802fd804f4291220b0e2f579812, 0.0016992137061666926, 
+Tap, XTP, 1789, 0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc, 0.0007185500690515476, 
+Corra.Finance, CORA, 1790, 0x6a7260e44789aef24fdaf72d80ecdc253aaa079e, 0.5898235158042123, collectibles-nfts binance-smart-chain
+CoTrader, COT, 1793, 0x5c872500c00565505f3624ab435c222e558e9ff8, 0.00004617409130678122, binance-smart-chain
+Nuggets, NUG, 1794, 0x245ef47d4d0505ecf3ac463f4d81f41ade8f1fd1, 0.0005035663936592561, 
+ArGo, ARGO, 1795, 0x28cca76f6e8ec81e4550ecd761f899110b060e97, 0.09604287962473682, 
+ownix, ONX, 1796, 0xcf78c7dd70d6f30f6e3609e905e78305da98c863, 0.25803448814471364, 
+MobileGo, MGO, 1797, 0x40395044Ac3c0C57051906dA938B54BD6557F212, 0.008507478481180334, media gaming entertainment
+MAX Exchange Token, MAX, 1799, 0xe7976c4Efc60d9f4C200Cc1bCEF1A1e3B02c73e7, 0.37303999227313844, centralized-exchange
+Non-Fungible Yearn, NFY, 1800, 0x1cbb83ebcd552d5ebf8131ef8c9cd9d9bab342bc, 9.588673941169406, collectibles-nfts
+Indorse Token, IND, 1802, 0xf8e386eda857484f5a12e4b5daa9984e06e73705, 0.022392541134576314, iot
+Katalyo, KTLYO, 1804, 0x24E3794605C84E580EEA4972738D633E8a7127c8, 0.07711340123430564, 
+Insured Finance, INFI, 1805, 0x159751323a9e0415dd3d6d42a1212fe9f4a0848c, 0.02518857895069705, insurance exnetwork-capital-portfolio
+Hashgard, GARD, 1807, 0x5c64031c62061865e5fd0f53d3cdaef80f72e99d, 0.00008139340149647867, cosmos-ecosystem
+Kangal, KANGAL, 1808, 0x6e765d26388a17a6e86c49a8e41df3f58abcd337, 0.00000813328567929102, memes binance-smart-chain
+Krios, GIG, 1809, 0x838d8e11B160deC88Fe62BF0f743FB7000941e13, 0.001622297493948295, 
+Rublix, RBLX, 1812, 0xFc2C4D8f95002C14eD0a7aA65102Cac9e5953b5E, 0.03880114252473366, 
+Etherland, ELAND, 1813, 0x33e07f5055173cf8febede8b21b12d1e2b523205, 0.027633439173950423, real-estate collectibles-nfts mobile metaverse
+Swarm, SWM, 1814, 0x3505f494c3f0fed0b594e01fa41dd3967645ca39, 0.010282815196472695, asset-management crowdfunding
+Aluna.Social, ALN, 1815, 0x8185bc4757572da2a610f887561c32298f1a5748, 0.021307664454936905, dao-maker
+Parachute, PAR, 1816, 0x1beef31946fbbb40b877a72e4ae04a8d1a5cee06, 0.0013140326761449863, payments staking dao wallet
+Endor Protocol, EDR, 1817, 0xc528c28fec0a90c083328bc45f587ee215760a0f, 0.0005412530328765494, 
+CryptoSoul, SOUL, 1818, 0xbb1f24c0c1554b9990222f036b0aad6ee4caec29, 0.002496983941005263, 
+FlypMe, FYP, 1820, 0x8f0921f30555624143d427b340b1156914882c10, 0.044917658200606614, marketplace wallet
+PHI Token, PHI, 1821, 0x13c2fab6354d3790d8ece4f0f1a3280b4a25ad96, 0.1358355755636328, 
+Chainswap, ASAP, 1825, 0xcc665390b03c5d324d8faf81c15ecee29a73bcb4, 0.043807613152562735, smart-contracts dapp binance-smart-chain okex-blockdream-ventures-portfolio
+Mochi Market, MOMA, 1826, 0xbd1848e1491d4308ad18287a745dd4db2a4bd55b, 0.03528054992555041, marketplace collectibles-nfts defi gaming smart-contracts yield-farming binance-smart-chain governance dao-maker
+Mettalex, MTLX, 1827, 0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14, 0.7007148654536717, binance-smart-chain
+YFDAI.FINANCE, YF-DAI, 1828, 0xf4CD3d3Fda8d7Fd6C5a500203e38640A70Bf9577, 197.34358270224496, defi dao yield-farming governance
+DomRaider, DRT, 1831, 0x9af4f26941677c706cfecf6d3379ff01bb85d5ab, 0.0013119138116502464, marketplace collectibles-nfts
+StakedZEN, STZEN, 1834, 0x31b595e7cfdb624d10a3e7a562ed98c3567e3865, 47.77765920085562, 
+Warp Finance, WARP, 1835, 0xed40834a13129509a89be39a9be9c0e96a0ddd71, 164.21505577470083, defi
+Keep4r, KP4R, 1837, 0xa89ac6e529acf391cfbbd377f3ac9d93eae9664e, 8.791527845000603, defi yield-farming
+Litex, LXT, 1839, 0xbc46d9961a3932f7d6b64abfdec80c1816c4b835, 0.0003772975921357554, 
+PieDAO DEFI++, DEFI++, 1842, 0x8d1ce361eb68e9e05573443c407d4a3bed23b033, 2.2430275320591058, defi-index
+eosDAC, EOSDAC, 1843, 0x7e9e431a0b8c4d532c745b1043c7fa29a48d4fba, 0.0011332011906745277, 
+ETHA Lend, ETHA, 1844, 0x59e9261255644c411afdd00bd89162d09d862e38, 0.07984338773280095, defi yield-farming polkadot-ecosystem
+Buying.com, BUY, 1845, 0x396ec402b42066864c406d1ac3bc86b575003ed8, 0.01719598500236006, trustswap-launchpad
+Color Platform, CLR, 1846, 0x2396fbc0e2e3ae4b7206ebdb5706e2a5920349cb, 0.005400938607850201, 
+GeoDB, GEO, 1847, 0x147faf8de9d8d8daae129b187f0d02d819126750, 0.0154996333807534, binance-smart-chain
+X8X Token, X8X, 1850, 0x910dfc18d6ea3d6a7124a6f8b5458f281060fa4c, 0.008850368761506164, 
+Ubex, UBEX, 1854, 0x6704b673c70de9bf74c8fba4b4bd748f0e2190e1, 0.00021705784246957516, 
+2key.network, 2KEY, 1855, 0xe48972fcd82a274411c01834e2f031d4377fa2c0, 0.009126126765018127, dao-maker
+Digital Reserve Currency, DRC, 1857, 0xa150db9b1fa65b44799d4dd949d922c0a33ee606, 0.000713724117328832, 
+Typerium, TYPE, 1858, 0xeaf61fc150cd5c3bea75744e830d916e60ea5a9f, 0.00043901214826967157, 
+0xcert, ZXC, 1860, 0x83e2be8d114f9661221384b3a50d24b96a5653f5, 0.002097364492715161, collectibles-nfts
+NFTify, N1, 1864, 0xacbd826394189cf2623c6df98a18b41fc8ffc16d, 0.0344247407154711, marketplace collectibles-nfts binance-smart-chain polkafoundry-red-kite icetea-labs
+4THPILLAR TECHNOLOGIES, FOUR, 1865, 0x4730fb1463a6f1f44aeb45f6c5c422427f37f4d0, 0.0054856247935773685, 
+Nuco.cloud, NCDT, 1866, 0xe0c8b298db4cffe05d1bea0bb1ba414522b33c1b, 0.027832700710020603, 
+Genesis Shards, GS, 1867, 0xe0b9a2c3e9f40cf74b2c7f591b2b0cca055c3112, 0.057244242989438955, collectibles-nfts crowdfunding defi binance-smart-chain polkastarter okex-blockdream-ventures-portfolio
+WeTrust, TRST, 1868, 0xcb94be6f13a1182e4a4b6140cb7bf2025d28e41b, 0.007469161160744538, platform smart-contracts
+Bitgear, GEAR, 1869, 0x1b980e05943dE3dB3a459C72325338d327B6F5a9, 0.009565662378792465, 
+DATA, DTA, 1871, 0x69b148395ce0015c13e36bffbad63f49ef874e03, 0.000058734997964159204, marketing cosmos-ecosystem ai-big-data
+NFTLootBox, LOOT, 1873, 0x7b3D36Eb606f873A75A6aB68f8c999848B04F935, 29.342984492355715, collectibles-nfts
+Heart Number, HTN, 1876, 0x4b4b1d389d4f4e082b30f75c6319c0ce5acbd619, 0.0002962214791642581, 
+Relite Finance, RELI, 1877, 0x0e58ed58e150dba5fd8e5d4a49f54c7e1e880124, 0.012010964174065124, binance-smart-chain exnetwork-capital-portfolio
+Hydro, HYDRO, 1878, 0x946112efab61c3636cbd52de2e1392d7a75a6f01, 0.007948136538512706, platform decentralized-exchange defi smart-contracts yield-farming amm binance-smart-chain dex
+MarsX, MX, 1882, 0xe0df31d06d72b2f5231489af0edc422b372f49f1, 0.0028422954124510953, 
+DecentraWeb, DWEB, 1883, 0xe7f58a92476056627f9fdb92286778abd83b285f, 0.19226162418436524, 
+Spaceswap MILK2, MILK2, 1884, 0x80c8c3dcfb854f9542567c8dac3f44d709ebc1de, 0.08729171891031598, binance-smart-chain
+LocalCoinSwap, LCS, 1886, 0xaa19961b6b858d9f18a115f25aa1d98abc1fdba8, 0.012600698826949018, polkadot-ecosystem
+ShipChain, SHIP, 1887, 0xe25b0bba01dc5630312b6a21927e578061a13f55, 0.0013263662310834762, logistics
+Naka Bodhi Token, NBOT, 1892, 0x09Ccd2DA5dCDd0510268d4979e792381337138b8, 0.008953962004602323, 
+TotemFi, TOTM, 1894, 0x6ff1bfa14a57594a5874b37ff6ac5efbd9f9599a, 0.1024850172508145, prediction-markets binance-smart-chain duckstarter
+U Network, UUU, 1897, 0x3543638ed4a9006e4840b105944271bcea15605d, 0.0000620322530469042, media content-creation smart-contracts
+Dogeswap, DOGES, 1899, 0xb4fbed161bebcb37afb1cb4a6f7ca18b977ccb25, 30.59187655510385, memes staking yield-farming heco-ecosystem doggone-doggerel
+Project Inverse, XIV, 1901, 0x44f262622248027f8e2a8fb1090c4cf85072392c, 0.01540919844752636, binance-smart-chain
+Kuende, KUE, 1904, 0xdf1338fbafe7af1789151627b886781ba556ef9a, 0.0006801081933244551, media communications-social-media collectibles-nfts content-creation social-token
+QChi, QCH, 1905, 0x687bfc3e73f6af55f0ccca8450114d107e781a0e, 0.01848941996779307, 
+Dracula Token, DRC, 1907, 0xb78b3320493a4efaa1028130c5ba26f0b6085ef8, 0.04174022762350729, yield-farming
+Fire Lotto, FLOT, 1910, 0x049399a6b048d52971f7d122ae21a1532722285f, 0.021744578468671352, 
+DMarket, DMT, 1911, 0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1, 0.010477777725765506, marketplace collectibles-nfts entertainment payments
+OneRoot Network, RNT, 1917, 0xff603f43946a3a28df5e6a73172555d8c8b02386, 0.002054791600366151, platform enterprise-solutions
+Digital Fitness, DEFIT, 1918, 0x84cffa78b2fbbeec8c37391d2b12a04d2030845e, 0.023848020098116512, 
+BitScreener Token, BITX, 1921, 0xff2b3353c3015e9f1fbf95b9bda23f58aa7ce007, 0.00663233387231803, 
+HOMIHELP, HOMI, 1922, 0xCa208BfD69ae6D2667f1FCbE681BAe12767c0078, 0.5042439033577714, 
+Starbase, STAR, 1924, 0xf70a642bd387f94380ffb90451c2c81d4eb82cbc, 0.0030735341373932714, 
+DexKit, KIT, 1925, 0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4, 0.7158745460857507, binance-smart-chain
+Coin Artist, COIN, 1926, 0x87b008E57F640D94Ee44Fd893F0323AF933F9195, 0.5269564302627989, collectibles-nfts dao yield-farming social-money governance
+Zoracles, ZORA, 1927, 0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6, 104.07481761221943, oracles social-money governance
+Polyient Games Governance Token, PGT, 1929, 0xeaccb6E0f24d66cF4Aa6cBDa33971b9231d332a1, 28.153172628995858, collectibles-nfts dao governance
+Bob's Repair, BOB, 1930, 0xdf347911910b6c9a4286ba8e2ee5ea4a39eb2134, 0.0030630298420808912, 
+VNT Chain, VNT, 1931, 0x69d2779533a4d2c780639713558b2cc98c46a9b7, 0.00020603005707837195, 
+Internet of Energy Network, IOEN, 1932, 0x1e4E46b7BF03ECE908c88FF7cC4975560010893A, 0.027824417661961774, trustswap-launchpad
+Delphy, DPY, 1936, 0x6c2adc2073994fb2ccc5032cc2906fa221e9b391, 0.008822887350796392, gambling
+TigerCash, TCH, 1937, 0x9b39a0b97319a9bd5fed217c1db7b030453bac91, 0.009782679592864484, centralized-exchange
+Faceter, FACE, 1938, 0x1ccaa0f2a7210d76e1fdec740d5f323e2e1b1672, 0.0011687699151253967, 
+Fera, FERA, 1940, 0x539f3615c1dbafa0d008d87504667458acbd16fa, 0.0029301507685494006, 
+xSigma, SIG, 1941, 0x7777777777697cfeecf846a76326da79cc606517, 0.055104437243664234, 
+Coinsbit Token, CNB, 1942, 0xC538143202f3b11382D8606aae90a96b042a19DB, 0.0004076333836923957, 
+RED, RED, 1945, 0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f, 0.00411978776412238, marketplace
+Tolar, TOL, 1949, 0xd07d9fe2d2cc067015e2b4917d24933804f42cfa, 0.002457303557009918, 
+OLXA, OLXA, 1953, 0x5925f67d2767d937f47141dac24166b469558222, 0.0003827457532523774, 
+yTSLA Finance, yTSLA, 1956, 0x5322a3556f979ce2180b30e689a9436fddcb1021, 7.747263215584945, 
+Wrapped Gen-0 CryptoKitties, WG0, 1958, 0xa10740ff9ff6852eac84cdcff9184e1d6d27c057, 266.98235079255363, collectibles-nfts gaming
+keyTango, TANGO, 1959, 0x182f4c4c97cd1c24e1df8fc4c053e5c47bf53bef, 0.055809698947785404, duckstarter
+AMATEN, AMA, 1960, 0x2509ee05b8df07ec75046e24bbf1cfcdb8b2a183, 0.06749172912180214, 
+BondAppétit Governance Token, BAG, 1962, 0x28A06c02287e657ec3F8e151A13C36A1D43814b0, 0.047027758971815034, defi dao yield-farming binance-smart-chain governance lending-borowing
+Debitum, DEB, 1963, 0x151202c9c18e495656f372281f493eb7698961d5, 0.0025499339951958458, asset-management crowdfunding
+Electrify.Asia, ELEC, 1964, 0xd49ff13661451313ca1553fd6954bd1d9b6e02b9, 0.0009495146617813668, energy
+EDUCare, EKT, 1965, 0x4ecdb6385f3db3847f9c4a9bf3f9917bb27a5452, 0.000692916112538224, education smart-contracts
+CoinFi, COFI, 1966, 0x3136ef851592acf49ca4c825131e364170fa32b3, 0.002337056213514004, asset-management crowdsourcing research
+Sharder, SS, 1970, 0xbbff862d906e348e9946bfb2132ecb157da3d4b4, 0.0017395073737129542, distributed-computing filesharing storage
+IXT, IXT, 1974, 0xfca47962d45adfdfd1ab2d972315db4ce7ccf094, 0.0136646313376878, 
+Omnitude, ECOM, 1976, 0x171d750d42d661b62c277a6b486adb82348c3eca, 0.007514305881625658, platform enterprise-solutions
+VikkyToken, VIKKY, 1978, 0xd2946be786f35c3cc402c29b323647abda799071, 0.00013031054797713284, 
+bAlpha, BALPHA, 1980, 0x7a5ce6abD131EA6B148a022CB76fc180ae3315A6, 26.917046475209144, 
+8X8 PROTOCOL, EXE, 1981, 0x412d397ddca07d753e3e0c61e367fb1b474b3e7d, 0.0015600984317072839, 
+Friendz, FDZ, 1986, 0x23352036e911a22cfc692b5e2e196692658aded9, 0.0009235711773462357, iot
+Pepemon Pepeballs, PPBLZ, 1987, 0x4d2ee5dae46c86da2ff521f7657dad98834f97b8, 34.190875628386074, collectibles-nfts memes yield-farming
+PolkaDomain, NAME, 1989, 0xe1A4c5BBb704a92599FEdB191f451E0d3a1ed842, 0.15200256851524946, polkadot-ecosystem
+Knit Finance, KFT, 1991, 0xef53462838000184f35f7d991452e5f25110b207, 0.09649010834889303, avalanche-ecosystem
+ContentBox, BOX, 1992, 0x63f584fa56e60e4d0fe8802b27c7e6e3b33e007f, 0.00027447183052367125, 
+QUINADS, QUIN, 1994, 0x86e44543164d9b97b14ef7f6f3ab7ba670cab346, 0.00003495096806815077, 
+Banca, BANCA, 1998, 0x998b3b82bc9dba173990be7afb772788b5acb8bd, 0.00002576589703193719, 
+Ethernaal, NAAL, 1999, 0xc133529e57681b2999708f9458be5634e293995e, 0.6306135682046793, 
+Yield Protocol, YIELD, 2002, 0xa8B61CfF52564758A204F841E636265bEBC8db9B, 0.013430610657669107, defi dao-maker
+BlitzPick, XBP, 2003, 0x28dee01d53fed0edf5f6e310bf8ef9311513ae40, 0.0011894847433865452, 
+XcelToken Plus, XLAB, 2007, 0x8c4e7f814d40f8929f9112c5d09016f923d34472, 0.00001416355994866532, medium-of-exchange tourism
+Gourmet Galaxy, GUM, 2009, 0x4f5fa8f2d12e5eb780f6082dd656c565c48e0f24, 0.13668582297254744, collectibles-nfts binance-smart-chain polkadot-ecosystem
+Spaceswap SHAKE, SHAKE, 2011, 0x6006fc2a849fedaba8330ce36f5133de01f96189, 587.8796175821088, binance-smart-chain
+Chonk, CHONK, 2012, 0x84679bc467DC6c2c40ab04538813AfF3796351f1, 11.349678003648199, collectibles-nfts
+Rogue West, ROGUE, 2014, 0x6Ac665c0dE9a6ca72B85757b141aa9c428828aCA, 0.11636818049405304, 
+GMB, GMB, 2015, 0x1b148b90442826375e864b71165a18b4d9256097, 0.0008491475700120037, 
+NeuroChain, NCC, 2018, 0x5d48f293baed247a2d0189058ba37aa238bd4725, 0.0009465820598365016, 
+$LONDON, LONDON, 2019, 0x491d6b7d6822d5d4bc88a1264e1b47791fd8e904, 0.009449787055876442, collectibles-nfts dao ethereum-ecosystem
+Remme, REM, 2020, 0x83984d6142934bb535793a82adb0a46ef0f66b6d, 0.0004292929300152905, cybersecurity identity
+Beaxy, BXY, 2025, 0x827d53c8170af52625f414bde00326fc8a085e86, 0.0014396685320707248, 
+Benchmark Protocol, MARK, 2026, 0x67c597624b17b16fb77959217360b7cd18284253, 1.4690795096674467, defi ethereum-ecosystem yield-farming rebase polygon-ecosystem
+Rage Fan, RAGE, 2027, 0x94804dc4948184ffd7355f62ccbb221c9765886f, 0.007455516941060497, collectibles-nfts poolz-finance-portfolio
+DPRating, RATING, 2030, 0xe8663a64a96169ff4d95b4299e7ae9a76b905b31, 0.00019672885953763236, 
+Ceres, CERES, 2031, 0x2e7b0d4f9b2eaf782ed3d160e3a0a4b1a7930ada, 84.74463189247331, polkadot-ecosystem
+ZUM TOKEN, ZUM, 2032, 0xe0b9bcd54bf8a730ea5d3f1ffce0885e911a502c, 0.000016396435316818525, ethereum-ecosystem binance-smart-chain
+Donut, DONUT, 2037, 0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9, 0.003458673522241764, loyalty social-token
+Jarvis+, JAR, 2038, 0xa249de6948022783765fee4850d7b85e43118fcc, 0.0038398206759621377, 
+Maincoin, MNC, 2039, 0x9f0f1be08591ab7d990faf910b38ed5d60e4d5bf, 0.0011083644835989926, 
+Node Runners, NDR, 2041, 0x739763a258640919981F9bA610AE65492455bE53, 16.836218958292953, collectibles-nfts yield-farming
+Azuki, AZUKI, 2043, 0x910524678C0B1B23FFB9285a81f99C29C11CBaEd, 0.03616046183117072, collectibles-nfts yield-farming
+GoldFund, GFUN, 2045, 0x919d3a363776b1ceec9352610c82dfaf80edc32d, 0.002628419553033357, 
+DeHive, DHV, 2047, 0x62Dc4817588d53a056cBbD18231d91ffCcd34b2A, 0.47844373239808763, defi poolz-finance-portfolio exnetwork-capital-portfolio
+Lepricon, L3P, 2051, 0xdef1da03061ddd2a5ef6c59220c135dec623116d, 0.0027001796343299775, duckstarter poolz-finance-portfolio
+RigoBlock, GRG, 2052, 0x4fbb350052bca5417566f188eb2ebce5b19bc964, 0.14653341454665708, asset-management defi dao yield-farming governance
+Indexed Finance, NDX, 2054, 0x86772b1409b61c639eaac9ba0acfbb6e238e5f83, 0.460107621945453, defi governance
+extraDNA, XDNA, 2055, 0x8e57c27761EBBd381b0f9d09Bb92CeB51a358AbB, 0.00032995313975617106, binance-smart-chain
+IONChain, IONC, 2056, 0xbc647aad10114b89564c0a7aabe542bd0cf2c5af, 0.0032351634715444403, 
+Kuai Token, KT, 2058, 0x26DDF6CabADcBF4F013841BD8d914830BeB0d984, 0.03392017786628063, 
+Base Protocol, BASE, 2059, 0x07150e919b4de5fd6a63de1f9384828396f25fdc, 0.9173299017241037, rebase vbc-ventures-portfolio
+IHT Real Estate Protocol, IHT, 2062, 0xEda8B016efA8b1161208Cf041cD86972eeE0F31E, 0.00038898486429974764, real-estate
+BarterTrade, BART, 2063, 0x54c9ea2e9c9e8ed865db4a4ce6711c2a0d5063ba, 0.005636440601489309, 
+Sether, SETH, 2067, 0x78b039921e84e726eb72e7b1212bb35504c645ca, 0.01882342239301772, marketing content-creation
+DAOventures, DVD, 2069, 0x77dcE26c03a9B833fc2D7C31C22Da4f42e9d9582, 0.040923649223213156, asset-management defi binance-smart-chain polkastarter
+Digital Insurance Token, DIT, 2071, 0xf14922001a2fb8541a433905437ae954419c2439, 0.001670012126123245, 
+VNX, VNXLU, 2072, 0x00fc270c9cc13e878ab5363d00354bebf6f05c15, 0.013316933921654204, 
+CoinDeal Token, CDL, 2074, 0xcb17cd357c7acd594717d899ecb9df540f633f27, 0.007918176926388987, 
+Swace, SWACE, 2075, 0x03b155af3f4459193a276395dd76e357bb472da1, 0.0007184071953300746, 
+BonFi, BNF, 2076, 0x1DE5e000C41C8d35b9f1f4985C23988f05831057, 0.001232012872423398, binance-smart-chain
+Font, FONT, 2077, 0x4c25bdf026ea05f32713f00f73ca55857fbf6342, 0.7498319012183325, collectibles-nfts defi
+renDOGE, RENDOGE, 2080, 0x3832d2F059E55934220881F831bE501D180671A7, 0.11790018420816648, wrapped-tokens fantom-ecosystem
+Power Index Pool Token, PIPT, 2085, 0x26607ac599266b21d13c7acf7942c7701a8b699c, 1.8018037847197483, yield-farming defi-index
+Catex Token, CATT, 2087, 0x6e605c269e0c92e70beeb85486f1fc550f9380bd, 0.0004680013321083825, binance-smart-chain
+AstroTools, ASTRO, 2091, 0xcbd55d4ffc43467142761a764763652b48b969ff, 0.11870804555444957, analytics
+WorkQuest Token, WQT, 2094, 0x06677dc4fe12d3ba3c7ccfd0df8cd45e4d4095bf, 0.016580864364662645, binance-smart-chain
+1Million Token, 1MT, 2096, 0xf0bc1ae4ef7ffb126a8347d06ac6f8add770e1ce, 0.3519598646602556, gambling
+Save Environment Token, SET, 2098, 0x0a2d9370cf74da3fd3df5d764e394ca8205c50b6, 0.3624446005807362, 
+Golden Goose, GOLD, 2099, 0x40d1f63b5d2048e67e9bedb1b4c2f1a9fb4b6817, 0.002096232304977217, 
+Transcodium, TNS, 2100, 0xb0280743b44bf7db4b6be482b2ba7b75e5da096c, 0.004049625240324527, 
+OWNDATA, OWN, 2105, 0x170b275ced089fffaebfe927f445a350ed9160dc, 0.0000334002425224649, 
+LYNC Network, LYNC, 2109, 0x8f87Ec6aAd3B2A8C44f1298A1af56169B8e574cf, 0.3403180405282276, 
+Curio, CUR, 2110, 0x13339fd07934cd674269726edf3b5ccee9dd93de, 0.17759371243569197, 
+Pylon Finance, PYLON, 2111, 0xD7B7d3C0bdA57723Fb54ab95Fd8F9EA033AF37f2, 22.867225843267452, yield-farming
+Collateral Pay, COLL, 2112, 0x957891c11616d3e0b0a76a76fb42724c382e0ef3, 0.053986647861485916, binance-smart-chain duckstarter
+UGAS, UGAS, 2113, 0x8716fc5da009d3a208f0178b637a50f4ef42400f, 0.0019357554027403193, platform distributed-computing
+Xiotri, XIOT, 2114, 0x31024a4c3e9aeeb256b825790f5cb7ac645e7cd5, 75.19332742568535, 
+Winco, WCO, 2117, 0xd44bb6663936cab1310584a277f7daa6943d4904, 0.0006838425527335943, 
+Patientory, PTOY, 2118, 0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06, 0.004678922729229856, health data-provenance
+Skyrim Finance, SKYRIM, 2119, 0x2610f0bfc21ef389fe4d03cfb7de9ac1e6c99d6e, 0.016082049238253848, vbc-ventures-portfolio
+Ethereum Stake, ETHYS, 2121, 0xd0d3ebcad6a20ce69bc3bc0e1ec964075425e533, 1.627298291080203, defi
+Vox.Finance, VOX, 2122, 0x12D102F06da35cC0111EB58017fd2Cd28537d0e1, 7.241184855580631, binance-smart-chain
+ORAO Network, ORAO, 2123, 0xEE1CeA7665bA7aa97e982EdeaeCb26B59a04d035, 0.008193985470462793, oracles dao-maker
+Niobium Coin, NBC, 2124, 0x9f195617fa8fbad9540c5d113a99a0a0172aaedc, 0.0051250108639224285, 
+ACoconut, AC, 2127, 0x9a0aba393aac4dfbff4333b06c407458002c6183, 0.12009539154552946, binance-smart-chain
+Dether, DTH, 2129, 0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190, 0.003173023039634166, marketplace mobile payments ethereum-ecosystem binance-smart-chain
+MODEL-X-coin, MODX, 2134, 0x3c6Da7763cAA0e4b684BbC733f04a8EC08Af3762, 0.025554116444255363, 
+Bobo Cash, BOBO, 2135, 0xF53c24f7729C88C110265929c7124E6259eFccAB, 8.895516881370143e-7, 
+Seigniorage Shares, SHARE, 2136, 0x39795344cbcc76cc3fb94b9d1b15c23c2070c66d, 0.014928613121996507, rebase seigniorage
+GoldenPyrex, GPYX, 2138, 0x3e3CdA3218212503883C79F6D2FeEF29E6Bbb87d, 0.030374171153919424, 
+Alt.Estate token, ALT, 2139, 0x419b8ed155180a8c9c64145e76dad49c0a4efb97, 0.0004139047029703334, 
+Aigang, AIX, 2140, 0x1063ce524265d5a3a624f4914acd573dd89ce988, 0.01018264128743862, 
+Triall, TRL, 2142, 0x58f9102bf53cf186682bd9a281d3cd3c616eec41, 0.09796685261406367, 
+ChronoBase, TIK, 2144, 0x0922f1d808adc3a4444bed2f73fac53a1a2a5859, 0.7390281640290329, 
+Blockpass, PASS, 2150, 0xee4458e052b533b1aabd493b5f8c4d85d7b263dc, 0.0017092, 
+ShoeFy, SHOE, 2153, 0x0fD67B4ceb9b607Ef206904eC73459c4880132c9, 0.0663870226296716, metaverse oxbull
+DOGEFI, DOGEFI, 2156, 0x9b9087756eca997c5d595c840263001c9a26646d, 0.2800486685551956, memes doggone-doggerel
+Swarm City, SWT, 2157, 0xb9e7f8568e08d5659f5d29c4997173d84cdf2607, 0.032752459104608986, marketplace
+MoonTools, MOONS, 2158, 0x260e63d91fccc499606bae3fe945c4ed1cf56a56, 10.148681311994688, analytics
+Ink Protocol, XNK, 2159, 0xbc86727e770de68b1060c91f6bb6945c73e10388, 0.0006514562012219881, marketplace reputation
+Ethereum Yield, ETHY, 2161, 0xd1AFBCCC9A2c2187ea544363B986EA0AB6EF08B5, 2.776322502878678, defi binance-smart-chain
+MesChain, MES, 2163, 0x8f1135eA4f8946949441716d66e5390C5A990DF0, 0.00031484841472503877, 
+Smartshare, SSP, 2164, 0x624d520bab2e4ad83935fa503fb130614374e850, 0.0000593701384374182, 
+Wrapped Basic CryptoKitties, WCK, 2166, 0x09fE5f0236F0Ea5D930197DCE254d77B04128075, 4.190796707985513, collectibles-nfts wrapped-tokens
+DACSEE, DACS, 2169, 0xa31108e5bab5494560db34c95492658af239357c, 0.0003599171330176812, 
+POLKARARE, PRARE, 2170, 0x2C2f7e7C5604D162d75641256b80F1Bf6f4dC796, 0.023803330067985528, art marketplace collectibles-nfts poolz-finance-portfolio polkafoundry-red-kite okex-blockdream-ventures-portfolio
+BlockMesh, BMH, 2172, 0xf03045a4c8077e38f3b8e2ed33b8aee69edf869f, 0.0009631516672222608, 
+CryptoTask, CTASK, 2173, 0x196c81385bc536467433014042788eb707703934, 0.20980778193415142, jobs sharing-economy
+Moneynet, MNC, 2175, 0xbac7a1798350cdf2dbfe0c210c2c9861223f4b31, 0.00007133337510155004, 
+Jetcoin, JET, 2178, 0x8727c112c712c4a03371ac87a74dd6ab104af768, 0.020145198548537142, marketing entertainment
+HashCoin, HSC, 2180, 0x2bba3cf6de6058cc1b4457ce00deb359e2703d7f, 0.00001992253591720375, 
+Nsure.Network, NSURE, 2184, 0x20945ca1df56d237fd40036d47e866c7dccd2114, 0.044837519731124126, defi insurance polkadot-ecosystem
+Tornado, TCORE, 2187, 0x7A3D5d49D64E57DBd6FBB21dF7202bD3EE7A2253, 42.12440127646096, 
+Playkey, PKT, 2188, 0x2604fa406be957e542beb89e6754fcde6815e83f, 0.014509426370800323, media gaming entertainment
+Content Neutrality Network, CNN, 2191, 0x8713d26637cf49e1b6b4a7ce57106aabc9325343, 0.00000641056060921931, 
+PiplCoin, PIPL, 2193, 0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4, 0.0014396685320707248, platform jobs
+RMPL, RMPL, 2194, 0xe17f017475a709de58e976081eb916081ff4c9d5, 0.41668375870621777, rebase
+Open Governance Token, OPEN, 2195, 0x69e8b9528CABDA89fe846C67675B5D73d463a916, 0.06736600641585078, defi yield-farming binance-smart-chain governance lending-borowing exnetwork-capital-portfolio
+Datamine, DAM, 2198, 0xf80d589b3dbe130c270a69f1a69d050f268786df, 0.07453169524370964, defi
+Kuverit, KUV, 2201, 0xf70d160102cf7a22c1e432d6928a9d625db91170, 0.00009101581728043857, 
+GamyFi Platform, GFX, 2202, 0x65ad6A2288b2Dd23E466226397c8F5D1794e58fC, 0.2901984150222848, sports gaming
+Blue Whale EXchange, BWX, 2205, 0xce5114d7fa8361f0c088ee26fa3a5446c4a1f50b, 0.0059643290218687325, marketplace sharing-economy smart-contracts
+LunchMoney, LMY, 2206, 0x66fd97a78d8854fec445cd1c80a07896b0b4851f, 0.0015745828617733453, ethereum-ecosystem
+AidCoin, AID, 2207, 0x37e8789bb9996cac9156cd5f5fd32599e6b91289, 0.005508769849506922, philanthropy
+Ubricoin, UBN, 2209, 0xdb13025b219db5e4529f48b65ff009a26b6ae733, 0.0001002007275673947, 
+Zero Utility Token, ZUT, 2210, 0x83F873388Cd14b83A9f47FabDe3C9850b5C74548, 241.3315469167782, collectibles-nfts
+JustBet, WINR, 2212, 0x27460aac4b005de72e2326bd8391c27fb41780f8, 0.00019703424180490546, yield-farming
+DeFi Bids, BID, 2213, 0x1dA01e84F3d4e6716F274c987Ae4bEE5DC3C8288, 0.009380525808230856, collectibles-nfts
+KIMCHI.finance, KIMCHI, 2216, 0x1e18821e69b9faa8e6e75dffe54e7e25754beda0, 0.00007957172918480199, yield-farming
+Chronologic, DAY, 2217, 0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F, 0.18305718633919513, 
+HaloDAO, RNBW, 2218, 0xe94b97b6b43639e238c851a7e693f50033efd75c, 0.040549206115269056, petrock-capital-portfolio spartan-group
+FansTime, FTI, 2220, 0x943ed852dadb5c3938ecdc6883718df8142de4c8, 0.00007907432516568758, 
+InterValue, INVE, 2223, 0xdac4ae188ace3c8985765edc6c9b4739d4845ddc, 0.0017388748781935746, 
+Yearn Secure, YSEC, 2224, 0xeea9aE787f3A620072d13b2cdC8cabFFb9c0aB96, 0.22039883350381834, 
+reflect.finance, RFI, 2225, 0xa1afffe3f4d611d252010e3eaf6f4d77088b0cd7, 0.02332646307411447, 
+EveryCoin , EVY, 2227, 0xeed3ae7b0f8b5b9bb8c035a9941382b1822671cd, 0.00002341811758728154, 
+SOTA Finance, SOTA, 2229, 0x0dde6f6e345bfd23f3f419f0dfe04e93143b44fb, 0.005444955186247526, collectibles-nfts exnetwork-capital-portfolio trustswap-launchpad
+Switch, ESH, 2230, 0xd6a55c63865affd67e2fb9f284f87b7a9e5ff3bd, 0.01796673725811777, decentralized-exchange
+Sessia, KICKS, 2231, 0xd91a6162f146ef85922d9a15ee6eb14a00344586, 0.023974366125569285, 
+BITTO, BITTO, 2232, 0x55a290f08bb4cae8dcf1ea5635a3fcfd4da60456, 0.06684819967710474, 
+Ethereum Gold, ETG, 2233, 0x28c8d01ff633ea9cd8fc6a451d7457889e698de6, 0.010708549465142152, medium-of-exchange payments
+Zeusshield, ZSC, 2234, 0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63, 0.00018443205171992167, asset-management ai-big-data
+Axis DeFi, AXIS, 2237, 0xecc0f1f860a82ab3b442382d93853c02d6384389, 0.10331311849533018, 
+DoYourTip, DYT, 2240, 0x740623d2c797b7D8D1EcB98e9b4Afcf99Ec31E14, 0.14670430563083856, binance-smart-chain
+Gems , GEM, 2241, 0xc7bba5b765581efb2cdd2679db5bea9ee79b201f, 0.00017583055690001206, platform jobs sharing-economy pantera-capital-portfolio
+Birdchain, BIRD, 2242, 0x026e62dded1a6ad07d93d39f96b9eabd59665e0d, 0.000750844494774792, binance-smart-chain
+NeoWorld Cash, NASH, 2243, 0x4b94c8567763654101f690cf4d54957206383b75, 0.000008850092812005258, play-to-earn
+Bounty0x, BNTY, 2244, 0xd2d6158683aee4cc838067727209a0aaf4359de3, 0.0008920619862950905, services crowdsourcing
+FuzeX, FXT, 2247, 0x1829aa045e21e0d59580024a951db48096e01782, 0.0002256523802026272, 
+Bitether, BTR, 2251, 0x499a6b77bc25c26bcf8265e2102b1b3dd1617024, 0.0035991713301768116, 
+Molecular Future, MOF, 2252, 0x653430560be843c4a3d143d0110e896c2ab8ac0d, 0.002338606417199137, 
+GoNetwork, GOT, 2255, 0x423b5f62b328d0d6d44870f4eee316befa0b2df5, 0.002814551980198267, marketplace
+Lepasa, LEPA, 2258, 0xbba6c7c7d673c48d90069ad2e9d2fe587fcb6bc3, 0.08985953079798377, 
+CorionX, CORX, 2260, 0x26a604DFFE3ddaB3BEE816097F81d3C4a2A4CF97, 0.0015355245781225402, ethereum-ecosystem binance-smart-chain
+Escroco Emerald, ESCE, 2265, 0x49614661737efbfc6a102efaeefdc8e197f7cc0e, 0.00019188722455257804, 
+Decentralized Crypto Token, DCTO, 2266, 0x9ccbd05d4d25c745d49f5e6bf17e09113eb4c769, 0.00019188722455257804, 
+PlayGame, PXG, 2268, 0x47e67ba66b0699500f18a53f94e2b9db3d47437e, 0.00019003302509102557, 
+Unicly Chris McCann Collection, UCM, 2271, 0x5fb99a3593d7088e44377a1beb27739bd928f269, 0.1885443499547445, collectibles-nfts
+Method Finance, MTHD, 2274, 0x84ba4aecfde39d69686a841bab434c32d179a169, 0.004500145394793555, 
+Blue Protocol, BLUE, 2276, 0x539efe69bcdd21a83efd9122571a64cc25e0282b, 0.005038839862247537, platform wallet
+Decentralized Machine Learning, DML, 2278, 0xbcdfe338d55c061c084d81fd793ded00a27f226d, 0.0006618019482665544, 
+EOS TRUST, EOST, 2279, 0x87210f1d3422ba75b6c40c63c78d79324dabcd55, 0.00002385731608747493, 
+Fundamenta, FMTA, 2281, 0xaa9d866666c2a3748d6b23ff69e63e52f08d9ab4, 0.19470670454059902, 
+BitCapitalVendor, BCV, 2286, 0x1014613e2b3cbc4d575054d4982e580d9b99d7b1, 0.00017116911936656878, asset-management
+UpToken, UP, 2288, 0x6ba460ab75cd2c56343b3517ffeba60748654d26, 0.001187477174188406, 
+Unicly Doki Doki Collection, UDOKI, 2289, 0x7e6c38d007740931e4b419bf15a68c79a0fb0c66, 0.00017389107442896803, collectibles-nfts
+PYRO Network, PYRO, 2291, 0x14409b0fc5c7f87b5dad20754fe22d29a3de8217, 0.000215744540640053, 
+ZeuxCoin, ZUC, 2293, 0x6b4689e4514957699edeb2ee91c947f18e439806, 0.0009001564346417001, 
+Melalie, MEL, 2294, 0xed0889f7e1c7c7267407222be277e1f1ef4d4892, 0.008295386927345312, 
+Playgroundz, IOG, 2295, 0x1c4b7d0e1885bd7667af3378e0c538f74e712006, 0.005893024125454329, 
+LCMS, LCMS, 2297, 0x86911B82BfA596e9377836838AC1f0d9AD4Ecc19, 0.010993599973473895, 
+Rivetz, RVT, 2298, 0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244, 0.00621744177255716, hardware payments
+Rapidz, RPZX, 2300, 0x68350d30d9f58c81aaaa41929f1bfc52fff4ea49, 0.00008809935267445367, 
+BoutsPro, BOUTS, 2301, 0x139d9397274bb9e2c29a9aa8aa0b5874d30d62e3, 0.0021233011317852686, 
+HOQU, HQX, 2303, 0x1b957dc4aefeed3b4a2351a6a6d5cbfbba0cecfa, 0.0009542925346591846, 
+SOAR.FI, SOAR, 2306, 0xbae5f2d8a1299e5c4963eaff3312399253f27ccb, 0.026428126851807846, 
+Cosmo Coin, COSM, 2313, 0xd1e10c37a27d95d95720291b1dc6f12f74c71443, 0.0002300399777417678, 
+Alphr finance, ALPHR, 2315, 0xaa99199d1e9644b588796F3215089878440D58e0, 0.08878351297315941, dao-maker
+Rentberry, BERRY, 2316, 0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c, 0.0005084930000034708, 
+Ducato Protocol Token, DUCATO, 2320, 0xa117ea1c0c85CEf648df2b6f40e50bb5475C228d, 0.11802051031968956, 
+StakerDAO, STKR, 2321, 0x89dcff5fd892f2bfc8b75dba12804b651f769579, 0.006288940509243508, defi staking dao algorand-ecosystem
+Sentinel Chain, SENC, 2324, 0xa13f0743951b4f6e3e3aa039f682e17279f52bc3, 0.0007590604983617836, 
+ChartEx, CHART, 2325, 0x1d37986f252d0e349522ea6c3b98cb935495e63e, 0.007442962177913688, analytics
+Unvest, UNV, 2326, 0xf009f5531de69067435e32c4b9d36077f4c4a673, 0.005587490378777544, 
+MenaPay, MPAY, 2328, 0x3810a4ddf41e586fa0dba1463a7951b748cecfca, 0.001104375656351565, 
+Cobinhood, COB, 2329, 0xb2f7eb1f2c37645be61d73953035360e768d81e6, 0.0003599171330176812, marketplace centralized-exchange
+Cyber Movie Chain, CMCT, 2330, 0x7abc60b3290f68c85f495fd2e0c3bd278837a313, 0.000007395767987117228, 
+ATC Coin, ATCC, 2331, 0xddaaf4a0702a03a4505f2352a1aba001ffc344be, 0.0003599171330176812, 
+Finminity, FMT, 2332, 0x99c6e435eC259A7E8d65E1955C9423DB624bA54C, 0.08020788957988981, launchpad
+AiLink Token, ALI, 2333, 0x4289c043a12392f1027307fb58272d8ebd853912, 0.000028390206144095166, 
+Chi Gastoken, CHI, 2334, 0x0000000000004946c0e9f43f4dee607b0ef1fa1c, 0.17173440744590587, 
+Kwikswap Protocol, KWIK, 2336, 0x286c0936c7eaf6651099ab5dab9ee5a6cb5d229d, 0.015402611822309915, binance-smart-chain
+Themis, GET, 2339, 0x60c68a87be1e8a84144b543aacfa77199cd3d024, 0.0002391347645367376, 
+Alpha Token, A, 2342, 0xffc63b9146967a1ba33066fb057ee3722221acf0, 0.0041277313753227685, 
+Crypto Kombat, KOMBAT, 2344, 0x878cf148ccbb50426043a9affe54ba408221c7fa, 14.0869063239991, collectibles-nfts gaming staking ethereum-ecosystem binance-chain governance play-to-earn
+Wolves of Wall Street, WOWS, 2346, 0x672EF7E4Fe230B5cA1466C5fDD40588d30FdF90a, 22.10593930266939, collectibles-nfts smart-contracts
+Landbox, LAND, 2348, 0x0e2ef8aecb3c01ad5d596f1b67134e178199984d, 0.0018114503367196847, binance-smart-chain
+DecentBet, DBET, 2350, 0x9b68bfae21df5a510931a262cecf63f41338f264, 0.000726369072674295, gambling
+DATx, DATX, 2351, 0xabbbb6447b68ffd6141da77c18c7b5876ed6c5ab, 0.00009837311605238374, marketing ai-big-data
+Boosted Finance, BOOST, 2352, 0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78, 2.2703944186076894, yield-farming
+SBank, STS, 2353, 0x4c14114c107d6374ec31981f5f6cc27a13e22f9a, 0.009268059258936033, 
+SORA Validator Token, VAL, 2354, 0xe88f8313e61a97cec1871ee37fbbe2a8bf3ed1e4, 0.33281485571365377, 
+Gene Source Code Chain, GENE, 2355, 0x884181554dfa9e578d36379919c05c25dc4a15bb, 0.0003599171330176812, 
+Zilla, ZLA, 2358, 0xfd8971d5e8e1740ce2d0a84095fca4de729d0c16, 0.0022242878820492697, platform crowdfunding wallet
+Connectome, CNTM, 2361, 0x9a1bf361798ef6538ccb8137ea900c4d4b48ca3d, 0.10835607071201238, 
+OptiToken, OPTI, 2363, 0x832904863978b94802123106e6eb491bdf0df928, 0.003751875391507606, 
+Castweet, CTT, 2365, 0x1a4743cf1af4c289351390a2b3fe7c13d2f7c235, 0.07198342660353625, 
+Innovative Bioresearch Coin, INNBC, 2366, 0xB67718b98d52318240c52E71A898335da4A28c42, 2.0013478063533798e-7, binance-smart-chain
+MetaMorph, METM, 2368, 0xfef3884b603c33ef8ed4183346e093a173c94da6, 0.00035271879035732757, decentralized-exchange
+SkinCoin, SKIN, 2369, 0x2bdc0d42996017fce214b21607a515da41a9e0c5, 0.0014314389652484957, media gaming entertainment
+YVS.Finance, YVS, 2375, 0xec681f28f4561c2a9534799aa38e0d36a83cf478, 0.09728422347830941, defi ethereum-ecosystem yield-farming binance-smart-chain
+MidasProtocol, MAS, 2377, 0x23ccc43365d9dd3882eab88f43d515208f832430, 0.0006207747465949362, 
+Wrapped Virgin Gen-0 CryptoKitties, WVG0, 2379, 0x25c7b64a93eb1261e130ec21a3e9918caa38b611, 354.35906428324967, collectibles-nfts wrapped-tokens
+Savix, SVX, 2380, 0xc434b27736a6882d33094d34792999702860a13c, 2.014750847495575, staking
+Tendies, TEND, 2383, 0x1453dbb8a29551ade11d89825ca812e05317eaeb, 0.015944988923662633, memes
+Meridian Network, LOCK, 2384, 0x95172ccBe8344fecD73D0a30F54123652981BD6F, 0.010837851754018956, 
+Taklimakan Network, TAN, 2385, 0x2c36204a0712a2a50e54a62f7c4f01867e78cb53, 0.0025483328647324904, 
+Bigbom, BBO, 2386, 0x84f7c44b6fed1080f647e354d552595be2cc602f, 0.00034457413721999676, 
+PKG Token, PKG, 2387, 0x02f2d4a04e6e01ace88bd2cd632875543b2ef577, 0.000012882950687236462, 
+Rate3, RTE, 2388, 0x436f0f3a982074c4a05084485d421466a994fe53, 0.00012954540403131365, 
+COVA, COVA, 2389, 0xb37a769b37224449d92aac57de379e1267cd3b00, 0.00004611754886248011, kenetic-capital-portfolio
+Membrana, MBN, 2392, 0x4eeea7b48b9c3ac8f70a9c932a8b1e8a5cb624c7, 0.0003009578627839927, 
+SPINDLE, SPD, 2397, 0x1dEa979ae76f26071870F824088dA78979eb91C8, 0.000027102184015520587, 
+Webflix Token, WFX, 2398, 0xd111BCb8C30a600c12F4AF8314235F628EA2Cb3C, 0.000007551312312827595, 
+Artfinity, AT, 2399, 0xe54b3458c47e44c37a267e7c633afef88287c294, 0.0008701512201536434, art collectibles-nfts data-provenance
+MicroMoney, AMM, 2403, 0x8b1f49491477e0fb46a29fef53f1ea320d13c349, 0.00659915263407967, asset-management dapp
+Ormeus Cash, OMC, 2404, 0xd6bd97a26232ba02172ff86b055d5d7be789335b, 0.0005379734922945307, 
+Ormeus Coin, ORMEUS, 2406, 0xc96df921009b790dffca412375251ed1a2b75c60, 0.0028004770556205785, asset-management payments
+Insight Protocol, INX, 2407, 0x84fE25f3921f3426395c883707950d0c00367576, 0.0005473096236949686, 
+BidiPass, BDP, 2408, 0x593114f03a0a575aece9ed675e52ed68d2172b8c, 0.00025699620141650923, 
+Maecenas, ART, 2409, 0xfec0cf7fe078a500abf15f1284958f22049c2c7e, 0.0014315218916019356, art pantera-capital-portfolio
+Tokenbox, TBX, 2412, 0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b, 0.008724636682736238, asset-management
+Global Crypto Alliance, CALL, 2415, 0xbbe761ea1447a20b75aa485b7bcad4837415d7d7, 0.001223718252260116, 
+Fireball, FIRE, 2418, 0x3F8A2f7bcD70e7F7Bdd3FbB079c11d073588DEA2, 4.787847868007104, 
+Matryx, MTX, 2419, 0x0af44e2784637218dd1d32a322d44e603a8f0c6a, 0.00402747958416091, education research
+megaBONK, MBONK, 2420, 0xacfe45c352c902ae3a3f9b6bfe6ec994c5d791bf, 0.03110540568595208, collectibles-nfts
+Fantasy Sports, DFS, 2422, 0xcec38306558a31cdbb2a9d6285947c5b44a24f3e, 0.016780359537749184, 
+ZPER, ZPR, 2423, 0xb5b8f5616fe42d5ceca3e87f3fddbdd8f496d760, 0.00007300338722767329, payments
+1MillionNFTs, 1MIL, 2424, 0xa4ef4b0b23c1fc81d3f9ecf93510e64f58a4a016, 0.7606202086132343, collectibles-nfts poolz-finance-portfolio
+Italian Lira, ITL, 2425, 0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f, 0.000003599171330176812, marketplace payments stablecoin
+Fyooz, FYZ, 2426, 0x6BFf2fE249601ed0Db3a87424a2E923118BB0312, 0.013896922472730194, social-money
+EchoLink, EKO, 2430, 0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee, 0.0001791487432095167, education jobs
+Devery, EVE, 2431, 0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c, 0.0014213266302482242, 
+EventChain, EVC, 2432, 0xb62d18dea74045e822352ce4b3ee77319dc5ff2f, 0.0028441110990313494, events entertainment
+FidexToken, FEX, 2433, 0x1c1c14a6b5074905ce5d367b0a7e098b58ebfd47, 0.0000028628779304969914, 
+Sakura Bloom, SKB, 2436, 0x4af328c52921706dcb739f25786210499169afe6, 0.00003407592192026969, 
+Matrexcoin, MAC, 2437, 0xc3e2de0b661cf58f66bde8e896905399ded58af5, 0.0039590884631944935, 
+Collective, CO2, 2442, 0x75739d5944534115d7c54ee8c73f186d793bae02, 0.3176358196351214, 
+AI Doctor, AIDOC, 2444, 0x584b44853680ee34a0f337b712a8f66d816df151, 0.00010610357081361243, health ai-big-data payments
+EnterCoin, ENTRC, 2447, 0xd9d01d4cb824219a8f482a0fad479cb971fd0628, 0.014378498782676755, 
+Sociall, SCL, 2450, 0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8, 0.004675323557899678, marketplace entertainment
+Secure Pad, SEPA, 2452, 0x10994aa2fb8e6ba5d9fb2bc127ff228c4fe6167f, 0.9630855946297947, 
+HeartBout, HB, 2453, 0xe2492f8d2a2618d8709ca99b1d8d75713bd84089, 0.001439668532070725, 
+FNB Protocol, FNB, 2455, 0x47b28f365bf4cb38db4b6356864bde7bc4b35129, 0.00003140545783083264, platform
+Rope, $ROPE, 2459, 0x9d47894f8becb68b9cf3428d256311affe8b068b, 2.6067047582065137, collectibles-nfts
+Payfair, PFR, 2460, 0xB41422D5a1d5d5C73c229686935b40F881502785, 0.0018446720674912395, 
+Blocktix, TIX, 2462, 0xea1f346faf023f974eb5adaf088bbcdf02d761f4, 0.0017995856650884058, 
+Baguette Token, BGTT, 2463, 0x7a545Ed3863221A974F327199Ac22F7f12535F11, 0.00618340243246611, memes yield-farming avalanche-ecosystem
+ICE ROCK MINING, ROCK2, 2468, 0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6, 0.004485175424445286, 
+Elementeum, ELET, 2470, 0x6c37bf4f042712c978a73e3fd56d1f5738dd7c43, 0.013435306119556418, 
+Privatix, PRIX, 2471, 0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a, 0.061905746879041164, marketplace distributed-computing
+InvestFeed, IFT, 2473, 0x7654915a1b82d6d2d0afc37c52af556ea8983c7e, 0.0003599171330176812, media content-creation
+TrustDAO, TRUST, 2475, 0x57700244B20f84799a31c6C96DadFF373ca9D6c5, 0.0037647556149258588, 
+Uptrennd, 1UP, 2477, 0x07597255910a51509ca469568b048f2597e72504, 0.00016916105251831015, 
+Eroscoin, ERO, 2478, 0x74ceda77281b339142a36817fa5f9e29412bab85, 0.0003599171330176812, platform payments
+Opus, OPT, 2479, 0x4355fC160f74328f9b383dF2EC589bB3dFd82Ba0, 0.000478689786913516, 
+Truegame, TGAME, 2480, 0xf8e06e4e4a80287fdca5b02dccecaa9d0954840f, 0.000809717308008899, 
+4NEW, KWATT, 2483, 0x241ba672574a78a3a604cdd0a94429a73a84a324, 0.0010738177970972464, 
+Island Coin, ISLE, 2487, 0x1681bcB589b3cFCF0c0616B0cE9b19b240643dc1, 2.31956234613422e-10, 
+DMScript, DMST, 2488, 0xF29992D7b589A0A6bD2de7Be29a97A6EB73EaF85, 0.0006330535951061093, gaming polkadot-ecosystem
+Earnbase, ENB, 2489, 0xa6fb1df483b24eeab569e19447e0e107003b9e15, 0.5194350909433677, 
+Infinity Esaham, INFS, 2492, 0x193408ca0576b73156ed42a2ea7d6fd3f6507162, 0.09675717265427276, 
+DABANKING, DAB, 2493, 0x5e7ebea68ab05198f771d77a875480314f1d0aae, 0.012003396022921978, 
+WABnetwork, WAB, 2496, 0x4bbbc57af270138ef2ff2c50dbfad684e9e0e604, 0.000003599171330176812, 
+Unicly Genesis Collection, UUNICLY, 2497, 0x3d9233f15bb93c78a4f07b5c5f7a018630217cb3, 0.06097473699312559, collectibles-nfts
+CyberMusic, CYMT, 2499, 0x78c292d1445e6b9558bf42e8bc369271ded062ea, 0.000003902945501722732, 
+Arbidex, ABX, 2500, 0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e, 0.002535067151156146, 
+PRIA, PRIA, 2501, 0xb9871cb10738eada636432e86fc0cb920dc3de24, 0.8569535388768692, 
+EUNOMIA, ENTS, 2502, 0x0f612a09ead55bb81b6534e80ed5a21bf0a27b16, 0.000003598519941547067, 
+More Coin, MORE, 2506, 0x305DE070488C8469dFAC957226c9c900c4BFbA22, 0.02914801152653124, events loyalty entertainment
+Waletoken, WTN, 2509, 0x0ea984e789302b7b612147e4e4144e64f21425eb, 0.0000028623232271954556, 
+Worldcore, WRC, 2511, 0x72adadb447784dd7ab1f472467750fc485e4cb2d, 0.0003111158116571451, 
+Cryptobuyer, XPT, 2514, 0x08aa0ed0040736dd28d4c8b16ab453b368248d19, 0.0009549533088651671, 
+Bela, BELA, 2517, 0x2e98a6804e4b6c832ed0ca876a943abd3400b224, 0.00107955598246412, pow scrypt
+SiaCashCoin, SCC, 2519, 0x74fd51a98a4a1ecbef8cc43be801cce630e260bd, 0.0000023852693559962134, 
+Natmin Pure Escrow, NAT, 2527, 0x90d46a9636b973f18186541d1b04ed3621a49cb0, 0.0003126562826256338, 
+MyBit, MYB, 2530, 0x5d60d8d7ef6d37e16ebabc324de3be57f135e0bc, 0.0003137931651542787, asset-management iot
+EvenCoin, EVN, 2535, 0x68909e586eeac8f47315e84b4c9788dd54ef65bb, 0.0015389757884887566, tourism
+Biotron, BTRN, 2538, 0x03c780cd554598592b97b7256ddaad759945b125, 0.0007197039883094134, 
+Bintex Futures, BNTX, 2537, 0x86d1d12523B65203851c571FcC029bF90903fB6d, 0.47123222626632405, decentralized-exchange
+Blockburn, BURN, 2540, 0x8515cD0f00aD81996d24b9A9C35121a3b759D6Cd, 0.00002385269355996213, 
+Cash Tech, CATE, 2546, 0xa42f266684ac2ad6ecb00df95b1c76efbb6f136c, 0.0038621616876170395, duckstarter
+Micromines, MICRO, 2549, 0xbe6c8f2810ef39420d2dc2901b8414c8c45fee6d, 0.000002504532823796024, decentralized-exchange
+ShowHand, HAND, 2552, 0x48c1b2f3efa85fbafb2ab951bf4ba860a08cdbb7, 7.15580806798864e-7, 
+SF Capital, SFCP, 2558, 0x8b6cda5cc518c904e8844f445e1a7c7d2db0ff16, 0.0004196845012506665, 
+JavaScript Token, JS, 2560, 0x5046e860ff274fb8c66106b0ffb8155849fb0787, 0.005037927918165894, marketplace crowdsourcing jobs
+CustomContractNetwork, CCN, 2564, 0x17b26400621695c2d8c2d8869f6259e82d7544c4, 0.00002385269355996213, 
+Yield Stake Finance, YI12, 2568, 0x03e4bdce611104289333f35c8177558b04cc99ff, 3.4405857522756023, 
+ArbitrageCT, ARCT, 2570, 0x1245ef80f4d9e02ed9425375e8f649b9221b31d8, 0.00035985199415470675, 
+Elysian, ELY, 2571, 0xa95592dcffa3c080b4b40e459c5f5692f67db7f8, 0.0003816430969593941, 
+Tourist Token, TOTO, 2572, 0xe3278df3eb2085ba9b6899812a99a10f9ca5e0df, 0.000006781425787213985, 
+TrueDeck, TDP, 2574, 0x5b11aacb6bddb9ffab908fdce739bf4aed554327, 0.0011926346779981066, gambling
+ELTCOIN, ELTCOIN, 2577, 0x44197a4c44d6a059297caf6be4f7e172bd56caaf, 0.00039460023911701254, 
+NFX Coin, NFXC, 2578, 0x2d39ec4da54329d28d230b4973f5aa27886c3aee, 0.0003598519941547067, 
+ITO Utility Token, IUT, 2580, 0xD36a0e7b741542208aE0fBb35453C893D0136625, 0.0003816430969593941, 
+WeBlock, WON, 2585, 0x1eddee3fa21591a9637f88dab9615c33ee636b9d, 0.007601294103864703, 
+BTC Lite, BTCL, 2586, 0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50, 0.0017992599707735335, 
+Knekted, KNT, 2587, 0x7CC62d8E80Be9bEa3947F3443aD136f50f75b505, 0.00006110367656585148, 
+InvestDigital, IDT, 2593, 0x02c4c78c462e32cca4a90bc499bf411fb7bc6afb, 0.00026208200679194804, 
+Hyper Speed Network, HSN, 2598, 0x365542df3c8c9d096c5f0de24a0d8cf33c19c8fd, 0.00025977122158318984, 
+Herbalist Token, HERB, 2599, 0x04a020325024f130988782bd5276e53595e8d16e, 0.00000334079328087436, 
+StarterCoin, STAC, 2601, 0x9a005c9a89bd72a4bd27721e7a09a3c11d2b03c4, 0.0000923404699751233, 
+BitRewards, BIT, 2602, 0x47da42696a866cdc61a4c809a515500a242909c1, 0.00009111728939905534, 
+Paypex, PAYX, 2604, 0x62a56a4a2ef4d355d34d10fbf837e747504d38d4, 0.00020377869063731548, 
+Cryptrust, CTRT, 2605, 0x8606a8f28e1e2fd50b9074d65c01548b1f040b32, 0.0000043047328714518, 
+ETHplode, ETHPLO, 2609, 0xe0c6ce3e73029f201e5c0bedb97f67572a93711c, 0.0006699370104342144, 
+XOVBank, XOV, 2612, 0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9, 0.00020377869063731548, 
+CryptoEnergy, CNRG, 2613, 0xc21dBEE65D62770953035f0434C532d578a666c9, 1.0401770878972751, 
+Mesefa, SEFA, 2614, 0x27201232579491Ce9b116Ac6F37D354Cc723A2f3, 0.066011238270404, 
+Dynamite, DYNMT, 2615, 0x3b7f247f21bf3a07088c2d3423f64233d4b069f7, 0.0717065845394255, ethereum-ecosystem binance-smart-chain
+FUZE Token, FUZE, 2620, 0x187d1018e8ef879be4194d6ed7590987463ead85, 36.80468701782713, 
+BoatPilot Token, NAVY, 2622, 0xc15a399c4ea7815fe36857c9e290ee452a5d6b21, 0.0003598519941547067, 
+Stobox Token, STBU, 2623, 0xa6422e3e219ee6d4c1b18895275fe43556fd50ed, 0.003864387784392064, 
+Kush Finance, KSEED, 2625, 0x3f09400313e83d53366147e3ea0e4e2279d80850, 0.10001702768243032, 
+ZeusNetwork, ZEUS, 2630, 0xe7e4279b80d319ede2889855135a22021baf0907, 3.5985199415470667e-7, 
+Plus-Coin, NPLC, 2631, 0x97fb6fc2ad532033af97043b563131c5204f8a35, 0.00005319150663871555, 
+YoloCash, YLC, 2633, 0x21d5678a62dfe63a47062469ebb2fac2817d8832, 0.0008109915810387124, 
+Rewardiqa, REW, 2634, 0x3FFfFA8F3cc943e43f9f17a83Cbb18f4Bbb9f4AC, 0.002385269355996213, 
+Bitnation, XPAT, 2635, 0xBB1fA4FdEB3459733bF67EbC6f893003fA976a82, 7.795544596752071e-7, 
+Zuflo Coin, ZFL, 2637, 0x19fFfd124CD9089E21026d10dA97f8cD6B442Bff, 0.0003598519941547067, 
+Halving Token, HALV, 2638, 0x9e7cb236e43c4bd042fE463df6a175d4479ee186, 0.009630639595541215, 
+Ccore, CCO, 2639, 0x679badc551626e01b23ceecefbc9b877ea18fc46, 0.01342906647425868, 
+ZINC, ZINC, 2648, 0x4aac461c86abfa71e9d00d9a2cde8d74e4e1aeea, 0.0037980036778994014, 
+HashNet BitEco, HNB, 2650, 0x9c197c4b58527faaab67cb35e3145166b23d242e, 0.0007051200451611337, 
+ARAW, ARAW, 2651, 0x30680ac0a8a993088223925265fd7a76beb87e7f, 0.000010455380005810534, 
+Yearn Finance Bit, YFBT, 2652, 0xf0a0f3a6fa6bed75345171a5ea18abcadf6453ba, 18.822879097663993, 
+Zenswap Network Token, ZNT, 2656, 0xe95990825aab1a7f0af4cc648f76a3bcc99f25b2, 0.000001669688549197349, decentralized-exchange
+Provoco Token, VOCO, 2657, 0xb5ca46cf1da09248126682a7bd72401fd7a6b151, 2.0003405536486062e-8, 
+Ether Kingdoms Token, IMP, 2659, 0x48ff53777f747cfb694101222a944de070c15d36, 0.002518963959082947, 
+LuckySevenToken, LST, 2660, 0x6b9F1F092E0B10015a4391A80cD3E6B6cefD1728, 0.0003000910898583639, 
+Shivers, SHVR, 2661, 0xd5f788ca0de8f17cbde1d1e35aa8f005a87fa00b, 0.0003598519941547067, 
+Neuromorphic.io, NMP, 2665, 0x4D6b9f281AF31916a0f16D1cEA2ec7384851EAAb, 0.0027361252703425563, 
+Thingschain, TIC, 2666, 0x72430a612adc007c50e3b6946dbb1bb0fd3101d1, 0.000001669688549197349, 
+FUTURAX, FTXT, 2668, 0x41875c2332b0877cdfaa699b641402b7d4642c32, 0.000005486141251953696, 
+Datarius Credit, DTRC, 2669, 0xc20464e0c373486d2b3335576e83a218b1618a5e, 0.0000923404699751233, 
+IGToken, IG, 2671, 0x8a88f04e0c905054d2f33b26bb3a46d7091a039a, 0.000004293484840793183, 
+Kind Ads Token, KIND, 2672, 0x4618519de4c304f3444ffa7f812dddc2971cc688, 0.0004293484840793184, 
+Bitcashpay (old), BCP, 2677, 0xe047705117Eb07e712C3d684f5B18E74577e83aC, 0.00009018866395433858, binance-smart-chain trustswap-launchpad
+Feellike, FLL, 2679, 0x9235bda06b8807161b8fbb1e102cb654555b212f, 0.009691639980724729, 
+Decentralized Asset Trading Platform, DATP, 2682, 0x813b428af3920226e059b68a62e4c04933d4ea7a, 0.0000014605693754527897, 
+Havy, HAVY, 2684, 0x7c2e5b7ec572199d3841f6a38f7d4868bd0798f1, 0.000002057950361593686, 
+iBTC, IBTC, 2687, 0xb7c4a82936194fee52a4e3d4cec3415f74507532, 0.0003349685052171072, 
+TravelNote, TVNT, 2693, 0x5635ddeabf9cdda686995fe90beb5411831563fc, 0.007386387438444526, tourism
+Bionic, BNC, 2694, 0xef51c9377feb29856e61625caf9390bd0b67ea18, 0.000029815866949952662, 
+Vortex Defi, VTX, 2697, 0xceb286c9604c542d3cc08b41aa6c9675b078a832, 0.005928852615919031, defi duckstarter exnetwork-capital-portfolio
+Alpha Coin, APC, 2704, 0x15bda08c3afbf5955d6e9b235fd55a1fd0dbc829, 0.0003991375483236961, 
+HyperQuant, HQT, 2705, 0x3e1d5a855ad9d948373ae68e4fe1f094612b1322, 0.00013953825732577847, 
+UChain, UCN, 2706, 0xaaf37055188feee4869de63464937e683d61b2a1, 0.00004412748308592994, 
+Webcoin, WEB, 2708, 0xf344490abd414dafa97f34c8ca501b0aa5bf8873, 0.0002385269355996213, binance-smart-chain
+Bonpay, BON, 2715, 0xcc34366e3842ca1bd36c1f324d15257960fcc801, 0.00107955598246412, 
+DistX, DISTX, 2718, 0x4b4701f3f827e1331fb22ff8e2beac24b17eb055, 0.0003728765272330992, 
+CRDT, CRDT, 2719, 0xDaab5E695bb0E8Ce8384ee56BA38fA8290618e52, 0.0013627898662669782, 
+WXCOINS, WXC, 2731, 0x0ee11500e7cfe6124e3716cd7755a0f0f2116244, 0.0003598519941547067, mineable
+Spectrum, SPT, 2733, 0x01cc4151fe5f00efb8df2f90ff833725d3a482a3, 0.00000906402355278561, 
+Rigel Finance, RIGEL, 2735, 0x4ca0654f4fc1025cf1a17b7459c20ac0479522ad, 2.5304308003654863, amm
+Thore Cash, TCH, 2737, 0x9972a0f24194447e73a7e8b6cd26a52e02ddfad5, 0.00019082154847969705, 
+S.Finance, SFG, 2742, 0x8a6ACA71A218301c7081d4e96D64292D3B275ce0, 0.10228232816448932, dao governance
+ECOSC, ECU, 2746, 0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5, 0.009001532491418726, 
+XPA, XPA, 2753, 0x90528aeb3a2b736b780fd1b6c478bb7e1d643170, 0.00011926346779981065, asset-management
+LitecoinToken, LTK, 2757, 0x8a732bc91c33c167f868e0af7e6f31e0776d0f71, 6.9970202484758e-8, 
+Mainstream For The Underground, MFTU, 2760, 0xbA745513ACEbcBb977497C569D4F7d340f2A936B, 0.000005794394851216872, 
+Scanetchain, SWC, 2763, 0xadf8b8050639b6236915f7516d69de714672f0bf, 0.000007197039883094134, 
+Aeryus, AER, 2768, 0xac4d22e40bf0b8ef4750a99ed4e935b99a42685e, 0.0004835104824278378, 
+SharedStake, SGT, 2771, 0x24c19f7101c1731b85f1127eaa0407732e36ecdd, 0.037595880695725795, 
+Electrum Dark, ELD, 2772, 0x796e47b85a0d759f300f1de96a3583004235d4d8, 0.001443874306912312, 
+Guider, GDR, 2774, 0x874d4c9b980f1a13dd44cbcdb912e24ef0671ed0, 0.000021915234521038124, tourism
+IFX24, IFX24, 2777, 0xc962ad021a69D457564e985738C719aE3f79B707, 0.0017992599707735335, 
+Bulleon, BUL, 2781, 0x0775c81a273b355e6a5b76e240bf708701f00279, 0.00431822392985648, 
+Sparkle Loyalty, SPRKL, 2785, 0x4b7ad3a56810032782afce12d7d27122bdb96eff, 0.00032206617900699865, 
+Diligence, IRA, 2786, 0xade7b5f4a421d81ddad8ce86f77a0efe8921e9cc, 0.0001877905688123191, 
+The Currency Analytics, TCAT, 2789, 0xaff84e86d72edb971341a6a66eb2da209446fa14, 0.00002385269355996213, 
+Abulaba, AAA, 2795, 0xd938137e6d96c72e4a6085412ada2dad78ff89c4, 0.00019185234385733443, 
+FinNexus, FNX, 2796, 0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B, 0.00007975898981008293, derivatives options
+Joint Ventures, JOINT, 2797, 0x347c099f110ca6761779329d2879957b606b6ace, 0.00011926346779981065, iot
+ETHPlus, ETHP, 2799, 0xEED736b2b809550D89A941C2005dE93588c628e2, 0.0020003405536486063, 
+SeChain, SNN, 2800, 0xF5717f5DF41eA67Ef67DFD3c1d02F9940bcF5d08, 1.4311616135977282e-7, binance-smart-chain
+Crystal Token, CYL, 2802, 0x26CB3641aaA43911f1D4cB2ce544eb652AAc7c47, 0.0035301986468743956, 
+IBStoken, IBS, 2809, 0xf0e6019c0f16d31294937b3334229909349e00f4, 0.001709296972234857, 
+Storeum, STO, 2812, 0xcb39c3502415152b2ec90ff07ee18cc94f681a72, 0.000004770538711992427, 
+Celeum, CLX, 2813, 0x9f8f7ea504588a58b8b24b832b5d25a4aeb4706f, 0.0002385269355996213, 
+Staker, STR, 2814, 0xbae235823d7255d9d48635ced4735227244cd583, 0.0007197039883094134, 
+DOWCOIN, DOW, 2820, 0x76974c7b79dc8a6a109fd71fd7ceb9e40eff5382, 0.00002385269355996213, 
+Innovative Bioresearch Classic, INNBCL, 2822, 0x0Cc9FCCFF81252F4bd8C5c6b359B14ae2Ed851cf, 2.9705723045641853e-8, 
+WETH, WETH, 2825, 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, 2383.681979591968, 
+FLEX, FLEX, 2826, 0xfcf8eda095e37a41e002e266daad7efc1579bc0a, 4.1577802899203, 
+KingDeFi, KRW, 2830, 0x499568c250Ab2a42292261d6121525d70691894b , 0.0008080440039307531, binance-smart-chain
+LooksRare, LOOKS, 2831, 0xf4d2888d29d722226fafa5d9b24f9164c092421e, 3.726212426061723, 
+XT.com Token, XT, 2837, 0x4be10da47a07716af28ad199fbe020501bddd7af, 1.6437336325460028, 
+Wrapped LUNA Token, WLUNA, 2838, 0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9, 63.722532675682565, 
+Olympus v2, OHM, 2839, 0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5, 69.6278195260167, olympus-pro-ecosystem defi-2 protocol-owned-liquidity
+Baby Doge Coin, BabyDoge, 2840, 0xAC57De9C1A09FeC648E93EB98875B212DB0d460B, 3.985642928052144e-9, memes binance-smart-chain doggone-doggerel
+Compound Dai, CDAI, 2841, 0x5d3a536e4d6dbd6114cc1ead35777bab948e3643, 0.021833419893203785, defi
+Moss Carbon Credit, MCO2, 2842, 0xfc98e825a2264d890f9a1e68ed50e1526abccacd, 14.39381964814896, arrington-xrp-capital-portfolio
+Linkflow Finance, LF, 2844, 0x88665a7556e1b3c939d6661248116886845249a8, 0.23554681579122305, 
+Compound USD Coin, CUSDC, 2846, 0x39aa39c021dfbae8fac545936693ac917d5e7563, 0.022464981913151407, defi asset-backed-token
+ONSTON, ONSTON, 2847, 0x47b9f01b16e9c9cb99191dca68c9cc5bf6403957, 0.12195147807326966, 
+Adappter Token, ADP, 2848, 0xc314b0e758d5ff74f63e307a86ebfe183c95767b, 0.0397035346034116, 
+Gold Coin Reserve, GCR, 2854, 0x37F6F8eb409DEB9fEAf032c109A72319F665C79D, 1839.9932548681338, 
+Redacted Cartel, BTRFLY, 2853, 0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a, 658.2043608170683, 
+300FIT NETWORK, FIT, 2856, 0x3c72fca8523686fd9e5740b0826fa4bb376e0241, 0.004197344626337258, 
+Dopex, DPX, 2860, 0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81, 1676.895405150581, derivatives options arbitrum-ecosytem
+Floki Inu, FLOKI, 2861, 0xcf0c122c6b73ff809c693db761e7baebe62b6a2e, 0.00004114148578436125, memes binance-smart-chain doggone-doggerel
+Popsicle Finance, ICE, 2872, 0xf16e81dce15b08f326220742020379b855b87df9, 8.371570677686226, defi binance-smart-chain fantom-ecosystem
+Bitget Token, BGB, 2873, 0x19de6b897ed14a376dda0fe53a5420d2ac828a28, 0.10738828262262541, 
+Saitama, SAITAMA, 2874, 0x8b3192f5eebd8579568a2ed41e6feb402f93f73f, 2.4793841635282988e-8, 
+SpookySwap, BOO, 2884, 0x55af5865807b196bd0197e0902746f31fbccfa58, 29.608319518771957, fantom-ecosystem
+Chain, CHN, 2885, 0x41C37A4683d6a05adB31c39D71348A8403B13Ca9, 76.90851225526539, 
+Shibnobi, SHINJA, 2887, 0xab167e816e4d76089119900e941befdfa37d6b32, 1.3585481541e-14, 
+Tether EURt, EURT, 2889, 0xc581b735a1688071a1746c968e0798d642ede491, 1.131565234505202, stablecoin asset-backed-stablecoin
+Angle Protocol, AGEUR, 2890, 0x1a7e4e63778b4f12a199c062f3efdd288afcbce8, 1.132233610511281, 
+Synapse, SYN, 2891, 0x0f2D719407FdBeFF09D87557AbB7232601FD9F29, 2.0930460596558778, interoperability
+Alchemix USD, ALUSD, 2893, 0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9, 0.9981408867050225, stablecoin
+Compound USDT, CUSDT, 2897, 0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9, 0.0216850186499125, defi
+Vader Protocol, VADER, 2899, 0x2602278EE1882889B946eb11DC0E810075650983, 0.05115331169710413, 
+Brazilian Digital Token, BRZ, 2900, 0x420412e765bfa6d85aaac94b4f7b708c89be2e2b, 0.18025944445100028, solana-ecosystem
+Kishu Inu, KISHU, 2907, 0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817D, 1.732288700306716e-9, memes doggone-doggerel
+TORG, TORG, 2909, 0xcfa0885131f602d11d4da248d2c65a62063567a9, 0.0006948695273027463, 
+Polkacity, POLC, 2912, 0xaA8330FB2B4D5D07ABFE7A72262752a8505C6B37, 0.2882900525339884, collectibles-nfts entertainment polkadot metaverse
+Loomi, LOOMI, 2913, 0xeb57bf569ad976974c1f861a5923a59f40222451, 0.46231800101862097, ethereum-ecosystem
+Australian Dollar Token, AUDT, 2914, 0xd7e0f80fb28233bdde0006c50568606a8feb964c, 0.7106406072377263, 
+CELEBPLUS, CELEB, 2917, 0xa3e53fe692eeda3502cf5ccfd8a535e1f93d23dd, 0.15744256274446, 
+Sperax, SPA, 2921, 0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008, 0.1335059757822099, alameda-research-portfolio
+Homeros, HMR, 2926, 0xB1A30851E3f7d841b231B086479608e17198363A, 0.025991980987026406, 
+Guild of Guardians, GOG, 2927, 0x9AB7bb7FdC60f4357ECFef43986818A2A3569c62, 0.931701529436951, gaming entertainment play-to-earn
+Octopus Network, OCT, 2928, 0xf5cfbc74057c610c8ef151a439252680ac68c6dc, 2.5573756035139588, near-protocol-ecosystem okex-blockdream-ventures-portfolio
+GM Wagmi, GM, 2930, 0xbc7250c8c3eca1dfc1728620af835fca489bfdf3, 0.00003842288374899415, memes
+MetaFinance, MFI, 2938, 0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a, 239.37075235236046, 
+MeetPle, MPT, 2942, 0x47481c1b44F2A1c0135c45AA402CE4F4dDE4D30e, 0.08813503621162697, 
+Akita Inu, AKITA, 2949, 0x3301ee63fb29f863f2333bd4466acb46cd8323e6, 8.757936341289381e-7, memes doggone-doggerel
+CORE MultiChain, CMCX, 2953, 0x5b685863494c33f344081f75e5430c260c224a32, 0.03366113248747658, 
+ETH 2x Flexible Leverage Index, ETH2X-FLI, 2954, 0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd, 54.9101026974179, derivatives
+BlueSparrow Token, BLUESPARROW, 2955, 0x4d67edef87a5ff910954899f4e5a0aaf107afd42, 6.25220698750036e-10, 
+Olympus v1, OHM, 2958, 0x383518188c0c6d7730d91b2c03a03c837814a899, 105.61271279609724, 
+Inverse Finance, INV, 2962, 0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68, 423.36593974698246, defi yield-aggregator lending-borowing
+Doge Killer, LEASH, 2965, 0x27c70cd1946795b66be9d954418546998b546634, 747.3886999560974, memes doggone-doggerel
+Cryptex Finance, CTX, 2966, 0x321c2fe4446c7c963dc41dd58879af648838f98d, 10.557842380592371, 
+OVR, OVR, 2970, 0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697, 1.840046595080761, vr-ar collectibles-nfts binance-smart-chain metaverse
+DRC Mobility, DRC, 2972, 0xd7f5CABdF696D7d1bf384D7688926A4bdB092c67, 0.019749300754244, 
+GreenCoin.AI, GRC, 2973, 0x46D886887B6908183032c75dee1b731B26D653c6, 0.0831908451244473, 
+Tenset, 10SET, 2974, 0x7FF4169a6B5122b664c51c95727d87750eC07c84, 1.5881516123310688, 
+Lido wstETH, WSTETH, 2975, 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0, 2534.6256015262284, 
+Opyn Squeeth, OSQTH, 2976, 0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b, 583.1181972827376, 
+Terran Coin, TRR, 2978, 0x490e3f4af13e1616ec97a8c6600c1061a8d0253e, 2.227794075761144, 
+DEPO, DEPO, 2979, 0xa5def515cfd373d17830e7c1de1639cb3530a112, 0.1521890480269573, 
+Meme Inu, MEME, 2986, 0x74b988156925937bd4e082f0ed7429da8eaea8db, 0.0024006002246650953, collectibles-nfts memes yield-farming doggone-doggerel
+QANplatform, QANX, 2987, 0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa, 0.06657257962420106, 
+Upper Dollar, USDU, 2988, 0x41a03e41ef555392c9f0ad60f4f61e263078bf10, 1.0000145662931377, 
+BoringDAO, BORING, 2996, 0xbc19712feb3a26080ebf6f2f7849b417fdd792ca, 0.033900831640094074, 
+RUSH COIN, RUSH, 2997, 0x382A1667C9062F0621362F49076Ef6e4fE4C9eC7, 0.026795523052231516, art platform gaming music wallet dapp
+Upper Pound, GBPU, 2998, 0x27ed129c298c5df130364083f491e2920e5a2f29, 1.3460574965068028, 
